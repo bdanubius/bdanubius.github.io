@@ -35,7 +35,7 @@ A predictive model of the cortical network based on a distance rule. APS Prairie
 Posters
 ======
 
-Dániel Barabási Genetically Driven Wiring of the C. elegans Connectome. Computational and Systems Neuroscience (Cosyne) 2019, Lisbon, Portugal. 2.28.2019. Refereed Poster.
+Dániel Barabási. Genetically Driven Wiring of the C. elegans Connectome. Computational and Systems Neuroscience (Cosyne) 2019, Lisbon, Portugal. 2.28.2019. Refereed Poster.
 
 Dániel Barabási, Zoltán Toroczkai. A Generative Model for Cortical Networks. Analysis and Interpretation of Connectomes Conference. Janelia Research Campus. Ashburn, VA. 5.22.2018
 
@@ -47,8 +47,8 @@ Dániel Barabási, Zoltán Toroczkai. A Physically Embedded Multi-Scale Cortical
 
 Matthew Kaufman, Simon Musall, Dániel Barabási, Anne Churchland. Neuron-level resolution of activity boundaries using calcium imaging. Computational and Systems Neuroscience (Cosyne) 2017, Salt Lake City, UT. 2.25.2016. Refereed Poster.
 
-Dániel Barabási, Melinda Varga, Zoltán Toroczkai. Cortical network analysis from retrograde tracing experiments. NetSci 2016: International school and conference on networks science, Seoul, South Korea. 6.1.2016. 
+Dániel Barabási, Melinda Varga, Zoltán Toroczkai. Cortical network analysis from retrograde tracing experiments. NetSci, Seoul, South Korea. 6.1.2016. 
 
-Dániel Barabási, Melinda Varga, Zoltán Toroczkai, The command- control center of the brain, University of Notre Dame College of Science Fall Undergraduate Research Fair. Notre Dame, IN. 10.29.2015. 
+Dániel Barabási, Melinda Varga, Zoltán Toroczkai, The command-control center of the brain, College of Science Fall Undergraduate Research Fair. Notre Dame, IN. 10.29.2015. 
 
 <iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
