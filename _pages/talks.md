@@ -1,12 +1,9 @@
 ---
 layout: archive
-title: ""
-permalink: /talks/
+title: "Talks"
+permalink: /Presentations/
 author_profile: true
 ---
-
-Talks
-======
 
 
 Bicliques in the Brain: Genetically Driven Wiring of the Connectome. DYNASNET Workshop, Budapest, Hungary. 9.23.2019. 
