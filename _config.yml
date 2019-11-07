@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Barabási Dániel"
 title_separator          : "-"
 name                     : &name "Dániel Barabási"
 description              : &description "personal description"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dániel Barabási"
+  name             : 
   avatar           : "avatar.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Hello World"
   location         : "Harvard University"
   employer         :
   pubmed           : 
