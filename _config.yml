@@ -82,12 +82,12 @@ analytics:
 author:
   name             : 
   avatar           : "avatar.jpg"
-  bio              : "Hello World"
+  bio              : 
   location         : "Harvard University"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=8DdJgb8AAAAJ&hl=en"
-  email            :
+  email            : "barabasi[@t]fas[d0t]harvard[d0t]edu"
   researchgate     :  
   uri              :
   bitbucket        :
