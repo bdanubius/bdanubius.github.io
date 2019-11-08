@@ -82,8 +82,8 @@ analytics:
 author:
   name             : 
   avatar           : "avatar.jpg"
-  bio              : "barabasi[@t]fas[d0t]harvard[d0t]edu"
-  location         : "Harvard University"
+  bio              : "barabasi[a]fas[d]harvard[d]edu"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=8DdJgb8AAAAJ&hl=en"
