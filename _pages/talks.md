@@ -5,6 +5,9 @@ permalink: /presentations/
 author_profile: true
 ---
 
+A Genetic Model of the Connectome. neuromatch online conference, neuromatch.io 3.30.2020
+
+Wiring the Brain: An Intersection of Genetics and Physics. Wigner Research Center for Physics, Budapest, Hungary. 12.15.2020. Invited Speaker.
 
 Bicliques in the Brain: Genetically Driven Wiring of the Connectome. DYNASNET Workshop, Budapest, Hungary. 9.23.2019. 
 
