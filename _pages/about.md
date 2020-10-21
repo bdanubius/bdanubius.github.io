@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am pursuing a Ph.D. in the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/), researching neuroscience and cancer (2018-TBD). 
+I am pursuing a Ph.D. in the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) with [Florian Engert](https://www.engertlab.org/), researching neuroscience and cancer (2018-TBD). 
 
 I received my B.S. in Physics from the [University of Notre Dame](https://physics.nd.edu/), where I worked with [Zoltán Toroczkai](http://obelix.phys.nd.edu/) on distance-based network models of brain connectivity (2013-2017).
 
