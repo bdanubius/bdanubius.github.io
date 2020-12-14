@@ -5,6 +5,10 @@ permalink: /presentations/
 author_profile: true
 ---
 
+A genetically-encoded connectome model for neural network evolution. NAISys, CSHL Virtual Conference. 11.9.2020. 
+
+From Genes to Connectome: Guiding the Search for Developmental Principles. Institute of Experimental Medicine, Budapest, Hungary. 10.7.2020. Invited Speaker.
+
 A Genetic Model of the Connectome. neuromatch.io 3.30.2020
 
 Wiring the Brain: An Intersection of Genetics and Physics. Wigner Research Center for Physics, Budapest, Hungary. 12.15.2020. Invited Speaker.
