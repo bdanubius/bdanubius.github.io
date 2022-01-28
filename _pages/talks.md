@@ -4,6 +4,9 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 ---
+Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 3.14.2022. Los Angeles. Invited Speaker.
+
+Wiring the Brain: An Intersection of Genetics and Physics. Notre Dame Condensed Matter Seminar. 12.9.2021. Invited Speaker.
 
 A genetically-encoded connectome model for neural network evolution. NAISys, CSHL Virtual Conference. 11.9.2020. 
 
