@@ -4,7 +4,9 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 ---
-Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 3.14.2022. Los Angeles. Invited Speaker.
+Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 10.4.2022. Los Angeles. Invited Speaker.
+
+Emergence of functional circuits in the absence of neural activity. NAISYS: From Neuroscience to Artificially Intelligent Systems, CSHL. 4.5.2022.
 
 Wiring the Brain: An Intersection of Genetics and Physics. Notre Dame Condensed Matter Seminar. 12.9.2021. Invited Speaker.
 
@@ -41,6 +43,7 @@ A predictive model of the cortical network based on a distance rule. APS Prairie
  
 Posters
 ======
+Dániel Barabási, Gregor Schuhknecht, Andrew Bolton, Florian Engert. Emergence of functional circuits in the absence of neural activity. Computational and Systems Neuroscience (Cosyne) 2022, Lisbon, Portugal. 3.16.2022. Refereed Poster.
 
 Dániel Barabási. Genetically Driven Wiring of the C. elegans Connectome. Computational and Systems Neuroscience (Cosyne) 2019, Lisbon, Portugal. 2.28.2019. Refereed Poster.
 
