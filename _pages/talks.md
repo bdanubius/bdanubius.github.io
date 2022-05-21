@@ -3,7 +3,7 @@ layout: archive
 title: "Talks"
 permalink: /presentations/
 author_profile: true
----
+--- 
 Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 10.4.2022. Los Angeles. Invited Speaker.
 
 Emergence of functional circuits in the absence of neural activity. NAISYS: From Neuroscience to Artificially Intelligent Systems, CSHL. 4.5.2022.
