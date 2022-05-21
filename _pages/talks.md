@@ -61,4 +61,12 @@ Dániel Barabási, Melinda Varga, Zoltán Toroczkai. Cortical network analysis f
 
 Dániel Barabási, Melinda Varga, Zoltán Toroczkai, The command-control center of the brain, College of Science Fall Undergraduate Research Fair. Notre Dame, IN. 10.29.2015. 
 
+Schools
+======
+Statistical Mechanics and Emergent Phenomena in Biology. The Beg Rohu Summer School. Brittany, France. (July 2021). 
+
+Developmental neurobiology: From worms to mammals. EMBO Practical Course. King’s College, London, UK (July 2019)
+
+IBRO-SIMONS Computational Neuroscience Imbizo (Summer School), South Africa (January 2019)
+
 <iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
