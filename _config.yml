@@ -58,6 +58,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter
+instagram:
+  username               : &instagram
 facebook:
   username               :
   app_id                 :
@@ -99,7 +101,7 @@ author:
   github           : 
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "danielbarabasi"
   impactstory      : 
   lastfm           :
   linkedin         :
