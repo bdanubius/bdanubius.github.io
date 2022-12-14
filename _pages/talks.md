@@ -4,8 +4,6 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
-
 Nature over Nurture: Functional circuits emerge in the absence of activity. 12.9.2022. FMI, Basel, Switzerland. Invited Speaker.
 
 Nature over Nurture: Functional circuits emerge in the absence of activity. 12.8.2022. Institute of Neuroinformatics, Zurich, Switzerland. Invited Speaker. 
@@ -51,6 +49,8 @@ Cortical Network Analysis from Retrograde Tracing Experiments. APS March Meeting
 Seminar on Cortical Network Analysis from Retrograde Tracing Experiments. Section on Critical Brain Dynamics at NIMH. 1.12.2017.
 
 A predictive model of the cortical network based on a distance rule. APS Prairie Section Meeting, Notre Dame, IN. 11.19.2015. 
+
+<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
 
  
 Posters
