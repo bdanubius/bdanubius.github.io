@@ -4,6 +4,16 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
+Nature over Nurture: Functional circuits emerge in the absence of activity. 12.9.2022. FMI, Basel, Switzerland. Invited Speaker.
+
+Nature over Nurture: Functional circuits emerge in the absence of activity. 12.8.2022. Institute of Neuroinformatics, Zurich, Switzerland. Invited Speaker. 
+
+Nature over Nurture: Inferring genetic priors of connectivity. 12.6.2022. Biozentrum, Basel, Switzerland. Invited Speaker.
+
+Nature over Nurture: Functional circuits emerge in the absence of activity. 11.8.2022. MRC Laboratory of Molecular Biology, Cambridge, UK. Invited Speaker. 
+
+Algoritmikus Agyfejlődés: Veleszületett Viselkedések. 10.27.2022. Bioinformatics Seminar, Budapest, Hungary. Invited Speaker.
+
 Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 10.4.2022. Los Angeles. Invited Speaker.
 
 Emergence of functional circuits in the absence of neural activity. NAISYS: From Neuroscience to Artificially Intelligent Systems, CSHL. 4.5.2022.
