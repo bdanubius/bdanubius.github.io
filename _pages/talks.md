@@ -4,15 +4,15 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
-Nature over Nurture: Functional circuits emerge in the absence of activity. 12.9.2022. FMI, Basel, Switzerland. Invited Speaker.
+Nature over Nurture: Functional circuits emerge in the absence of activity. FMI, Basel, Switzerland. 12.9.2022. Invited Speaker.
 
-Nature over Nurture: Functional circuits emerge in the absence of activity. 12.8.2022. Institute of Neuroinformatics, Zurich, Switzerland. Invited Speaker. 
+Nature over Nurture: Functional circuits emerge in the absence of activity. Institute of Neuroinformatics, Zurich, Switzerland.12.8.2022. Invited Speaker. 
 
-Nature over Nurture: Inferring genetic priors of connectivity. 12.6.2022. Biozentrum, Basel, Switzerland. Invited Speaker.
+Nature over Nurture: Inferring genetic priors of connectivity. Biozentrum, Basel, Switzerland. 12.6.2022. Invited Speaker.
 
-Nature over Nurture: Functional circuits emerge in the absence of activity. 11.8.2022. MRC Laboratory of Molecular Biology, Cambridge, UK. Invited Speaker. 
+Nature over Nurture: Functional circuits emerge in the absence of activity. MRC Laboratory of Molecular Biology, Cambridge, UK. 11.8.2022. Invited Speaker. 
 
-Algoritmikus Agyfejlődés: Veleszületett Viselkedések. 10.27.2022. Bioinformatics Seminar, Budapest, Hungary. Invited Speaker.
+Algoritmikus Agyfejlődés: Veleszületett Viselkedések. Bioinformatics Seminar, Budapest, Hungary. 10.27.2022. Invited Speaker.
 
 Genetically Driven Wiring of the Connectome. Neuroscience Meets Network Science Kavli Salon. 10.4.2022. Los Angeles. Invited Speaker.
 
@@ -50,8 +50,6 @@ Seminar on Cortical Network Analysis from Retrograde Tracing Experiments. Sectio
 
 A predictive model of the cortical network based on a distance rule. APS Prairie Section Meeting, Notre Dame, IN. 11.19.2015. 
 
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
-
  
 Posters
 ======
@@ -80,3 +78,5 @@ Statistical Mechanics and Emergent Phenomena in Biology. The Beg Rohu Summer Sch
 Developmental neurobiology: From worms to mammals. EMBO Practical Course. King’s College, London, UK (July 2019)
 
 IBRO-SIMONS Computational Neuroscience Imbizo (Summer School), South Africa (January 2019)
+
+<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
