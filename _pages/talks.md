@@ -4,6 +4,8 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
+<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+
 Nature over Nurture: Functional circuits emerge in the absence of activity. 12.9.2022. FMI, Basel, Switzerland. Invited Speaker.
 
 Nature over Nurture: Functional circuits emerge in the absence of activity. 12.8.2022. Institute of Neuroinformatics, Zurich, Switzerland. Invited Speaker. 
@@ -78,5 +80,3 @@ Statistical Mechanics and Emergent Phenomena in Biology. The Beg Rohu Summer Sch
 Developmental neurobiology: From worms to mammals. EMBO Practical Course. King’s College, London, UK (July 2019)
 
 IBRO-SIMONS Computational Neuroscience Imbizo (Summer School), South Africa (January 2019)
-
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
