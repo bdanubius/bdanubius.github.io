@@ -9,6 +9,8 @@ redirect_from:
 ---
 I am pursuing a Ph.D. in the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) with [Florian Engert](https://www.engertlab.org/), researching innateness in neurodevelopment and AI (2018-TBD). In summer 2021, I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/).
 
+I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized two workshops on the topic, one at [Cosyne 2023](https://www.cosyne2023neurodev.com/), and an internal event at Harvard in May 2023. 
+
 I received my B.S. in Physics from the [University of Notre Dame](https://physics.nd.edu/), where I worked with [Zoltán Toroczkai](http://obelix.phys.nd.edu/) on distance-based network models of brain connectivity (2013-2017).
 
 Previously, 
