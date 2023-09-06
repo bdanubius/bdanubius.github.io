@@ -11,6 +11,8 @@ I am pursuing a Ph.D. in the [Harvard Biophysics Graduate Program](https://bioph
 
 I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized three workshops on the topic, at [Cosyne 2023](https://www.cosyne2023neurodev.com/), at an internal event at Harvard in May 2023, and at the [Bernstein Computational Neuroscience Conference](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/hardwired-or-adaptive/).
 
+In 2023, Balázs Csizik and I exhibited [_Biophilia_](https://hypeandhyper.com/brain-researcher-meets-artist-on-the-gallery-wall/) in which we reflected on the paralleles between biological and urban growth. 
+
 I received my B.S. in Physics from the [University of Notre Dame](https://physics.nd.edu/), where I worked with [Zoltán Toroczkai](http://obelix.phys.nd.edu/) on distance-based network models of brain connectivity (2013-2017).
 
 Previously, 
