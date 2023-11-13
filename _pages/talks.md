@@ -4,7 +4,7 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
-Complex Computations from Developmental Priors. NetSI, Northeastern University. Boston, MA. 11.14.2023. Invited Speaker.
+Complex Computations from Developmental Priors. NetSI, Northeastern University. Boston, MA. 11.14.2023. Invited Speaker. 
 
 Complex Computations from Developmental Priors. Computational Neuroscience Next Generation (CNNG) Symposium. Saint Louis, MO. 9.11.2023. Invited Speaker.
 
