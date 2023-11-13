@@ -1,8 +1,8 @@
 var addressPoints = [
   [
     "Budapest, Hungary",
-    47.4979937,
-    19.0403594
+    47.4978918,
+    19.0401609
   ],
   [
     "Burlington, VT",
@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Boston, MA",
-    42.3602534,
-    -71.0582912
+    42.3554334,
+    -71.060511
   ],
   [
     "Gloucester, MA",
@@ -26,13 +26,13 @@ var addressPoints = [
   ],
   [
     "Ashburn, Virginia",
-    39.030019100000004,
-    -77.46964646557657
+    39.0437192,
+    -77.4874899
   ],
   [
     "Cambridge, MA",
-    52.2055314,
-    0.1186637
+    42.3655767,
+    -71.1040018
   ],
   [
     "Notre Dame, IN",
@@ -46,8 +46,8 @@ var addressPoints = [
   ],
   [
     "Bethesda, MD",
-    38.98127255,
-    -77.12335871396549
+    38.9846816,
+    -77.0942447
   ],
   [
     "Lisbon, Portugal",
@@ -61,13 +61,13 @@ var addressPoints = [
   ],
   [
     "Leesburg, VA",
-    39.1154496,
-    -77.5645446
+    39.1154506,
+    -77.5645607
   ],
   [
     "Salt Lake City, UT",
     40.7596198,
-    -111.8867975
+    -111.886797
   ],
   [
     "Seoul, South Korea",
@@ -81,13 +81,13 @@ var addressPoints = [
   ],
   [
     "Cold Spring Harbor, NY",
-    40.8602595,
-    -73.44766339737177
+    40.8714873,
+    -73.456788
   ],
   [
     "London, UK",
-    51.5073219,
-    -0.1276474
+    51.5074456,
+    -0.1277653
   ],
   [
     "Muizenberg, South Africa",
@@ -98,5 +98,35 @@ var addressPoints = [
     "Saint-Pierre-Quiberon, France",
     47.5198497,
     -3.1303304
+  ],
+  [
+    "Saint Louis, MO",
+    38.6280278,
+    -90.1910154
+  ],
+  [
+    "Basel, Switzerland",
+    47.5581077,
+    7.5878261
+  ],
+  [
+    "Zurich, Switzerland",
+    47.3744489,
+    8.5410422
+  ],
+  [
+    "Cambridge, UK",
+    52.2055314,
+    0.1186637
+  ],
+  [
+    "Berlin, Germany",
+    52.5170365,
+    13.3888599
+  ],
+  [
+    "Montreal, Canada",
+    45.5031824,
+    -73.5698065
   ]
 ];
