@@ -4,6 +4,14 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
+Complex Computations from Developmental Priors. NetSI, Northeastern University. Boston, MA. 11.14.2023. Invited Speaker.
+
+Complex Computations from Developmental Priors. Computational Neuroscience Next Generation (CNNG) Symposium. Saint Louis, MO. 9.11.2023. Invited Speaker.
+
+Complex Computations from Developmental Priors. Hungarian Machine Learning Meeting. 8.8.2023. Invited Speaker.
+
+Nature over Nurture: Functional circuits emerge in the absence of activity. WorldWideNeuRise. https://neurise.github.io/.  4.5.2023. Invited Speaker.
+
 Nature over Nurture: Functional circuits emerge in the absence of activity. FMI, Basel, Switzerland. 12.9.2022. Invited Speaker.
 
 Nature over Nurture: Functional circuits emerge in the absence of activity. Institute of Neuroinformatics, Zurich, Switzerland.12.8.2022. Invited Speaker. 
@@ -53,6 +61,10 @@ A predictive model of the cortical network based on a distance rule. APS Prairie
  
 Posters
 ======
+Dániel L. Barabási, N. Perez-Nieves, T. Beynon, A. Katona. Complex Computation from Developmental Priors. Bernstein Conference, 2023. Berlin, Germany. Refereed Poster.
+
+Dániel L. Barabási, N. Perez-Nieves, T. Beynon, A. Katona. Complex Computation from Developmental Priors. Computational and Systems Neuroscience (Cosyne) 2023, Montreal, Canada. Refereed Poster.
+
 Dániel Barabási, Gregor Schuhknecht, Andrew Bolton, Florian Engert. Emergence of functional circuits in the absence of neural activity. Computational and Systems Neuroscience (Cosyne) 2022, Lisbon, Portugal. 3.16.2022. Refereed Poster.
 
 Dániel Barabási. Genetically Driven Wiring of the C. elegans Connectome. Computational and Systems Neuroscience (Cosyne) 2019, Lisbon, Portugal. 2.28.2019. Refereed Poster.
@@ -70,6 +82,14 @@ Matthew Kaufman, Simon Musall, Dániel Barabási, Anne Churchland. Neuron-level 
 Dániel Barabási, Melinda Varga, Zoltán Toroczkai. Cortical network analysis from retrograde tracing experiments. NetSci, Seoul, South Korea. 6.1.2016. 
 
 Dániel Barabási, Melinda Varga, Zoltán Toroczkai, The command-control center of the brain, College of Science Fall Undergraduate Research Fair. Notre Dame, IN. 10.29.2015. 
+
+Workshops Organized
+======
+Hardwired or adaptive? Bridging neural circuit evolution, development and learning. Bernstein Conference, Berlin, Germany. 9.26-27.2023
+
+Neurodevelopment: Principles and Opportunities for Theory-Experiment Interaction. Harvard University. 5.3.2023.
+
+Neurodevelopment and Evolution: The Formation of Innate Circuit Priors and Behaviors. Cosyne Workshop. 3.13.2023.
 
 Schools
 ======
