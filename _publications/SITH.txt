@@ -1,0 +1,8 @@
+---
+title: "SITH: an R package for visualizing and analyzing a spatial model of intratumor heterogeneity"
+collection: publications
+date: 2022-05-31
+venue: 'Computational and Systems Oncology'
+paperurl: 'https://onlinelibrary.wiley.com/doi/10.1002/cso2.1033'
+citation: 'Nicol, P.B., Barabási, D.L., Asiaee, A., Coombes, K.R., 2022. SITH: an R package for visualizing and analyzing a spatial model of intratumor heterogeneity.'
+---

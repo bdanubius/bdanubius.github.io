@@ -1,0 +1,8 @@
+---
+title: "Constructing Graphs from Genetic Encodings"
+collection: publications
+date: 2021-6-24
+venue: 'Scientific Reports'
+paperurl: 'https://www.nature.com/articles/s41598-021-92577-2'
+citation: 'Barabási, D.L., Czégel, D., 2021. Constructing Graphs from Genetic Encodings.'
+---
