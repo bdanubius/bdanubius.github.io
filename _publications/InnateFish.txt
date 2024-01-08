@@ -1,8 +1,8 @@
 ---
 title: "Nature over Nurture: Functional neuronal circuits emerge in the absence of developmental activity"
 collection: publications
-date: 2022-6-24
-venue: 'bioRxiv'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2022.10.24.513526v1'
-citation: 'Barabási, D.L., Schuhknecht, G.F.P., Engert, F. 2022. Nature over Nurture: Functional neuronal circuits emerge in the absence of developmental activity.'
+date: 2024-1-08
+venue: 'Nature Communications'
+paperurl: 'https://www.nature.com/articles/s41467-023-44681-2
+citation: 'Barabási, D.L., Schuhknecht, G.F.P., Engert, F. 2024. Nature over Nurture: Functional neuronal circuits emerge in the absence of developmental activity.'
 ---
