@@ -3,6 +3,6 @@ title: "Nature over Nurture: Functional neuronal circuits emerge in the absence 
 collection: publications
 date: 2024-1-08
 venue: 'Nature Communications'
-paperurl: 'https://www.nature.com/articles/s41467-023-44681-2
+paperurl: 'https://www.nature.com/articles/s41467-023-44681-2'
 citation: 'Barabási, D.L., Schuhknecht, G.F.P., Engert, F. 2024. Nature over Nurture: Functional neuronal circuits emerge in the absence of developmental activity.'
 ---
