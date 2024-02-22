@@ -4,6 +4,10 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
+Complex Computations from Developmental Priors. Center for Living Systems, University of Chicago. Chicago, IL. 1.22.2024. Invited Speaker.
+
+Nature over Nurture: How Complex Computations Emerge from Developmental Priors. Rockefeller University. New York, NY. 1.11.2024. Invited Speaker.
+
 Complex Computations from Developmental Priors. NetSI, Northeastern University. Boston, MA. 11.14.2023. Invited Speaker. 
 
 Complex Computations from Developmental Priors. Computational Neuroscience Next Generation (CNNG) Symposium. Saint Louis, MO. 9.11.2023. Invited Speaker.
