@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am pursuing a Ph.D. in the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) with [Florian Engert](https://www.engertlab.org/), researching innateness in neurodevelopment and AI (2018-TBD). In summer 2021, I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/).
+I am a postdoctoral fellow in [Florian Engert](https://www.engertlab.org/)'s group at [Harvard MCB](https://www.mcb.harvard.edu/directory/daniel-barabasi/), researching innateness in neurodevelopment and AI. I received my PhD from the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) in 2023. In summer 2021, I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/).
 
 I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized three workshops on the topic, at [Cosyne 2023](https://www.cosyne2023neurodev.com/), at an internal event at Harvard in May 2023, and at the [Bernstein Computational Neuroscience Conference](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/hardwired-or-adaptive/).
 
