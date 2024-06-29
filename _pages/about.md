@@ -7,16 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral fellow in [Florian Engert](https://www.engertlab.org/)'s group at [Harvard MCB](https://www.mcb.harvard.edu/directory/daniel-barabasi/), researching innateness in neurodevelopment and AI. I received my PhD from the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) in 2023. In summer 2021, I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/).
+I am an [Eric and Wendy Schmidt Fellow](https://www.ericandwendyschmidtcenter.org/) at the Broad Institute of MIT and Harvard, where I work with [Xiao Wang](https://www.wangxiaolab.org/xiao-wang) and [Jason Buenrostro](https://www.buenrostrolab.com/). I primarily develop methods for connectomic analysis while researching innateness in neurodevelopment and AI. 
 
-I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized three workshops on the topic, at [Cosyne 2023](https://www.cosyne2023neurodev.com/), at an internal event at Harvard in May 2023, and at the [Bernstein Computational Neuroscience Conference](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/hardwired-or-adaptive/). I currently coordinate the Harvard Neurodevelopment Club (since 2024) and the [Boston Hungarians Science Lectures](https://www.youtube.com/@BostonTudosklub) (since 2021). 
+I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized three workshops on the topic, at [Cosyne 2023](https://www.cosyne2023neurodev.com/), at an internal event at Harvard in May 2023, and at the [Bernstein Computational Neuroscience Conference](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/hardwired-or-adaptive/). I currently lead the Harvard Neurodevelopment Club (since 2024) and the [Boston Hungarians Science Lectures](https://www.youtube.com/@BostonTudosklub) (since 2021). 
 
 In 2023, Balázs Csizik and I exhibited [_Biophilia_](https://hypeandhyper.com/brain-researcher-meets-artist-on-the-gallery-wall/) in which we reflected on the paralleles between biological and urban growth. 
 
-I received my B.S. in Physics from the [University of Notre Dame](https://physics.nd.edu/), where I worked with [Zoltán Toroczkai](http://obelix.phys.nd.edu/) on distance-based network models of brain connectivity (2013-2017).
+I received my PhD (advised by [Florian Engert](https://www.engertlab.org/)) from the [Harvard Biophysics Graduate Program](https://biophysics.fas.harvard.edu/) in 2024. I received my B.S. in Physics from the [University of Notre Dame](https://physics.nd.edu/), where I worked with [Zoltán Toroczkai](http://obelix.phys.nd.edu/) on distance-based network models of brain connectivity (2013-2017).
 
 Previously, 
 <ul>
+<li> I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/) (Summer 2021). </li>
 <li> I worked on a <a href="https://www.training.nih.gov/programs/postbac_irta">Postbaccalaureate Intramural Research Training Award</a> at the <a href="https://www.nimh.nih.gov/index.shtml">National Institute of Mental Health</a> (2017-2018). </li>
 <li>As a <a href="https://www.janelia.org/you-janelia/students-postdocs/undergraduate-scholars-program">Janelia Undergraduate Scholar</a>, I modeled fly behavior using Reinforcement Learning with 
 <a href="https://www.janelia.org/lab/hermundstad-lab">Ann Hermundstad</a> and <a href="https://www.janelia.org/lab/jayaraman-lab">Vivek Jayaraman</a> (2017). </li>
