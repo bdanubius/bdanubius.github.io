@@ -17,7 +17,7 @@ I received my PhD (advised by [Florian Engert](https://www.engertlab.org/)) from
 
 Previously, 
 <ul>
-<li> I was a [NeuroAI Scholar](https://www.cshl.edu/research/neuroscience/neuroai/) at CSHL with [Tony Zador](https://www.cshl.edu/research/faculty-staff/anthony-zador/) and [Alex Koulakov](https://www.cshl.edu/research/faculty-staff/alexei-koulakov/) (Summer 2021). </li>
+<li> I was a <a href="https://www.cshl.edu/research/neuroscience/neuroai/">NeuroAI Scholar</a> at CSHL with <a href="https://www.cshl.edu/research/faculty-staff/anthony-zador/">Tony Zador</a> and <a href="https://www.cshl.edu/research/faculty-staff/alexei-koulakov/">Alex Koulakov</a> (Summer 2021). </li>
 <li> I worked on a <a href="https://www.training.nih.gov/programs/postbac_irta">Postbaccalaureate Intramural Research Training Award</a> at the <a href="https://www.nimh.nih.gov/index.shtml">National Institute of Mental Health</a> (2017-2018). </li>
 <li>As a <a href="https://www.janelia.org/you-janelia/students-postdocs/undergraduate-scholars-program">Janelia Undergraduate Scholar</a>, I modeled fly behavior using Reinforcement Learning with 
 <a href="https://www.janelia.org/lab/hermundstad-lab">Ann Hermundstad</a> and <a href="https://www.janelia.org/lab/jayaraman-lab">Vivek Jayaraman</a> (2017). </li>
