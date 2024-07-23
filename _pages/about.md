@@ -26,4 +26,4 @@ Previously,
 <li> Even earlier, I assisted with Yeast-Two Hybrid assays of protein-protein interactions with <a href="https://faculty.mdanderson.org/profiles/nidhi_sahni.html">Nidhi Sahni</a> in <a href="https://ccsb.dana-farber.org/marc.html">Marc Vidal</a>'s <a href="https://ccsb.dana-farber.org/">Center for Cancer Systems Biology</a> at the <a href="https://www.dana-farber.org/">Dana Farber Cancer Institute</a> (2012), and developed face recognition software for social interaction research with <a href="https://www.media.mit.edu/people/cebrian/overview/">Manuel Cebrian</a> in <a href="https://www.media.mit.edu/people/sandy/overview/">Sandy Pentland</a>'s <a href="https://www.media.mit.edu/groups/human-dynamics/overview/">Human Dynamics</a> group at the <a href="https://www.media.mit.edu/">MIT Media Lab</a> (2010). </li>
 </ul>
 
-Page me at dbarabas(a)broadinstitute(d)org.
+Page me at barabasi(a)broadinstitute(d)org.
