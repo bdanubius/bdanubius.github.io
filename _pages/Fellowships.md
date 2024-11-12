@@ -40,22 +40,22 @@ From my experience, and that of friends who landed similar positions, postdoc fe
 
 ### When should I start applying?
 
-Getting a fellowship may take over a year of applying. The most egregious in this regard is the HFSP, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the following APRIL! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position.
+Getting a fellowship may take over a year of applying. The most egregious in this regard is the HFSP, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
 
 If you’re aiming to apply to a broad range of fellowships, I would recommend having at least a year left in your current position. For example, I wanted to start a position in the Summer or Fall of 2024, and began reaching out to mentors and outlining my research plan as early as Spring of 2023. If you are only applying for “Independent Postdoc” or “Traditional Postdoc” opportunities, you may have more flexibility and could start later in the summer or early fall, with an eye toward starting the following spring or summer.
 
 ### What kind of fellowships are there?
 
-1. **Mini Labs**: These are the most generous fellowships, funding a 2-3 person lab for 3-5 years. These positions offer accelerated independence straight out of graduate school, allowing you to establish a unique research direction while gaining project management and mentoring experience. Additionally, they’re a stepping stone toward early independence grants. Some institutes even aim to transition successful “Mini Labs” into full assistant professor roles, saving you the challenge of moving personnel and equipment. With the large investment required for “Mini Lab” offers, generally only 1 or 2 positions are available at each institute per year.
+1. **Mini Labs** are the most generous fellowships, funding a 2-3 person lab for 3-5 years. These positions offer accelerated independence straight out of graduate school, allowing you to establish a unique research direction while gaining project management and mentoring experience. Additionally, they’re a stepping stone toward early independence grants. Some institutes even aim to transition successful “Mini Labs” into full assistant professor roles, saving you the challenge of moving personnel and equipment. With the large investment required for “Mini Lab” offers, generally only 1 or 2 positions are available at each institute per year.
 
-2. **Independent Postdocs**: These provide salary, travel and research funds, and office space without a formal expectation to work with a specific lab. This setup is ideal for those with their own project ideas who are looking for an environment that encourages both independence and collaboration.Typically, each program will recruit a “cohort,” consisting of anywhere from 2 to 8 new hires a year, thereby providing a more collegial interview process and a community upon arrival.
+2. **Independent Postdocs** provide salary, travel and research funds, and office space without a formal expectation to work with a specific lab. This setup is ideal for those with their own project ideas who are looking for an environment that encourages both independence and collaboration. Typically, each program will recruit a “cohort,” consisting of anywhere from 2 to 8 new hires a year, thereby providing a more collegial interview process and a community upon arrival.!
 
-3. **Traditional Postdocs**: These fund a more typical mentored position, often including travel and research funds, and offer some level of intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the HFSP LTP, UC Berkeley Miller Fellowship, and EMBO, expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
+
+3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, and offer some level of intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the HFSP LTP, UC Berkeley Miller Fellowship, and EMBO, expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
 
 ### How many programs should I apply to?
 
 I went overboard and applied for 20 programs, and got rejected from over half. I didn’t even get an interview for the first six months! Along the way, I learned a lot about which fellowships I was a good fit for: as a theorist, I matched the profile “Independent Postdoc” or “Traditional Postdoc” positions. By contrast, I found that “Mini Lab” opportunities are generally set up for applicants ready to start an experimental lab, so although they often interview computational candidates, the final placements tend to go to experimentalists, who more naturally match the available resources and funding structure.
-
 At the end of the day, the right number of applications depends on fit and timeline. If you are an experimentalist aiming to launch an independent research program, it might make sense to apply broadly, whether your goal is to start your own lab or support your work within an existing one. If you’re mainly seeking additional freedom or stability within your current postdoc lab through a grant, there may be fewer opportunities, so it’s worth focusing your applications and tailoring your materials to those specific roles.
 
 ### Should I reach out to PIs before applying?
@@ -70,11 +70,11 @@ That being said, I did apply to a number of positions without previous contact, 
 
 ### The Checklist
 
-Virtually all programs will require:
+Virtually all applications will require:
 
-- **CV**
+- **A Research Statement** (1-3 pages)
 - **3+ Letters of Recommendation**
-- **Research Statement** (1-3 pages)
+- **CV**
 
 Some programs may also require:
 
@@ -87,60 +87,55 @@ Some programs may also require:
 
 ### Research Statement
 
-The Research Statement is the core of your application, where you:
+The Research Statement is the cornerstone of your application, where you:
 
 1. Present your scientific vision,
 2. Outline your preparation for an independent role,
 3. Show why you and your goals are a good fit for this institution.
 
-Some applications may include additional essays covering points (2) and (3), but most restrict the total page count to about three pages. I often split the main essay into two shorter ones to fit these guidelines.
+In some cases you may be asked for additional essays covering points (2) and (3). However, the total number of pages over all essays was usually consistent between applications, so I would just split the main 3-page essay into two or three shorter ones, where necessary.
 
-I found success with a **“layered hourglass”** structure, where I began with an introduction that used my research experiences to transition from broad field questions to specific questions I planned to address. Then, I described my 2-3 research aims, each starting broadly, then diving into specifics, and closing on impact. Finally, I closed with two paragraphs highlighting “softer” qualifications, like teaching and mentorship, detailing my long-term professional vision and showing how it aligned with the program’s goals. To help the message come through even with a quick skim, I used boldface for 1-2 key sentences per paragraph.
+I found using a “layered hourglass” structure helpful: in which I had an introduction that utilized my research experiences to transition from the broad questions of the field to the specific questions I hoped to address. I then proposed 2-3 research aims, each beginning with broader motivations, narrowing to specific methods, and ending with potential impacts. I concluded with a summary of “softer” qualifications like teaching and mentorship, my long-term vision, and how these align with the program’s goals. Throughout, I used boldface (1-2 sentences per paragraph) to emphasize the takeaways, allowing my message to come through even with a skim read. 
 
-Below is a breakdown of each part of the Research Statement and how I approached it.
+Here’s a breakdown of each part of the Research Statement and how I approached them:
 
 #### Introduction
 
-I started with a broad paragraph about the research problem, outlining why it’s an exciting field, what gaps exist, and why current technologies and concepts make it a tractable question.
+I began my introduction with a broad paragraph outlining the research problem. In my case, this was neurodevelopment, and I described why the topic is exciting generally, what the gaps are, and why current technologies, datasets, and concepts make this a tractable question.
 
-Next, I detailed my relevant research experiences. For longer essays, I described each PhD project in detail, showing how they built on each other, led to my current research interests, and prepared me for the position. For shorter essays, I condensed this to a single paragraph to provide a clear overview. Throughout, I emphasized independence, diversity of skills, and expertise I would bring to the institute.
+Next, I described my research experience related to the question. When I had 3 pages, or a separate essay for this, I would describe each of my PhD projects in detail, painting a picture of how they built upon each other and led me to my current research interests. For shorter essays, I condensed this down to a single paragraph which still built narrative. Throughout, I looked to highlight research independence, the diversity of my research toolkit, and the expertise I would bring to the institute and outlined problems. 
 
-In the final paragraph of the introduction, I defined my research goals for the position, aligning my higher-level interests with the specific aims I was proposing.
+In the final paragraph of the introduction I transitioned to my specific research goals, connecting my high-level interests to the aims I was proposing.
 
 #### Research Aims
 
-I divided the “Body” of the Research Statement into several **Aims**, each with:
+I split the main body of the Research Statement into a series of “Aims,” each with its own Background, Goal, Approach, and Outlook sections. This followed the hourglass structure: starting broad with the Background and Goal, narrowing to the specific Approach, and broadening again to discuss the potential impact in the Outlook.
 
-- **Background**: Broad context of the aim.
-- **Goal**: Specific research question or objective.
-- **Approach**: Methods and steps to achieve the goal.
-- **Outlook**: Potential impact and significance.
+When writing these Aims, it’s important to remember that your evaluators may not be in your field, so your writing should be accessible to a broader scientific audience. I personally only dove deep in the “Approach” section, in order to show to someone in-field that I still know what I am doing, but friends, especially experimentalists, have also had success being more techinical throughout. 
 
-Each Aim followed an “hourglass” pattern, from broad motivations to specific solutions and back to broader impact. Remember that your evaluators may not be in your field, so keep each Aim accessible. In the **Approach** section, I included enough detail to show expertise in my area while remaining broadly understandable.
+I found that the space constraints would only allow 2 or 3 Aims to fit into the essay. However, I prepared 3-4 Aims in total to have a “pool” to draw from depending on whether the position was more biologically or computationally focused. As I assembled Aims into an application, I outlined how I would independently approach it (e.g. through publicly available datasets or outside collaborators), but also identified potential collaborators at the institute who might enhance the work. Having these related, but independent, Aims proved useful during interviews, as different professors would engage with different Aims, thereby providing multiple inroads for a fruitful discussion. 
 
-Due to space constraints, I typically included only 2-3 Aims per essay. However, I prepared 3-4 Aims as a “pool” to tailor to different applications. For each, I outlined my independent capabilities and identified researchers at the institute who could take the work to the next level. This provided multiple entry points for discussions during interviews, as different interviewers may focus on different Aims.
+Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to missing a formatting requirement. 
 
-While figures were occasionally allowed, I usually omitted them unless explicitly requested. This saved time formatting and ensured no risk of disqualification due to formatting issues.
+#### Conclusions
 
-#### Conclusion
+The last section of the Research Statement is an opportunity to show your alignment with the advertised position. I usually began with a sentence connecting my Aims to a broader scientific vision, signaling a transition away from the more technical sections. I then highlighted my “softer” qualifications, which in my case was outreach and organizing workshops and speaker series, but this section would also be a good place to discuss teaching and mentorship, if that is your focus. This helped frame what I would bring to the institute, including specific contributions like chalk talks or seminars I’d be excited to lead.
 
-The final section of the Research Statement highlights your alignment with the position. I began with a sentence describing how my Aims built toward a long-term scientific vision. Then, I emphasized my “softer” qualifications, such as outreach or organizing events. This section is also a good place to discuss teaching and mentorship if relevant.
-
-I concluded by aligning my research with the program’s mission. When possible, I directly referenced the program’s goals from their announcement. Here’s an example format I used:
+Finally, I concluded by linking my goals to the program’s mission, often quoting directly from the job posting. My closing paragraph typically followed this structure:
 
 > *In summary, I believe that the intersection of neuroscience, data science, and development presents a frontier for understanding the evolution of biological intelligence. My aims align with [Position]'s vision to [Quote from Website]. I believe that understanding neurodevelopmental processes will impact clinical, genomics, systems neuroscience, and machine learning communities, and I would cherish the chance to collaborate as a [Position Title].*
 
-This concluding paragraph allowed me to end on a strong note, showing that I’d researched the program and tailored my application accordingly.
+This concluding paragraph allowed me to end on a concrete takeaway that illustrated that I had taken the time to research the program. While I generally hate canned language, having this section, as well as a few similar sentences in the Aims, would allow me to rapidly, but specifically, tailor my application to the advertised position. 
 
 ---
 
 ### Rec Letters
 
-Recommendation letters are the second most important component of your application, reinforcing your Research Statement narrative. Although they may feel outside your control, clear communication with your writers can elevate your application. Emphasize that these fellowships value independence; highlighting leadership, collaboration, and mentoring qualities can be impactful.
+Recommendation letters are the second most important component of your application, as they serve to reinforce the narrative of your Research Statement. While letters may feel like they are out of your control, communicating clearly with your writers about the programs you are applying to can significantly elevate your application. Remind your writers that these fellowships value independence, so examples of how you led projects, initiated collaborations, or mentored students can make a strong impact.
 
-Most programs require 3 letters, although some may ask for as few as 2 or as many as 6. Your primary letter should be from your PhD advisor, who can outline your research trajectory. Additional letters should be from individuals who can credibly support your research narrative. For example, dual-advised candidates or those with a previous postdoc experience have additional options. Otherwise, consider collaborators, summer internship mentors, or those who can attest to your teaching and mentorship skills.
+Most programs ask for 3 letters, although I’ve seen as low as two, and as many as 6. The core letter should be from your PhD advisor, who should paint a picture of your research trajectory. The remaining letters should come from people who can credibly support your narrative— if you were dual advised, or already have a first PostDoc, you’re already a letter ahead. Otherwise, you may consider a collaborator, a researcher you worked with for an internship, or someone who can reinforce your mentoring, teaching or outreach experiences. Often, recommenders may ask you to draft the letter yourself, and it can be helpful to send a brief outline of what you hope the letter will cover when first contacting those who can best support your application.
 
-I reached out to my letter writers 6-8 weeks before my first deadline, sharing a draft of my research proposal and my career vision. Around 4-6 weeks before the deadline, I sent each writer the submission portal link along with a brief blurb about the position. Keeping writers on track can be challenging, so I used recurring reminders and tracked submissions in a spreadsheet. Some applications won’t allow submission without all letters, so it’s helpful to set an earlier internal deadline to ensure everything’s completed on time.
+I reached out to my letter writers 6-8 weeks before my first deadline, attaching a rough draft of my research proposal and communicating my general vision for my next career step. Then, about 4-6 weeks before each deadline, I sent my recommenders the letter submission portal, and a short summary of the position and its unique focus, if relevant. Keeping your writers on track can be the most challenging part of your application — setting recurring reminders and keeping spreadsheets of who has submitted already can help ensure that your letters get submitted. Watch out for applications which require all letters to be uploaded before submitting; for these, and more generally, it may not hurt to give your letter writers the date you want to submit by, and not the last possible submission time, in order to allow for some leeway.      
 
 ---
 
@@ -148,52 +143,56 @@ I reached out to my letter writers 6-8 weeks before my first deadline, sharing a
 
 #### CV/Publication List
 
-By the time you apply, there’s usually little to change on your CV or Publication List. I found that a comprehensive CV was beneficial, as interviewers sometimes noticed and appreciated less obvious experiences. I organized my CV with sections on Education, Research (with a brief bullet for context), Papers (boldfacing my name and highlighting corresponding authorships), Conferences Organized, Art Exhibits, Talks (marking invited ones), Posters, and Honors and Awards. If asked to provide exemplary papers, submit those most relevant to the opportunity, focusing on first-author publications.
+Other than slight organization tricks, there is not much you can change about your CV and Publication List by the time you are applying. I found it helpful to keep my CV long, as I had great chats with interviewers about a random experience I may have had early in my career. I organized my CV with sections on Education, Research (providing a single bullet point of context), Papers (with my name in bold), Conferences Organized, Art Exhibits, Talks (noting invited speakerships), Posters, and Honors and Awards. If asked for exemplary papers, choose ones that best fit the profile of the opportunity, ideally focusing on first-author pubs.
 
 #### Cover Letter
 
-Most programs don’t require a cover letter, and when they do, it’s often unclear if they’re read in detail. However, a Cover Letter gives you a chance to set the narrative for the application. I usually opened with a positive note about the program, followed by a paragraph on my PhD experience and the Aims I’d pursue if selected. I’d also highlight broader goals, like outreach or organizing events. The hardest part was ensuring the correct date and position title each time, and I suspect the letter carried limited weight overall.
+Most programs don’t ask for a cover letter, and when they do, it was often unclear whether they were read. That said, a Cover Letter offers you the chance to set the narrative for the rest of your application. I typically opened with a brief statement about the program’s strengths, followed by a paragraph summarizing my PhD experience and an outline of the aims I would pursue if accepted. In the rest of the letter I would highlight relevant extra-scientific goals I have with the fellowship, from outreach to scientific workshop organizations, and then I would end on a final paragraph on how great the opportunity is, and how I believe my experiences dovetail well with it. To be honest, the hardest part of the Cover Letter was making sure I had the right date and position each time, and I doubt it carried much more weight than this. 
 
 #### Letter of Support
 
-For “Traditional Postdoc” fellowships (like EMBO, HFSP, and UC Berkeley Miller Fellowship), you may need a **Letter of Support** from your mentor, outlining your research plan and fit. If you’re already in a postdoc lab, this should be straightforward. However, if you’re applying broadly and only intend to join a lab if awarded the fellowship, you may need multiple support letters for projects you may not end up pursuing. I found professors generally willing to meet and draft joint submissions, especially if I provided an outline. While programs requiring support letters offer great opportunities, they add a personal dimension to the application (and potential rejection).
+For “Traditional Postdoc” fellowships like the EMBO, HFSP, and the UC Berkeley Miller Research Fellowship, you may need a Letter of Support from your intended mentor, detailing your joint research plan and institutional fit. If you’re already in a postdoc lab or have one lined up, this should be straightforward—your advisor simply outlines what you plan to accomplish together. However, if you’re applying to a wide range of programs and would only join a particular lab if awarded the fellowship, you may need to secure multiple Letters of Support for work you may never do. Nevertheless, I found many professors supportive, and willing to meet to come up with a joint submission for such fellowships, especially when I helped draft the letter. Overall, programs that require Letters of Support are all still great opportunities, but do come with a tinge of awkwardness as they make the application, and potential rejection, more personal.
 
 #### Additional Essays
 
-As noted in the Research Statement section, many applications observe a **“Law of Page Conservation”**: additional essays don’t usually increase the total page count beyond 2-3. For Personal History Statements, I separated graduate school and extracurricular experiences from my Research Statement, creating a 1-page Personal History essay and leaving space for up to 3 research aims in the main essay. For a Diversity Statement, I expanded on outreach, conference organization, and mentorship, emphasizing how these initiatives would benefit the host institute. Discussing these topics with a professor at the university helped identify ways my proposals could address community needs. Overall, while extra requirements can seem daunting, they’re often minor adaptations of existing materials.
+As noted in the Research Statement section, applications obeyed the “Law of Page Conservation”: even when additional essays were requested, the total page count was still around 2-3. When asked for a Personal History Statement, I would use the graduate school and “extracurricular” section from the Research Statement, into which I could then slot an additional Aim. For the one Diversity Statement essay I submitted, I expanded on the outreach, conference organization, and mentorship sections of my Research Statement, focusing on how these initiatives could benefit the host institute’s community. Here, having discussions with a professor at the university proved invaluable, as it allowed me align my proposals with ongoing initiatives and community programs. Overall, while having extra requirements seemed daunting, they often boiled down to slight tweaks on existing materials.
 
 ---
 
 ## From Applying to Deciding
 
-Preparing materials, coordinating letter writers, and submitting applications can feel like a full-time job. Thankfully, once interviews start, the pace picks up, and things move quickly as you (hopefully) balance offers and revisits before making a final decision.
+Preparing materials, corralling letter writers, and submitting application after application can feel like a full-time job. Thankfully, once interviews start, the pace picks up, and things move quickly as you (hopefully) balance offers and revisits before making a final decision.
+
 
 ### Interviews
 
-Your interview visit will likely take place on a weekday and usually starts with a talk. This may be a standalone seminar (1+ hours) or a shorter 15-20 minute presentation if you’re visiting with other candidates. The rest of the day involves meetings with faculty who will decide on your application, as well as students and postdocs who can provide insight into the institute and position. Typically, this turns into a 2-3 day trip: you arrive in the evening, complete your visit the next day (often concluding with dinner), and then fly out the following morning.
+Your interview visit will likely take place on a weekday and usually starts with a talk, which may be a standalone seminar (1+ hours) or a shorter 15-20 minute presentation if you’re visiting with other candidates. The rest of the day involves meetings with faculty who will decide on your application, as well as students and postdocs who can provide insight into the institute and position. Typically, this turns into a 2-3 day trip: you arrive in the evening, complete your visit the next day (often concluding with dinner), and then fly out the following morning.
 
-Some programs include Zoom interviews before an in-person visit. These may involve a brief 10-15 minute talk, some Q&A, and then a polite “thank you.” I found these more stressful than in-person interviews, as they often felt rushed and less personal. Remember that these screenings are designed to evaluate candidates quickly, so aim for a clear, concise presentation that avoids red flags. If possible, try to book a later slot; committees may appreciate candidates more as they get familiar with the process (recency bias is real!).
+Some programs had zoom interviews before the in-person visit. Here, you would give a brief (10-15 min) talk, answer a few questions, and then be thanked for your time. I found these more stressful than in-person interviews, as they felt rushed and impersonal.  These were clearly set up to be screeners, where the committee would sit through a full day of lightning talks, so my best advice is have a clear, succinct talk that won’t throw any red flags. If possible, also try to book a later interview, so the committee has time to “practice” on others, allowing you to shine at the end (recency bias is real!). 
 
-For both grad school and postdoc fellowships, interviews were my favorite part of the process. Getting flown out and treated well indicates strong interest, and it’s a great time to evaluate if these are the colleagues you want. When it was my only in-person visit, I asked about open-ended questions, the program’s long-term vision, and the potential for transitioning to a tenure-track position. Being curious and engaged shows genuine interest, which is as important as your science for landing the role.
+For both grad school and postdoc fellowships, interviews were my favorite part of the application process. Being flown out, wined, and dined is a significant investment on the program’s part and usually signals a genuine interest in extending an offer. Rather than focusing on how you’re evaluated, consider that you are also interviewing the program: are these the colleagues you would like to have? Will they provide the support that you’d expect from your next career step? In cases where the interview was my only in-person visit, I asked open-ended questions about the program’s vision, tenure-track transition opportunities, as well as more sensitive questions about hiring loads and decision deadlines. Having this curious mentality, both about the environment and the people, will show your genuine interest, a component nearly equal to your science for landing the position. 
 
 ### Offers and Decisions
 
-**Top advice:** Wait until you have an offer in writing. It sounds obvious, but your decision will be between places that want you, so cast a broad net and be patient. While it’s tempting to imagine options, focus on practical steps once an offer is in hand.
+The top advice I heard during my fellowship search was _**wait until you have an offer on paper**_. It seems tautological, but your decision will have to be between places that also want you, so cast a wide net, and be patient. 
 
-The usual process is this: in the weeks after an interview, you might get a call with a verbal offer, which includes general compensation details and a decision timeline. Be grateful, ask for the timeline in writing, and say you’ll confirm after receiving a formal offer.
+In practicality, the process goes something like this: a few weeks after an interview, you may get a call with a verbal offer. On the phone, they will likely give broad details related to your compensation, and ask you when you can decide. Be appreciative, ask about their timeline, and then say that you will aim to give a decision soon after you receive a written offer. 
 
-With a verbal offer, it’s time to vet the position. Reach out to other programs where you’re interested, mention the offer, and inquire about their timeline. Sometimes, this can put you on an accelerated track, potentially leading to competing offers while your first one is still open.
+Having a verbal offer means it is time to vet your options and the opportunity. 
 
-While waiting for a written offer, follow up with researchers who attracted you to the position initially. Do they have the resources you expect? Are they still interested in collaborating? Assess if the support, personnel, or lab setup meets your needs.
+Begin by reaching out to other positions that you may consider over the current one, share that you have an offer in hand, and ask them about their decision timeline. In certain cases, this got me on an accelerated interview track, meaning that I received a competing offer while the window was still open on my previous one. 
 
-Once you receive a written offer, review it closely. There’s usually limited room for salary negotiation, though you could ask about matching competing offers. Focus on “soft” aspects like office space, mentoring, grant eligibility, and travel budget, and make sure all critical details are documented, especially financial arrangements and job structure (e.g., teaching or grant submission expectations).
+During this time, also follow up with the researchers and opportunities that drew you to the position that gave you an offer in the first place. Are your intended collaborators still enthusiastic? Ensure that the support you expect—mentorship, personnel, equipment—is solid.
 
-Finally, remember that postdoc fellowship applications don’t have a unified “season,” unlike undergrad and grad school. This staggered timeline can introduce awkwardness, so clear communication is crucial. If you have a great offer but are waiting on your dream job, let trusted individuals know your situation and timeline needs. In some cases, they may accommodate you.
+Once you have a *written* offer, review it in detail. There’s usually limited flexibility on salary, although it may be worth asking whether they can match a competing offer. Focus instead on the “soft” aspects like office space, mentoring arrangements, grant eligibility, and travel budget. *Make sure to get everything in writing,* especially if it relates to finances or the structure of your role (e.g. teaching, grant submission, and hiring). Remember, that the scientists who made you an offer are on your side and can help with anything from “two-body” problems to housing questions.
 
-If you’ve already accepted an offer but then receive a more appealing one, you face a delicate decision. While it’s tough to go back on a commitment, you don’t want to spend the next several years regretting a missed opportunity. However, you don’t want a reputation for unreliability in future negotiations. The solution depends on your situation, but people are generally understanding if you’re transparent about why you’re reconsidering.
+Finally, while undergrad and graduate school offers, and sometimes faculty applications, have a “season,” the postdoc fellowship hunt introduces a lot of awkwardness with its staggered deadlines. My main advice here is to communicate clearly. You may reach a point where you have a great offer in hand, but are still waiting to hear back from your dream job. In a case like this, I shared my situation with trusted contacts at the places where I had offers, explaining that I’d love to work there but had an outstanding opportunity I was seriously considering.
+
+A more challenging scenario is if you’ve already accepted an offer but later receive a more attractive one. Two major considerations arise here. First, while it may sting in the short term to go back out of your current position, it’s worse for everyone involved if you spend the next 3-5 years wistful about another opportunity. On the other hand, member that future job searches, including faculty positions, may involve these same colleagues, so try to maintain professionalism and transparency. The solution is heavily situation dependent, but generally people are understanding if you can be mindful in your communication of why you are suddenly changing your mind.
+
 
 ---
 
-And…that’s it! Congratulations if you’ve made it all the way to the end. The application process took significant reflection, and I hope my insights help you in yours. If there’s something I missed, feel free to reach out—I’m constantly updating!
+**And… that’s it!** If you’ve made it this far, congratulations—this process has been a long journey, and I hope these reflections help! If there’s something I haven’t covered or a topic you’d like more detail on, feel free to reach outI will constantly be updating 🙂
 
 Dániel
