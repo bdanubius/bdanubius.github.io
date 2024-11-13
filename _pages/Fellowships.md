@@ -34,9 +34,9 @@ Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), 
 
 ---
 
-## General application tips
+## <span style="color:MediumSeaGreen">General application tips</span>
 
-### Should I apply for a fellowship?
+### <span style="color:MediumSeaGreen">Should I apply for a fellowship?</span>
 
 After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s [Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow) is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
 
@@ -49,7 +49,7 @@ From my experience, and that of friends who landed similar positions, postdoc fe
 2. **Independent Postdocs** provide salary, travel and research funds, and office space without a formal expectation to work with a specific lab. This setup is ideal for those with their own project ideas who are looking for an environment that encourages both independence and collaboration. Typically, each program will recruit a “cohort,” consisting of anywhere from 2 to 8 new hires a year, thereby providing a more collegial interview process and a community upon arrival.
 
 
-3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the HFSP LTP, UC Berkeley Miller Fellowship, and EMBO, expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
+3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the [HFSP LTP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships), [UC Berkeley Miller Fellowship](https://miller.berkeley.edu/fellowship), and [EMBO](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/application/), expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
 
 ### When should I start applying?
 
