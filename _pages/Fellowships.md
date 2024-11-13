@@ -22,12 +22,11 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
   - <span style="color:DodgerBlue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
 
 <span style="color:DodgerBlue">[**Application components**](#application-components)</span>
-  - <span style="color:DodgerBlue">[The checklist](#the-checklist)</span>
-  - <span style="color:DodgerBlue">[Transcript, CV, Rec Letters](#rec-letters)</span>
-  - <span style="color:DodgerBlue">[The Statement of Purpose](#the-statement-of-purpose)</span>
+  - <span style="color:DodgerBlue">[The Checklist](#the-checklist)</span>
   - <span style="color:DodgerBlue">[The Research Statement](#research-statement)</span>
-  - <span style="color:DodgerBlue">[The Diversity/Personal History Statement](#additional-essays)</span>
-
+  - <span style="color:DodgerBlue">[Rec Letters](#rec-letters)</span>
+  - <span style="color:DodgerBlue">[Other Materials (CV, Cover Letter, Letter of Support, Additional Essays)](#other-materials)</span>
+  
 <span style="color:DodgerBlue">[**Navigating the Process**](#from-applying-to-deciding)</span>
   - <span style="color:DodgerBlue">[Interviews](#interviews)</span>
   - <span style="color:DodgerBlue">[Offers and Decisions](#offers-and-decisions)</span>
@@ -119,7 +118,7 @@ When writing these Aims, it’s important to remember that your evaluators may n
 
 I found that the space constraints would only allow 2 or 3 Aims to fit into the essay. However, I prepared 3-4 Aims in total to have a “pool” to draw from depending on whether the position was more biologically or computationally focused. As I assembled Aims into an application, I outlined how I would independently approach it (e.g. through publicly available datasets or outside collaborators), but also identified potential collaborators at the institute who might enhance the work. Having these related, but independent, Aims proved useful during interviews, as different professors would engage with different Aims, thereby providing multiple inroads for a fruitful discussion. 
 
-Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to missing a formatting requirement. 
+Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to having missed a formatting requirement. 
 
 #### Conclusions
 
@@ -188,11 +187,11 @@ Begin by reaching out to other positions that you may consider over the current 
 
 During this time, also follow up with the researchers and opportunities that drew you to the position that gave you an offer in the first place. Are your intended collaborators still enthusiastic? Ensure that the support you expect—mentorship, personnel, equipment—is solid.
 
-Once you have a *written* offer, review it in detail. There’s usually limited flexibility on salary, although it may be worth asking whether they can match a competing offer. Focus instead on the “soft” aspects like office space, mentoring arrangements, grant eligibility, and travel budget. *Make sure to get everything in writing,* especially if it relates to finances or the structure of your role (e.g. teaching, grant submission, and hiring). Remember, that the scientists who made you an offer are on your side and can help with anything from “two-body” problems to housing questions.
+Once you have a *written* offer, review it in detail. There’s usually limited flexibility on salary, although they may be able to match a competing offer. Focus instead on the “soft” aspects like office space, mentoring arrangements, grant eligibility, and travel budget. *Make sure to get everything in writing,* especially if it relates to finances or the structure of your role (e.g. teaching, grant submission, and hiring). Remember, that the scientists who made you an offer are on your side and can help with anything, from “two-body” problems to housing questions.
 
-Finally, while undergrad and graduate school offers, and sometimes faculty applications, have a “season,” the postdoc fellowship hunt introduces a lot of awkwardness with its staggered deadlines. My main advice here is to communicate clearly. You may reach a point where you have a great offer in hand, but are still waiting to hear back from your dream job. In a case like this, I shared my situation with trusted contacts at the places where I had offers, explaining that I’d love to work there but had an outstanding opportunity I was seriously considering.
+Finally, while undergrad, grad school, and faculty applications have a “season,” the postdoc fellowship hunt introduces a lot of awkwardness with its staggered deadlines. My main advice here is to communicate clearly. You may reach a point where you have a great offer in hand, but are still waiting to hear back from your dream job. In a case like this, I shared my situation with trusted contacts at the places where I had offers, explaining that I’d love to work there but had an outstanding opportunity I was seriously considering.
 
-A more challenging scenario is if you’ve already accepted an offer but later receive a more attractive one. Two major considerations arise here. First, while it may sting in the short term to go back out of your current position, it’s worse for everyone involved if you spend the next 3-5 years wistful about another opportunity. On the other hand, member that future job searches, including faculty positions, may involve these same colleagues, so try to maintain professionalism and transparency. The solution is heavily situation dependent, but generally people are understanding if you can be mindful in your communication of why you are suddenly changing your mind.
+A more challenging scenario is if you’ve already accepted an offer but later receive a more attractive one. Two major considerations arise here. First, while it may sting in the short term to back out of your current position, it’s worse for everyone involved if you spend the next 3-5 years wistful about another opportunity. On the other hand, remember that your future faculty job search may involve these same colleagues, so try to maintain professionalism and transparency. The solution is heavily situation dependent, but generally people are understanding if you can be mindful in your communication of why you are suddenly changing course.
 
 
 ---
