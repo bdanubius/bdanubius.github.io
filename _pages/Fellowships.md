@@ -15,14 +15,14 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
 
 ## <span style="color:MediumSeaGreen">Table of Contents</span>
 
-<span style="color:DodgerBlue">[**General application tips**](#general-application-tips)</span>
+<span style="color:DodgerBlue">[**General Application Tips**](#general-application-tips)</span>
   - <span style="color:DodgerBlue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
   - <span style="color:DodgerBlue">[When should I start applying?](#when-should-i-start-applying)</span>
   - <span style="color:DodgerBlue">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
   - <span style="color:DodgerBlue">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
   - <span style="color:DodgerBlue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
 
-<span style="color:DodgerBlue">[**Application components**](#application-components)</span>
+<span style="color:DodgerBlue">[**Application Components**](#application-components)</span>
   - <span style="color:DodgerBlue">[The Checklist](#the-checklist)</span>
   - <span style="color:DodgerBlue">[The Research Statement](#research-statement)</span>
   - <span style="color:DodgerBlue">[Rec Letters](#rec-letters)</span>
@@ -34,7 +34,7 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
 
 ---
 
-## <span style="color:MediumSeaGreen">General application tips</span>
+## <span style="color:MediumSeaGreen">General Application Tips</span>
 
 ### <span style="color:MediumSeaGreen">Should I apply for a fellowship?</span>
 
