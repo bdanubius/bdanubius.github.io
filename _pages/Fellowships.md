@@ -99,15 +99,15 @@ The Research Statement is the cornerstone of your application, where you:
 
 In some cases you may be asked for additional essays covering points (2) and (3). However, the total number of pages over all essays was usually consistent between applications, so I would just split the main 3-page essay into two or three shorter ones, where necessary.
 
-I found using a “layered hourglass” structure helpful: in which I had an introduction that utilized my research experiences to transition from the broad questions of the field to the specific questions I hoped to address. I then proposed 2-3 research aims, each beginning with broader motivations, narrowing to specific methods, and ending with potential impacts. I concluded with a summary of “softer” qualifications like teaching and mentorship, my long-term vision, and how these align with the program’s goals. Throughout, I used boldface (1-2 sentences per paragraph) to emphasize the takeaways, allowing my message to come through even with a skim read. 
+I used a “layered hourglass” structure: I had an introduction that utilized my research experiences to transition from the broad questions of the field to the specific problems I hoped to address. I then proposed 2-3 research aims, each beginning with broader motivations, narrowing to specific methods, and ending with potential impacts. I concluded with a summary of “softer” qualifications like teaching and mentorship, my long-term vision, and how these align with the program’s goals. Throughout, I used boldface (1-2 sentences per paragraph) to emphasize the takeaways, allowing my message to come through even with a skim read. 
 
 Here’s a breakdown of each part of the Research Statement and how I approached them:
 
-#### Introduction
+<ins>Introduction</ins>
 
-I began my introduction with a broad paragraph outlining the research problem. In my case, this was neurodevelopment, and I described why the topic is exciting generally, what the gaps are, and why current technologies, datasets, and concepts make this a tractable question.
+I began my introduction with a broad paragraph outlining the research problem. In my case, this was neurodevelopment, and I described why the topic is exciting generally, what the gaps are, and why current technologies, datasets, and concepts make this a timely and tractable question.
 
-Next, I described my research experience related to the question. When I had 3 pages, or a separate essay for this, I would describe each of my PhD projects in detail, painting a picture of how they built upon each other and led me to my current research interests. For shorter essays, I condensed this down to a single paragraph which still built narrative. Throughout, I looked to highlight research independence, the diversity of my research toolkit, and the expertise I would bring to the institute and outlined problems. 
+Next, I described my research experience related to the problem. When I had 3 pages, or a separate essay for this, I would describe each of my PhD projects in detail, painting a picture of how they built upon each other and led me to my current research interests. For shorter essays, I condensed this down to a single paragraph which still highlighted research independence, the diversity of my research toolkit, and the expertise I would bring to the institute and outlined problems. 
 
 In the final paragraph of the introduction I transitioned to my specific research goals, connecting my high-level interests to the aims I was proposing.
 
@@ -119,7 +119,7 @@ When writing these Aims, it’s important to remember that your evaluators may n
 
 I found that the space constraints would only allow 2 or 3 Aims to fit into the essay. However, I prepared 3-4 Aims in total to have a “pool” to draw from depending on whether the position was more biologically or computationally focused. As I assembled Aims into an application, I outlined how I would independently approach it (e.g. through publicly available datasets or outside collaborators), but also identified potential collaborators at the institute who might enhance the work. Having these related, but independent, Aims proved useful during interviews, as different professors would engage with different Aims, thereby providing multiple inroads for a fruitful discussion. 
 
-Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to having missed a formatting requirement. 
+Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to missing a formatting requirement. 
 
 #### Conclusions
 
