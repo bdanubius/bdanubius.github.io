@@ -4,15 +4,17 @@ title: "Postdoc Fellowships Guide"
 permalink: /Fellowships/
 author_profile: true
 --- 
-Know that if you’re thinking of applying for a postdoc fellowship, you’re a Rockstar. Heck, you’re a Rockstar even if you don’t get one. Academia is a career rollercoaster, and staying grounded on the ride requires believing in yourself and being open to new opportunities. While support groups for PhD and Faculty applications are plentiful, applying to postdoc fellowships may have been the loneliest time of my career. I am passionate about academia being a positive community, so I write this guide in the hopes that it may shine a light for others exploring alternative postdoc opportunities.
+Know that if you’re thinking of applying for a postdoc fellowship, you’re a Rockstar. Heck, you’re a Rockstar even if you don’t get one. Academia is a career rollercoaster, and staying grounded on the ride requires believing in yourself and being open to new opportunities. 
+
+While support groups for PhD and Faculty applications are plentiful, applying to postdoc fellowships may have been the loneliest time of my career. I am passionate about academia being a positive community, so I write this guide in the hopes that it may shine a light for others exploring alternative postdoc opportunities.
 
 Alongside this guide, I maintain a fellowship list that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
 
-Inspired by friend Lucy Lai’s PhD Guide, I have broken up this post into short, digestible, FAQ-like sections:
+Inspired by friend Lucy Lai’s [PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
 ## Table of Contents
 
-- General application tips
+- [General application tips](#general-application-tips)
   - Should I apply for a fellowship?
   - When should I start applying?
   - What kind of programs and schools should I apply to?
