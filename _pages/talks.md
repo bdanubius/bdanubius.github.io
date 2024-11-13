@@ -4,15 +4,6 @@ title: "Talks"
 permalink: /presentations/
 author_profile: true
 --- 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XEB5Y5R84H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XEB5Y5R84H');
-</script>
 
 Complex Computations from Developmental Priors. Center for Living Systems, University of Chicago. Chicago, IL. 1.22.2024. Invited Speaker.
 
