@@ -76,8 +76,8 @@ That being said, I did apply to a number of positions without previous contact, 
 
 Virtually all applications will require:
 
-- **[A Research Statement](#research-statement)** (1-3 pages)
-- **[3+ Letters of Recommendation](#rec-letters)**
+- **A Research Statement** (1-3 pages)
+- **3+ Letters of Recommendation**
 - **CV**
 
 Some programs may also require:
