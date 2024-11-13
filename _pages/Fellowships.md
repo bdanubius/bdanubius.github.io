@@ -10,27 +10,27 @@ While support groups for PhD and Faculty applications are plentiful, applying to
 
 Alongside this guide, I maintain a fellowship list that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
 
-Inspired by friend Lucy Lai’s [PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
+Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
 ## Table of Contents
 
 [General application tips](#general-application-tips)
   - [Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)
-  - When should I start applying?
-  - What kind of programs and schools should I apply to?
-  - How many schools should I apply to?
-  - Should I reach out to PIs before applying?
+  - [When should I start applying?](#when-should-i-start-applying)
+  - [What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)
+  - [How many schools should I apply to?](#how-many-programs-should-i-apply-to)
+  - [Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)
 
-Application components
-  - The checklist
-  - Transcript, CV, Rec Letters
-  - The Statement of Purpose
-  - The Research Statement
-  - The Diversity/Personal History Statement
+[Application components](#application-components)
+  - [The checklist](#the-checklist)
+  - [Transcript, CV, Rec Letters](#rec-letters)
+  - [The Statement of Purpose](#the-statement-of-purpose)
+  - [The Research Statement](#research-statement)
+  - [The Diversity/Personal History Statement](#additional-essays)
 
-Navigating the Process
-  - Interviews
-  - Offers/Decisions
+[Navigating the Process](#from-applying-to-deciding)
+  - [Interviews](#interviews)
+  - [Offers and Decisions](#offers-and-decisions)
 
 ---
 
