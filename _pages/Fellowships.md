@@ -12,11 +12,11 @@ Alongside this guide, I maintain a fellowship list that includes programs I appl
 
 Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
-<span style="color:blue">## Table of Contents</span>
+## <span style="color:blue">Table of Contents</span>
 
-<span style="color:blue">[General application tips](#general-application-tips)</span>
-  - <span style="color:blue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
-  - <span style="color:blue">[When should I start applying?](#when-should-i-start-applying)</span>
+<span style="color:MediumSeaGreen">[General application tips](#general-application-tips)</span>
+  - <span style="color:DodgerBlue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
+  - <span style="color:Tomato">[When should I start applying?](#when-should-i-start-applying)</span>
   - <span style="color:blue">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
   - <span style="color:blue">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
   - <span style="color:blue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
