@@ -32,7 +32,7 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
   - <span style="color:DodgerBlue">[Interviews](#interviews)</span>
   - <span style="color:DodgerBlue">[Offers and Decisions](#offers-and-decisions)</span>
 
----
+<p class="small">---</p>
 
 ## <span style="color:MediumSeaGreen">General Application Tips</span>
 
