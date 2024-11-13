@@ -14,7 +14,7 @@ Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), 
 
 ## Table of Contents
 
-[General application tips](#general-application-tips)
+<span style="color:blue">[General application tips](#general-application-tips)</span>
   - [Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)
   - [When should I start applying?](#when-should-i-start-applying)
   - [What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)
