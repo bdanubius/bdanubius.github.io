@@ -111,7 +111,7 @@ Next, I described my research experience related to the problem. When I had 3 pa
 
 In the final paragraph of the introduction I transitioned to my specific research goals, connecting my high-level interests to the aims I was proposing.
 
-#### Research Aims
+<ins>Research Aims</ins>
 
 I split the main body of the Research Statement into a series of “Aims,” each with its own Background, Goal, Approach, and Outlook sections. This followed the hourglass structure: starting broad with the Background and Goal, narrowing to the specific Approach, and broadening again to discuss the potential impact in the Outlook.
 
@@ -121,7 +121,7 @@ I found that the space constraints would only allow 2 or 3 Aims to fit into the 
 
 Figures were sometimes allowed, sometimes not, but often no guidance was given. I defaulted to not including them, unless explicitly requested. This significantly reduced edits, a godsend in periods when due dates piled up, and helped avoid any situation where I would be “disqualified” from the application due to missing a formatting requirement. 
 
-#### Conclusions
+<ins>Conclusions</ins>
 
 The last section of the Research Statement is an opportunity to show your alignment with the advertised position. I usually began with a sentence connecting my Aims to a broader scientific vision, signaling a transition away from the more technical sections. I then highlighted my “softer” qualifications, which in my case was outreach and organizing workshops and speaker series, but this section would also be a good place to discuss teaching and mentorship, if that is your focus. This helped frame what I would bring to the institute, including specific contributions like chalk talks or seminars I’d be excited to lead.
 
@@ -145,19 +145,19 @@ I contacted my letter writers 6-8 weeks before my first deadline, attaching a ro
 
 ### <span style="color:MediumSeaGreen">Other Materials</span>
 
-#### CV/Publication List
+<ins>CV/Publication List</ins>
 
 Other than slight organization tricks, there is not much you can change about your CV and Publication List by the time you are applying. I found it helpful to keep my CV long, as I had great chats with interviewers about a random early-career experience. I organized my CV with sections on Education, Research (providing a single bullet point of context), Papers (with my name in bold), Conferences Organized, Art Exhibits, Talks (noting invited speakerships), Posters, and Honors and Awards. If asked for exemplary papers, choose ones that best fit the profile of the opportunity, ideally focusing on first-author pubs.
 
-#### Cover Letter
+<ins>Cover Letter</ins>
 
 Most programs don’t ask for a cover letter, and when they do, it was often unclear whether they were read. That said, a Cover Letter allows you to set the narrative for the rest of your application. I typically opened with a brief statement about the program’s strengths, followed by a paragraph summarizing my PhD experience and an outline of the aims I would pursue if accepted. In the rest of the letter I would highlight the extra-scientific goals I have with the fellowship, from outreach to scientific workshop organizations, and then I would end on a final paragraph on how great the opportunity is, and how I believe my experiences dovetail well with it. To be honest, the hardest part of the Cover Letter was making sure I had the right date and position each time, and I doubt it carried much more weight than this. 
 
-#### Letter of Support
+<ins>Letter of Support</ins>
 
 For “Traditional Postdoc” fellowships like the EMBO, HFSP, and the UC Berkeley Miller Research Fellowship, you may need a Letter of Support from your intended mentor, detailing your joint research plan and institutional fit. If you’re already in a postdoc lab or have one lined up, this should be straightforward—your advisor simply outlines what you plan to accomplish together. However, if you’re applying to a wide range of programs and would only join a particular lab if awarded the fellowship, you may need to secure multiple Letters of Support for work you may never do. Nevertheless, I found many professors supportive, and willing to meet to come up with a joint submission for such fellowships, especially when I helped draft the letter. Overall, programs that require Letters of Support are all still great opportunities, but do come with a tinge of awkwardness as they make the application, and potential rejection, more personal.
 
-#### Additional Essays
+<ins>Additional Essays</ins>
 
 As noted in the Research Statement section, applications obeyed the “Law of Page Conservation”: even when additional essays were requested, the total page count was still around 2-3. When asked for a Personal History Statement, I would use the graduate school and “extracurricular” section from the Research Statement, into which I could then slot an additional Aim. For the one Diversity Statement essay I submitted, I expanded on the outreach, conference organization, and mentorship sections of my Research Statement, focusing on how these initiatives could benefit the host institute’s community. Here, having discussions with a professor at the university proved invaluable, as it allowed me align my proposals with ongoing initiatives and community programs. Overall, while having extra requirements seemed daunting, they often boiled down to slight tweaks on existing materials.
 
