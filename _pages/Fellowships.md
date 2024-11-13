@@ -38,7 +38,7 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
 
 ### <span style="color:MediumSeaGreen">Should I apply for a fellowship?</span>
 
-After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s [Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow) is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
+After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s <span style="color:DodgerBlue">[Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow)</span> is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
 
 From my experience, and that of friends who landed similar positions, postdoc fellowships are best suited for those who highly value their independence, and are successful working either alone, or in collaboration with a broad range of people. This is generally easiest for those in computational fields, as most fellowships do not cover the astronomical material costs of experiments. Yet, securing your own salary can give you significant flexibility in your research interests to pursue your own research ideas, even in more resource-intensive fields, so do read on!
 
@@ -49,30 +49,30 @@ From my experience, and that of friends who landed similar positions, postdoc fe
 2. **Independent Postdocs** provide salary, travel and research funds, and office space without a formal expectation to work with a specific lab. This setup is ideal for those with their own project ideas who are looking for an environment that encourages both independence and collaboration. Typically, each program will recruit a “cohort,” consisting of anywhere from 2 to 8 new hires a year, thereby providing a more collegial interview process and a community upon arrival.
 
 
-3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the [HFSP LTP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships), [UC Berkeley Miller Fellowship](https://miller.berkeley.edu/fellowship), and [EMBO](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/application/), expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
+3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the <span style="color:DodgerBlue">[HFSP LTP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, <span style="color:DodgerBlue">[UC Berkeley Miller Fellowship](https://miller.berkeley.edu/fellowship)</span>, and <span style="color:DodgerBlue">[EMBO](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/application/)</span>, expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
 
-### When should I start applying?
+### <span style="color:MediumSeaGreen">When should I start applying?</span>
 
-Getting a fellowship may take over a year of applying. The most egregious in this regard is the [HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships), which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
+Getting a fellowship may take over a year of applying. The most egregious in this regard is the [<span style="color:DodgerBlue">HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
 
 If you’re aiming to apply to a broad range of fellowships, I would recommend having at least a year left in your current position. For example, I wanted to start a position in the Summer or Fall of 2024, and began reaching out to mentors and outlining my research plan as early as Spring of 2023. If you are only applying for “Independent Postdoc” or “Traditional Postdoc” opportunities, you may have more flexibility and could start later in the summer or early fall, with an eye toward starting the following spring or summer.
 
-### How many programs should I apply to?
+### <span style="color:MediumSeaGreen">How many programs should I apply to?</span>
 
-I went overboard and applied for 20 programs, and got rejected from over half. I didn’t even get an interview for the first six months! Along the way, I learned a lot about which fellowships I was a good fit for: as a theorist, I matched the profile “Independent Postdoc” or “Traditional Postdoc” positions. By contrast, I found that “Mini Lab” opportunities are generally set up for applicants ready to start an experimental lab, so although they often interview computational candidates, the final placements tend to go to experimentalists, who more naturally match the available resources and funding structure.
+I went overboard and applied for 20 programs, and got rejected from over half. I didn’t even get an interview for the first six months! Along the way, I learned a lot about which fellowships I was a good fit for: as a theorist, I matched the profile of “Independent Postdoc” or “Traditional Postdoc” positions. By contrast, I found that “Mini Lab” opportunities are generally set up for applicants ready to start an experimental lab, so although they often interview computational candidates, the final placements tend to go to experimentalists, who more naturally match the available resources and funding structure.
 At the end of the day, the right number of applications depends on fit and timeline. If you are an experimentalist aiming to launch an independent research program, it might make sense to apply broadly, whether your goal is to start your own lab or support your work within an existing one. If you’re mainly seeking additional freedom or stability within your current postdoc lab through a grant, there may be fewer opportunities, so it’s worth focusing your applications and tailoring your materials to those specific roles.
 
-### Should I reach out to PIs before applying?
+### <span style="color:MediumSeaGreen">Should I reach out to PIs before applying?</span>
 
-Yes — many of these positions sound similar, and having an inside opinion will be crucial for understanding the specifics of the role and what the program values most. For Traditional Postdoc applications, having a planned mentor is often essential, as they may be asked for a letter of support. Even for Mini-Lab positions, which are fully independent, it’s helpful to connect with PIs who may be interested in your work, as they can offer insights into the application process and may serve as advocates towards the decision committee.
+Yes — many of these positions sound similar, and having an inside opinion will be crucial for understanding the specifics of the role. For Traditional Postdoc applications, having a planned mentor is often essential, as they may be asked for a letter of support. Even for Mini-Lab positions, which are fully independent, it’s helpful to connect with PIs who may be interested in your work, as they can offer insights into the application process and may serve as advocates towards the decision committee.
 
 That being said, I did apply to a number of positions without previous contact, and had success. At the other extreme, don’t limit yourself to the first set of scientists you talk to — in my applications I usually highlighted a few researchers with mutual interests, but during interviews I often met with a broader group of PIs, and left with exciting possibilities for collaborations I hadn’t initially considered.
 
 ---
 
-## Application Components
+## <span style="color:MediumSeaGreen">Application Components</span>
 
-### The Checklist
+### <span style="color:MediumSeaGreen">The Checklist</span>
 
 Virtually all applications will require:
 
