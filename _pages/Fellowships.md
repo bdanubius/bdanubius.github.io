@@ -12,25 +12,25 @@ Alongside this guide, I maintain a fellowship list that includes programs I appl
 
 Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
-## <span style="color:blue">Table of Contents</span>
+## <span style="color:MediumSeaGreen">Table of Contents</span>
 
 <span style="color:MediumSeaGreen">[General application tips](#general-application-tips)</span>
-  - <span style="color:DodgerBlue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
-  - <span style="color:Tomato">[When should I start applying?](#when-should-i-start-applying)</span>
-  - <span style="color:blue">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
-  - <span style="color:blue">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
-  - <span style="color:blue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
+  - <span style="color:MediumSeaGreen">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
+  - <span style="color:MediumSeaGreen">[When should I start applying?](#when-should-i-start-applying)</span>
+  - <span style="color:MediumSeaGreen">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
+  - <span style="color:MediumSeaGreen">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
+  - <span style="color:MediumSeaGreen">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
 
-<span style="color:blue">[Application components](#application-components)</span>
-  - <span style="color:blue">[The checklist](#the-checklist)</span>
-  - <span style="color:blue">[Transcript, CV, Rec Letters](#rec-letters)</span>
-  - <span style="color:blue">[The Statement of Purpose](#the-statement-of-purpose)</span>
-  - <span style="color:blue">[The Research Statement](#research-statement)</span>
-  - <span style="color:blue">[The Diversity/Personal History Statement](#additional-essays)</span>
+<span style="color:MediumSeaGreen">[Application components](#application-components)</span>
+  - <span style="color:MediumSeaGreen">[The checklist](#the-checklist)</span>
+  - <span style="color:MediumSeaGreen">[Transcript, CV, Rec Letters](#rec-letters)</span>
+  - <span style="color:MediumSeaGreen">[The Statement of Purpose](#the-statement-of-purpose)</span>
+  - <span style="color:MediumSeaGreen">[The Research Statement](#research-statement)</span>
+  - <span style="color:MediumSeaGreen">[The Diversity/Personal History Statement](#additional-essays)</span>
 
-<span style="color:blue">[Navigating the Process](#from-applying-to-deciding)</span>
-  - <span style="color:blue">[Interviews](#interviews)</span>
-  - <span style="color:blue">[Offers and Decisions](#offers-and-decisions)</span>
+<span style="color:MediumSeaGreen">[Navigating the Process](#from-applying-to-deciding)</span>
+  - <span style="color:MediumSeaGreen">[Interviews](#interviews)</span>
+  - <span style="color:MediumSeaGreen">[Offers and Decisions](#offers-and-decisions)</span>
 
 ---
 
