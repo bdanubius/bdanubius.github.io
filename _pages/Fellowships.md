@@ -41,7 +41,7 @@ Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https
 After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s <span style="color:DodgerBlue">[Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow)</span> is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
 
 From my experience, and that of friends who landed similar positions, postdoc fellowships are best suited for those who highly value their independence, and are successful working either alone, or in collaboration with a broad range of people. This is generally easiest for those in computational fields, as most fellowships do not cover the astronomical material costs of experiments. Yet, securing your own salary can give you significant flexibility in your research interests to pursue your own research ideas, even in more resource-intensive fields, so do read on!
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
+<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
 
 ### <span style="color:MediumSeaGreen">What kind of fellowships are there?</span>
 
