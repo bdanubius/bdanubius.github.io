@@ -14,19 +14,21 @@ Inspired by friend Lucy Lai’s [PhD Guide](https://lucylai.com/blog/gradapps), 
 
 ## Table of Contents
 
-- [General application tips](#general-application-tips)
-  - Should I apply for a fellowship?
+[General application tips](#general-application-tips)
+  - [Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)
   - When should I start applying?
   - What kind of programs and schools should I apply to?
   - How many schools should I apply to?
   - Should I reach out to PIs before applying?
-- Application components
+
+Application components
   - The checklist
   - Transcript, CV, Rec Letters
   - The Statement of Purpose
   - The Research Statement
   - The Diversity/Personal History Statement
-- Navigating the Process
+
+Navigating the Process
   - Interviews
   - Offers/Decisions
 
