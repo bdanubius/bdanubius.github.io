@@ -43,7 +43,7 @@ After landing my first offer, I thought a lot about whether the journey had been
 From my experience, and that of friends who landed similar positions, postdoc fellowships are best suited for those who highly value their independence, and are successful working either alone, or in collaboration with a broad range of people. This is generally easiest for those in computational fields, as most fellowships do not cover the astronomical material costs of experiments. Yet, securing your own salary can give you significant flexibility in your research interests to pursue your own research ideas, even in more resource-intensive fields, so do read on!
 <div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
 
-### What kind of fellowships are there?
+### <span style="color:MediumSeaGreen">What kind of fellowships are there?</span>
 
 1. **Mini Labs** are the most generous fellowships, funding a 2-3 person lab for 3-5 years. These positions offer accelerated independence straight out of graduate school, allowing you to establish a unique research direction while gaining project management and mentoring experience. Additionally, they’re a stepping stone toward early independence grants. Some institutes even aim to transition successful “Mini Labs” into full assistant professor roles, saving you the challenge of moving personnel and equipment. With the large financial commitment behind a “Mini Lab” offer, generally only 1 or 2 positions are available at each institute per year.
 
@@ -134,7 +134,7 @@ This concluding paragraph allowed me to end on a concrete takeaway that illustra
 
 ---
 
-### Rec Letters
+### <span style="color:MediumSeaGreen">Rec Letters</span>
 
 Recommendation letters are the second most important component of your application, as they serve to reinforce the narrative of your Research Statement. While letters may feel like they are out of your control, communicating clearly with your writers about the programs you are applying to can significantly elevate your application. Remind your writers that these fellowships value independence, so examples of how you led projects, initiated collaborations, or mentored students can make a strong impact.
 
