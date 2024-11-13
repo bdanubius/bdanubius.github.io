@@ -91,7 +91,6 @@ Some programs may also require:
 - **Diversity/Personal History Statement** (1-2 pages)
 - **Publication List** (or up to 3 representative papers)
 <div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
----
 
 ### <span style="color:MediumSeaGreen">Research Statement</span>
 
@@ -135,7 +134,6 @@ Finally, I concluded by linking my goals to the program’s mission, often quoti
 
 This concluding paragraph allowed me to end on a concrete takeaway that illustrated that I had taken the time to research the program. While I generally hate canned language, having this section, as well as a few similar sentences in the Aims, would allow me to rapidly, but specifically, tailor my application to the advertised position. 
 <div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
----
 
 ### <span style="color:MediumSeaGreen">Rec Letters</span>
 
@@ -145,7 +143,6 @@ Most programs ask for 3 letters, although I’ve seen as low as two, and as many
 
 I contacted my letter writers 6-8 weeks before my first deadline, attaching a rough draft of my research proposal and communicating my general vision for my next career step. Then, about 4-6 weeks before each subsequent deadline, I sent my recommenders the letter submission portal, and a short summary of the position and its unique focus, if relevant. Keeping your writers on track can be the most challenging part of your application — setting recurring reminders and keeping spreadsheets of who has submitted already can help ensure that your letters get uploaded. Watch out for applications that require all letters to be uploaded before submitting; for these, and more generally, it may not hurt to give your letter writers the date you want to submit by, and not the last possible submission time, in order to allow for some leeway.      
 <div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
----
 
 ### <span style="color:MediumSeaGreen">Other Materials</span>
 
