@@ -53,7 +53,7 @@ From my experience, and that of friends who landed similar positions, postdoc fe
 
 ### <span style="color:MediumSeaGreen">When should I start applying?</span>
 
-Getting a fellowship may take over a year of applying. The most egregious in this regard is the [<span style="color:DodgerBlue">HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
+Getting a fellowship may take over a year of applying. The most egregious in this regard is the <span style="color:DodgerBlue">[HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
 
 If you’re aiming to apply to a broad range of fellowships, I would recommend having at least a year left in your current position. For example, I wanted to start a position in the Summer or Fall of 2024, and began reaching out to mentors and outlining my research plan as early as Spring of 2023. If you are only applying for “Independent Postdoc” or “Traditional Postdoc” opportunities, you may have more flexibility and could start later in the summer or early fall, with an eye toward starting the following spring or summer.
 
@@ -76,8 +76,8 @@ That being said, I did apply to a number of positions without previous contact, 
 
 Virtually all applications will require:
 
-- **A Research Statement** (1-3 pages)
-- **3+ Letters of Recommendation**
+- **[A Research Statement](#research-statement)** (1-3 pages)
+- **[3+ Letters of Recommendation](#rec-letters)**
 - **CV**
 
 Some programs may also require:
@@ -89,7 +89,7 @@ Some programs may also require:
 
 ---
 
-### Research Statement
+### <span style="color:MediumSeaGreen">Research Statement</span>
 
 The Research Statement is the cornerstone of your application, where you:
 
@@ -143,7 +143,7 @@ I reached out to my letter writers 6-8 weeks before my first deadline, attaching
 
 ---
 
-### Other Materials (CV/Publication List, Letter of Support, Additional Essays)
+### <span style="color:MediumSeaGreen">Other Materials</span>
 
 #### CV/Publication List
 
@@ -163,12 +163,12 @@ As noted in the Research Statement section, applications obeyed the “Law of Pa
 
 ---
 
-## From Applying to Deciding
+## <span style="color:MediumSeaGreen">From Applying to Deciding</span>
 
 Preparing materials, corralling letter writers, and submitting application after application can feel like a full-time job. Thankfully, once interviews start, the pace picks up, and things move quickly as you (hopefully) balance offers and revisits before making a final decision.
 
 
-### Interviews
+### <span style="color:MediumSeaGreen">Interviews</span>
 
 Your interview visit will likely take place on a weekday and usually starts with a talk, which may be a standalone seminar (1+ hours) or a shorter 15-20 minute presentation if you’re visiting with other candidates. The rest of the day involves meetings with faculty who will decide on your application, as well as students and postdocs who can provide insight into the institute and position. Typically, this turns into a 2-3 day trip: you arrive in the evening, complete your visit the next day (often concluding with dinner), and then fly out the following morning.
 
@@ -176,7 +176,7 @@ Some programs had zoom interviews before the in-person visit. Here, you would gi
 
 For both grad school and postdoc fellowships, interviews were my favorite part of the application process. Being flown out, wined, and dined is a significant investment on the program’s part and usually signals a genuine interest in extending an offer. Rather than focusing on how you’re evaluated, consider that you are also interviewing the program: are these the colleagues you would like to have? Will they provide the support that you’d expect from your next career step? In cases where the interview was my only in-person visit, I asked open-ended questions about the program’s vision, tenure-track transition opportunities, as well as more sensitive questions about hiring loads and decision deadlines. Having this curious mentality, both about the environment and the people, will show your genuine interest, a component nearly equal to your science for landing the position. 
 
-### Offers and Decisions
+### <span style="color:MediumSeaGreen">Offers and Decisions</span>
 
 The top advice I heard during my fellowship search was _**wait until you have an offer on paper**_. It seems tautological, but your decision will have to be between places that also want you, so cast a wide net, and be patient. 
 
