@@ -42,6 +42,7 @@ After landing my first offer, I thought a lot about whether the journey had been
 
 From my experience, and that of friends who landed similar positions, postdoc fellowships are best suited for those who highly value their independence, and are successful working either alone, or in collaboration with a broad range of people. This is generally easiest for those in computational fields, as most fellowships do not cover the astronomical material costs of experiments. Yet, securing your own salary can give you significant flexibility in your research interests to pursue your own research ideas, even in more resource-intensive fields, so do read on!
 <div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents">back to top</a></span></div>
+
 ### What kind of fellowships are there?
 
 1. **Mini Labs** are the most generous fellowships, funding a 2-3 person lab for 3-5 years. These positions offer accelerated independence straight out of graduate school, allowing you to establish a unique research direction while gaining project management and mentoring experience. Additionally, they’re a stepping stone toward early independence grants. Some institutes even aim to transition successful “Mini Labs” into full assistant professor roles, saving you the challenge of moving personnel and equipment. With the large financial commitment behind a “Mini Lab” offer, generally only 1 or 2 positions are available at each institute per year.
