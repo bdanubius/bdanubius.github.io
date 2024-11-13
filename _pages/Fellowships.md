@@ -8,29 +8,29 @@ Know that if you’re thinking of applying for a postdoc fellowship, you’re a 
 
 While support groups for PhD and Faculty applications are plentiful, applying to postdoc fellowships may have been the loneliest time of my career. I am passionate about academia being a positive community, so I write this guide in the hopes that it may shine a light for others exploring alternative postdoc opportunities.
 
-Alongside this guide, I maintain a fellowship list that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
+Alongside this guide, I maintain a [fellowship list](https://docs.google.com/spreadsheets/d/1Zrc1o9gykf6IMeMTZx_CWKPpICjz3k3akPHzosQcIiY/edit?gid=0#gid=0) that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
 
 Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
 ## <span style="color:MediumSeaGreen">Table of Contents</span>
 
-<span style="color:MediumSeaGreen">[General application tips](#general-application-tips)</span>
-  - <span style="color:MediumSeaGreen">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
-  - <span style="color:MediumSeaGreen">[When should I start applying?](#when-should-i-start-applying)</span>
-  - <span style="color:MediumSeaGreen">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
-  - <span style="color:MediumSeaGreen">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
-  - <span style="color:MediumSeaGreen">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
+<span style="color:SlateBlue">[General application tips](#general-application-tips)</span>
+  - <span style="color:DodgerBlue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
+  - <span style="color:DodgerBlue">[When should I start applying?](#when-should-i-start-applying)</span>
+  - <span style="color:DodgerBlue">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
+  - <span style="color:DodgerBlue">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
+  - <span style="color:DodgerBlue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
 
-<span style="color:MediumSeaGreen">[Application components](#application-components)</span>
-  - <span style="color:MediumSeaGreen">[The checklist](#the-checklist)</span>
-  - <span style="color:MediumSeaGreen">[Transcript, CV, Rec Letters](#rec-letters)</span>
-  - <span style="color:MediumSeaGreen">[The Statement of Purpose](#the-statement-of-purpose)</span>
-  - <span style="color:MediumSeaGreen">[The Research Statement](#research-statement)</span>
-  - <span style="color:MediumSeaGreen">[The Diversity/Personal History Statement](#additional-essays)</span>
+<span style="color:SlateBlue">[Application components](#application-components)</span>
+  - <span style="color:DodgerBlue">[The checklist](#the-checklist)</span>
+  - <span style="color:DodgerBlue">[Transcript, CV, Rec Letters](#rec-letters)</span>
+  - <span style="color:DodgerBlue">[The Statement of Purpose](#the-statement-of-purpose)</span>
+  - <span style="color:DodgerBlue">[The Research Statement](#research-statement)</span>
+  - <span style="color:DodgerBlue">[The Diversity/Personal History Statement](#additional-essays)</span>
 
-<span style="color:MediumSeaGreen">[Navigating the Process](#from-applying-to-deciding)</span>
-  - <span style="color:MediumSeaGreen">[Interviews](#interviews)</span>
-  - <span style="color:MediumSeaGreen">[Offers and Decisions](#offers-and-decisions)</span>
+<span style="color:SlateBlue">[Navigating the Process](#from-applying-to-deciding)</span>
+  - <span style="color:DodgerBlue">[Interviews](#interviews)</span>
+  - <span style="color:DodgerBlue">[Offers and Decisions](#offers-and-decisions)</span>
 
 ---
 
