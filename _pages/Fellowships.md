@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /Fellowships/
+permalink: /fellowships/
 author_profile: true
 --- 
 # <span style="color:MediumSeaGreen">Postdoc Fellowships Guide</span>
