@@ -3,8 +3,6 @@ layout: archive
 title: ""
 permalink: /Fellowships/
 author_profile: true
-redirect_from: 
-  - /fellowships/
 --- 
 # <span style="color:MediumSeaGreen">Postdoc Fellowships Guide</span>
 Know that if you’re thinking of applying for a postdoc fellowship, you’re a Rockstar. Heck, you’re a Rockstar even if you don’t get one. Academia is a career rollercoaster, and staying grounded on the ride requires believing in yourself and being open to new opportunities. 
