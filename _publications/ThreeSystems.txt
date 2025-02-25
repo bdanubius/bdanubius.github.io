@@ -1,0 +1,8 @@
+---
+title: "Three systems of circuit formation: assembly, updating and tuning"
+collection: publications
+date: 2025-2-24
+venue: 'Nature Reviews Neuroscience'
+paperurl: 'https://www.nature.com/articles/s41583-025-00910-9'
+citation: 'Barabási, D.L., Ferreira Castro, A., Engert, F. 2025. Three systems of circuit formation: assembly, updating and tuning.'
+---
