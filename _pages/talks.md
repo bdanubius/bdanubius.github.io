@@ -5,6 +5,14 @@ permalink: /presentations/
 author_profile: true
 --- 
 
+Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome. Networks Seminar. Oxford University. 2.11.2025. Invited Speaker.
+
+Complex Computations from Developmental Priors. Physical Networks Sattelite, NetSci. Quebec City Canada. 6.17.2024. Invited Speaker.
+
+Wiring the Brain: An Intersection of Genetics and Physics. Yale University, New Haven, CT. 6.5.2024. Invited Speaker.
+
+Lectures on Brain Development and Evolution of Intelligent Systems. CapoCaccia Workshops toward Neuromorphic Intelligence. Sardinia, Italy. 4.28-5.11.2024. Invited Speaker.
+
 Complex Computations from Developmental Priors. Center for Living Systems, University of Chicago. Chicago, IL. 1.22.2024. Invited Speaker.
 
 Nature over Nurture: How Complex Computations Emerge from Developmental Priors. Rockefeller University. New York, NY. 1.11.2024. Invited Speaker.
