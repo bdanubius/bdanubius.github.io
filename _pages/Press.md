@@ -7,11 +7,11 @@ author_profile: true
 
 Art
 ======
-Brain researcher meets artist on the gallery wall: [Hype and Hyper Profile on 2023 Budapest Exhibit](https://hypeandhyper.com/brain-researcher-meets-artist-on-the-gallery-wall/)
+Brain researcher meets artist on the gallery wall: <span style="color:blue">[Hype and Hyper Profile on 2023 Budapest Exhibit](https://hypeandhyper.com/brain-researcher-meets-artist-on-the-gallery-wall/)</span>
 
-Dániel Barabási’s Artwork on Display: [Harvard News on 2024 Boston Exhibit](https://www.mcb.harvard.edu/department/news/daniel-barabasis-artwork-on-display-this-monday/)
+Dániel Barabási’s Artwork on Display: <span style="color:blue">[Harvard News on 2024 Boston Exhibit](https://www.mcb.harvard.edu/department/news/daniel-barabasis-artwork-on-display-this-monday/)</span>
 
-Graduate Student Daniel Barabasi Opens Neuro-Art Exhibit in Hungary: [Harvard Reflection on 2023 Budapest Exhibit](https://brain.harvard.edu/hbi_news/graduate-student-daniel-barabasi-opens-neuro-art-exhibit-in-hungary/)
+Graduate Student Daniel Barabasi Opens Neuro-Art Exhibit in Hungary: <span style="color:blue">[Harvard Reflection on 2023 Budapest Exhibit](https://brain.harvard.edu/hbi_news/graduate-student-daniel-barabasi-opens-neuro-art-exhibit-in-hungary/)</span>
 
 Papers
 ======
