@@ -15,6 +15,10 @@ Graduate Student Daniel Barabasi Opens Neuro-Art Exhibit in Hungary: [Harvard Re
 
 Papers
 ======
+Innate or Earned? [Harvard Profile on Three Systems of Circuit Formation](https://www.mcb.harvard.edu/department/news/innate-or-earned-rethinking-the-role-of-activity-in-brain-development/)
+
+Harvard scientists just revealed a remarkable fact about brain development: [PsyPost Article on Functional Neural Circuits Emerge in the Absence of Neural Activity](https://www.psypost.org/neuroscience-harvard-scientists-just-revealed-a-remarkable-fact-about-brain-development/)
+
 Nature Over Nurture: [Harvard Profile on Functional Neural Circuits Emerge in the Absence of Neural Activity](https://www.mcb.harvard.edu/department/news/nature-over-nurture-functional-neuronal-circuits-emerge-in-the-absence-of-developmental-activity-engert-lab/)
 
 Awards
