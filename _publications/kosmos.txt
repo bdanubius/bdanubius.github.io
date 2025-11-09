@@ -1,0 +1,8 @@
+---
+title: "Kosmos: An AI Scientist for Autonomous Discovery"
+collection: publications
+date: 2025-11-5
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2511.02824'
+citation: 'Mitchener, L., Yiu, A., Chang, B., Bourdenx, M., Nadolski, T., Sulovari, A., Landsness, E.C., Barabási, D.L., Narayanan, S., Evans, N., Reddy, S., Foiani, M., Kamal, A., Shriver, L.P., Cao, F., Wassie, A.T., Laurent, J.M., Melville-Green, E., Caldas, M., Bou, A., Roberts, K.F., Zagorac, S., Orr, T.C., Orr, M.E., Zwezdaryk, K.J., Ghareeb, A.E., McCoy, L., Gomes, B., Ashley, E.A., Duff, K.E., Buonassisi, T., Rainforth, T., Bateman, R.J., Skarlinski, M., Rodriques, S.G., Hinks, M.M., White, A.D., 2025. Kosmos: An AI Scientist for Autonomous Discovery.'
+---
