@@ -5,6 +5,10 @@ permalink: /presentations/
 author_profile: true
 --- 
 
+Nature over Nurture: How Complex Behaviors Emerge from Neurodevelopmental Priors. University of Stuttgart. 11.3.2025. Invited Speaker.
+
+Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome. Flywire Community Day. Princeton University. 9.15.2025. Invited Speaker.
+
 Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome. Networks Seminar. Oxford University. 2.11.2025. Invited Speaker.
 
 Complex Computations from Developmental Priors. Physical Networks Sattelite, NetSci. Quebec City Canada. 6.17.2024. Invited Speaker.
@@ -74,6 +78,10 @@ A predictive model of the cortical network based on a distance rule. APS Prairie
  
 Posters
 ======
+B. Piazza, Dániel L. Barabási, A. Ferreira Castro, G. Menichetti, A.-L. Barabási. Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome. Analysis and Modeling of Connectomes Conference. Janelia Research Campus. Ashburn, VA. 6.1-4.2025
+
+Dániel L. Barabási, Gregor Schuhknecht, Florian Engert. Complex Computation from Developmental Priors. Developmental Specification of Complex Behaviors Conference. Janelia Research Campus. Ashburn, VA. 10.13-16.2024
+
 Dániel L. Barabási, N. Perez-Nieves, T. Beynon, A. Katona. Complex Computation from Developmental Priors. Bernstein Conference, 2023. Berlin, Germany. Refereed Poster.
 
 Dániel L. Barabási, N. Perez-Nieves, T. Beynon, A. Katona. Complex Computation from Developmental Priors. Computational and Systems Neuroscience (Cosyne) 2023, Montreal, Canada. Refereed Poster.
