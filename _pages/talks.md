@@ -5,6 +5,10 @@ permalink: /presentations/
 author_profile: true
 --- 
 
+SciHarness: Agentic AI for Scientific Workflows. Cambridge University AwAI Day. 3.18.2026. Invited Speaker.
+
+Nature over Nurture: Neural Networks, Biological and Artificial, are Primed for Behavior. Varol Lab, NYU. 3.4.2026. Invited Speaker.
+
 Nature over Nurture: How Complex Behaviors Emerge from Neurodevelopmental Priors. University of Stuttgart. 11.3.2025. Invited Speaker.
 
 Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome. Flywire Community Day. Princeton University. 9.15.2025. Invited Speaker.
