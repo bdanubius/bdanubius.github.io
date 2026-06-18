@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dániel Barabási</title>
+<link rel="stylesheet" href="/assets/css/academicons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  :root {
+    --sans: -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --link: #2c6f80;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: var(--sans); color: #2b2f33; background: #fff; }
+
+  /* ---------- Top nav ---------- */
+  .nav {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: 1.6em;
+    padding: 1.4em 1.8em;
+    color: #fff;
+  }
+  .nav__brand { font-weight: 700; margin-right: auto; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
+  .nav__links { display: inline-flex; align-items: center; gap: 1.9em; }
+  .nav a { color: #fff; text-decoration: none; opacity: .92; text-shadow: 0 1px 6px rgba(0,0,0,.5); font-size: .95rem; white-space: nowrap; }
+  .nav a:hover { opacity: 1; }
+
+  /* Hamburger — hidden on desktop */
+  .nav__toggle {
+    display: none;
+    position: relative;
+    z-index: 50;
+    margin-left: auto;
+    padding: 0.65rem;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .nav__toggle span {
+    display: block;
+    width: 1.35rem;
+    height: 2px;
+    margin: 5px 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.45);
+    transform-origin: center;
+    transition: transform 0.25s ease, opacity 0.2s ease, background 0.2s ease;
+  }
+  .nav__toggle[aria-expanded="true"] {
+    background: rgba(255,255,255,.12);
+    border-radius: 50%;
+  }
+  .nav__toggle[aria-expanded="true"] span {
+    box-shadow: none;
+  }
+  .nav__toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav__toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .nav__toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Mobile menu panel */
+  .nav__mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 40;
+    padding: 4.5rem 1.5rem 2rem;
+    background: rgba(0,0,0,.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+  }
+  .nav__mobile-menu.is-open {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav__mobile-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .nav__mobile-menu li + li { margin-top: 0.25rem; }
+  .nav__mobile-menu a {
+    display: block;
+    padding: 0.85rem 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,.12);
+    text-shadow: none;
+  }
+  .nav__mobile-menu a:hover { opacity: 0.75; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #1c2226;
+    background-image: url(img/candid.jpg);
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    background-position: 32% 26%;
+    overflow: hidden;
+  }
+  .hero__overlay {
+    position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(90deg, rgba(0,0,0,.92) 0%, rgba(0,0,0,.84) 18%, rgba(0,0,0,.62) 38%, rgba(0,0,0,.22) 54%, rgba(0,0,0,0) 64%);
+  }
+  .hero__inner {
+    position: relative; z-index: 2;
+    width: 100%; max-width: 1280px;
+    margin: 0 auto; padding: 7em 2.5em 7em;
+  }
+  .hero__text { max-width: 30rem; }
+  .nowrap { white-space: nowrap; }
+  .hero__eyebrow {
+    margin: 0 0 1.1rem; font-size: .8rem; font-weight: 600;
+    letter-spacing: .2em; text-transform: uppercase; color: #fff;
+    text-shadow: 0 1px 6px rgba(0,0,0,.7);
+  }
+  .hero__name {
+    margin: 0 0 .35em; font-weight: 700; line-height: 1.04;
+    font-size: clamp(2.6rem, 6.5vw, 4.6rem); text-shadow: 0 2px 18px rgba(0,0,0,.45);
+  }
+  .hero__role {
+    margin: 0 0 .25em; font-size: clamp(1.05rem, 2.1vw, 1.45rem); line-height: 1.45;
+    color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,.6);
+  }
+  .hero__affil {
+    margin: 0; font-size: clamp(.95rem, 1.7vw, 1.15rem);
+    color: rgba(255,255,255,.95); text-shadow: 0 1px 8px rgba(0,0,0,.6);
+  }
+  .hero__links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 2rem 0 0; padding: 0; list-style: none; }
+  .hero__links a {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2.6rem; height: 2.6rem; border: 1px solid rgba(255,255,255,.55);
+    border-radius: 50%; color: #fff; font-size: 1.15rem;
+    text-decoration: none; transition: all .2s ease;
+    text-shadow: 0 1px 4px rgba(0,0,0,.7);
+  }
+  .hero__links a:hover { background: #fff; color: #1c2226; border-color: #fff; transform: translateY(-2px); text-shadow: none; }
+  .hero__links .ai,
+  .hero__links .fa { line-height: 1; }
+
+  .show-mobile { display: none; }
+  .hero__name .br-m { display: none; }
+
+  /* ---------- Bio (below hero) ---------- */
+  .below {
+    max-width: 36em;
+    margin: 0 auto;
+    padding: 3.5em 1.5em 5em;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: #3a3f43;
+  }
+  .below p { margin: 0 0 1.5em; }
+  .below ul {
+    margin: 0 0 1.5em;
+    padding-left: 1.25em;
+  }
+  .below li { margin-bottom: 0.65em; }
+  .below a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  .below a:hover { text-decoration: underline; }
+  .below em { font-style: italic; }
+  .below .contact { color: #5a6066; font-size: 1rem; margin-top: 0.5em; }
+
+  @media (max-width: 720px) {
+    .nav {
+      z-index: 60;
+      padding: 1rem 1.1rem;
+      justify-content: flex-end;
+    }
+    .nav__mobile-menu { z-index: 55; }
+    .nav__brand,
+    .nav__links { display: none; }
+    .nav__toggle { display: block; }
+
+    /* Split layout: eyebrow + name at top, role/affil/links at bottom */
+    .hero {
+      align-items: stretch;
+      background-size: cover;
+      /* Anchor crop so the face sits in the radial spotlight (~56% 36%) */
+      background-position: 58% 36%;
+    }
+    /*
+     * Layered mobile scrim (bottom → top):
+     *  1. Radial vignette — transparent over the face, darkens toward edges/jacket
+     *  2. Bottom linear — dark starts just below the chin for text + jacket separation
+     *  3. Top linear — protects eyebrow + name
+     */
+    .hero__overlay {
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.90) 0%, rgba(0,0,0,.52) 14%, rgba(0,0,0,.10) 28%, transparent 38%),
+        linear-gradient(180deg, transparent 44%, rgba(0,0,0,.42) 54%, rgba(0,0,0,.72) 68%, rgba(0,0,0,.94) 100%),
+        radial-gradient(ellipse 72% 48% at 56% 36%, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,.28) 58%, rgba(0,0,0,.68) 100%);
+    }
+    .hero__inner {
+      display: flex; flex-direction: column;
+      padding: 2.5em 1.4em 3em;
+    }
+    .hero__text {
+      flex: 1 1 auto; display: flex; flex-direction: column;
+      justify-content: space-between; max-width: none;
+    }
+    .hero__bottom { margin-top: auto; }
+    .hero__name .br-m { display: inline; }
+    .desktop-only { display: none; }
+    .show-mobile { display: block; }
+  }
+</style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero__overlay"></div>
+
+    <nav class="nav">
+      <span class="nav__brand">Barabási Dániel</span>
+      <span class="nav__links">
+        <a href="/publications/">Publications</a>
+        <a href="/presentations/">Talks</a>
+        <a href="/press/">Press</a>
+        <a href="/fellowships/">Postdoc Fellowship Guide</a>
+      </span>
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <nav class="nav__mobile-menu" id="mobile-menu" aria-label="Site navigation">
+      <ul>
+        <li><a href="/publications/">Publications</a></li>
+        <li><a href="/presentations/">Talks</a></li>
+        <li><a href="/press/">Press</a></li>
+        <li><a href="/fellowships/">Postdoc Fellowship Guide</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__inner">
+      <div class="hero__text">
+        <div class="hero__top">
+          <p class="hero__eyebrow">Connectomics &middot; Neurodevelopment &middot; AI</p>
+          <h1 class="hero__name">Dániel<br class="br-m"> Barabási</h1>
+        </div>
+        <div class="hero__bottom">
+          <p class="hero__role desktop-only"><span class="nowrap">FutureHouse AI-for-Science Fellow</span> &amp; <span class="nowrap">Eric and Wendy Schmidt Fellow</span></p>
+          <p class="hero__role show-mobile">AI-for-Science Fellow</p>
+          <p class="hero__affil">Broad Institute of MIT and Harvard</p>
+          <ul class="hero__links">
+            <li><a href="https://scholar.google.com/citations?user=8DdJgb8AAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/d%C3%A1niel-barab%C3%A1si-9756a5258/" aria-label="LinkedIn" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://instagram.com/danielbarabasi" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/bdanubius" aria-label="Twitter" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="below">
+    <p>I am a <a href="https://www.futurehouse.org/futurehouse-fellowship-program">FutureHouse AI-for-Science Fellow</a> and an <a href="https://www.ericandwendyschmidtcenter.org/">Eric and Wendy Schmidt Fellow</a> at the Broad Institute of MIT and Harvard, where I work with <a href="https://www.wangxiaolab.org/xiao-wang">Xiao Wang</a> and <a href="https://www.buenrostrolab.com/">Jason Buenrostro</a>. I primarily develop methods for connectomic analysis while researching innateness in neurodevelopment and AI. I am part of the 2025 cohorts of <a href="https://www.ericandwendyschmidtcenter.org/updates/schmidt-center-postdoctoral-fellow-daniel-barabasi-named-to-forbes-30-under-30-list">Forbes USA 30 Under 30 Science</a>, Forbes Hungary <a href="https://forbes.hu/extra/forbes-30-30-2025/29-barabasi-daniel/">30 Under 30</a> and <a href="https://forbes.hu/extra/ai25/1-barabasi-daniel">25 Hungarians behind the AI Revolution</a> as well as the 2025 <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/scientific-director/office-of-fellowship-and-training/outstanding-scholars-in-neuroscience-award-program/current-previous-recipients-of-the-nih-outstanding-scholars-in-neuroscience-award-osnap">NIH Outstanding Scholars in Neuroscience Award</a>.</p>
+
+    <p>I am passionate about how theory can accelerate neurodevelopment research, and how neurodev and neuroevolution can inform machine learning and neuroscience models. I have organized three workshops on the topic, at <a href="https://www.cosyne2023neurodev.com/">Cosyne 2023</a>, at an internal event at Harvard in May 2023, and at the <a href="https://bernstein-network.de/bernstein-conference/past-future-bernstein-conferences/bernstein-conference-2023/#hardwired-or-adaptive">Bernstein Computational Neuroscience Conference</a>. I led the Harvard Neurodevelopment Club from 2024 to 2025, and currently organize the <a href="https://www.youtube.com/@BostonTudosklub">Boston Hungarians Science Lectures</a> (since 2021).</p>
+
+    <p>Since 2023, Balázs Csizik and I exhibited <em><a href="https://hypeandhyper.com/brain-researcher-meets-artist-on-the-gallery-wall/">Biophilia</a></em> in Budapest, Boston, New York, Brussels, Stuttgart, and London, in which we reflected on the paralleles between biological and urban growth. See my <a href="https://www.instagram.com/danielbarabasi/">Instagram</a> for latest works.</p>
+
+    <p>I received my PhD (advised by <a href="https://www.engertlab.org/">Florian Engert</a>) from the <a href="https://biophysics.fas.harvard.edu/">Harvard Biophysics Graduate Program</a> in 2024. I received my B.S. in Physics from the <a href="https://physics.nd.edu/">University of Notre Dame</a>, where I worked with <a href="http://obelix.phys.nd.edu/">Zoltán Toroczkai</a> on distance-based network models of brain connectivity (2013&ndash;2017).</p>
+
+    <p>Previously,</p>
+    <ul>
+      <li>I was a <a href="https://www.cshl.edu/research/neuroscience/neuroai/">NeuroAI Scholar</a> at CSHL with <a href="https://www.cshl.edu/research/faculty-staff/anthony-zador/">Tony Zador</a> and <a href="https://www.cshl.edu/research/faculty-staff/alexei-koulakov/">Alex Koulakov</a> (Summer 2021).</li>
+      <li>I worked on a <a href="https://www.training.nih.gov/programs/postbac_irta">Postbaccalaureate Intramural Research Training Award</a> at the <a href="https://www.nimh.nih.gov/index.shtml">National Institute of Mental Health</a> (2017&ndash;2018).</li>
+      <li>As a <a href="https://www.janelia.org/you-janelia/students-postdocs/undergraduate-scholars-program">Janelia Undergraduate Scholar</a>, I modeled fly behavior using Reinforcement Learning with <a href="https://www.janelia.org/lab/hermundstad-lab">Ann Hermundstad</a> and <a href="https://www.janelia.org/lab/jayaraman-lab">Vivek Jayaraman</a> (2017).</li>
+      <li>I participated in the <a href="https://www.cshl.edu/education/undergraduate-research-program/">Undergraduate Research Program</a> at <a href="https://www.cshl.edu/">Cold Spring Harbor Laboratory</a>, optimizing a calcium imaging analysis pipeline with <a href="https://churchlandlab.dgsom.ucla.edu/pages/people">Anne Churchland</a> and <a href="https://biologicalsciences.uchicago.edu/faculty/matthew-kaufman-phd">Matt Kaufman</a> (2016).</li>
+      <li>At MIT, I prototyped methods for reconstructing neurons from Expansion Microscopy with <a href="http://web.mit.edu/amarbles/www/index.html">Adam Marblestone</a> and <a href="http://syntheticneurobiology.org/">Ed Boyden</a> (2015).</li>
+      <li>Even earlier, I assisted with Yeast-Two Hybrid assays of protein-protein interactions with <a href="https://faculty.mdanderson.org/profiles/nidhi_sahni.html">Nidhi Sahni</a> in <a href="https://ccsb.dana-farber.org/marc.html">Marc Vidal</a>&rsquo;s <a href="https://ccsb.dana-farber.org/">Center for Cancer Systems Biology</a> at the <a href="https://www.dana-farber.org/">Dana Farber Cancer Institute</a> (2012), and developed face recognition software for social interaction research with <a href="https://www.media.mit.edu/people/cebrian/overview/">Manuel Cebrian</a> in <a href="https://www.media.mit.edu/people/sandy/overview/">Sandy Pentland</a>&rsquo;s <a href="https://www.media.mit.edu/groups/human-dynamics/overview/">Human Dynamics</a> group at the <a href="https://www.media.mit.edu/">MIT Media Lab</a> (2010).</li>
+    </ul>
+
+    <p class="contact">Page me at barabasi(a)broadinstitute(d)org.</p>
+  </main>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('.nav__toggle');
+    var menu = document.getElementById('mobile-menu');
+    if (!toggle || !menu) return;
+
+    function closeMenu() {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open menu');
+      menu.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', function () {
+      var open = toggle.getAttribute('aria-expanded') === 'true';
+      if (open) {
+        closeMenu();
+      } else {
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Close menu');
+        menu.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeMenu();
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<article class="biophilia">
+
+  <header class="biophilia-splash">
+    <div class="biophilia-splash__frame">
+      <img
+        class="biophilia-splash__photo"
+        src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
+        alt="{{ page.splash.alt }}"
+        width="{{ page.splash.width }}"
+        height="{{ page.splash.height }}"
+      >
+      {% if page.splash.installation %}
+      <span class="biophilia-splash__patch biophilia-splash__patch--dates" aria-hidden="true"></span>
+      <span class="biophilia-splash__patch biophilia-splash__patch--names" aria-hidden="true"></span>
+      {% endif %}
+    </div>
+    <div class="biophilia-splash__meta">
+      <p class="biophilia-splash__artists">Dániel Barabási &amp; Balázs Csizik</p>
+      <p class="biophilia-splash__tagline">Neuroscience &times; urban form</p>
+    </div>
+    <a class="biophilia-back" href="{{ base_path }}/">&larr; barabasi.me</a>
+  </header>
+
+  <section class="biophilia-intro">
+    <div class="biophilia-intro__inner">
+      {{ page.intro | markdownify }}
+    </div>
+  </section>
+
+  {% for work in page.works %}
+    <section class="biophilia-work biophilia-work--{% if work.side == 'right' %}reverse{% else %}normal{% endif %}"{% unless work.accent == 'polychrome' %} style="--accent: {{ work.accent }};"{% endunless %}>
+      <div class="biophilia-work__inner">
+        <p class="biophilia-work__label">{{ work.label }}</p>
+        <div class="biophilia-work__media">
+          <figure class="biophilia-work__figure">
+            <img
+              src="{{ site.baseurl }}/images/biophilia/{{ work.image }}"
+              alt="{{ work.alt }}"
+              loading="lazy"
+              width="{{ work.width | default: 683 }}"
+              height="{{ work.height | default: 1024 }}"
+            >
+          </figure>
+          {% if work.caption %}
+          <figcaption class="biophilia-work__caption">
+            <cite class="biophilia-work__caption-title">{{ work.caption.title }}</cite>,
+            {{ work.caption.year }},
+            {{ work.caption.medium }}
+          </figcaption>
+          {% endif %}
+        </div>
+        <div class="biophilia-work__body">
+          {{ work.body | markdownify }}
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+
+  {% if page.exhibitions %}
+    <footer class="biophilia-footer">
+      <div class="biophilia-footer__inner">
+        <p class="biophilia-footer__heading">Exhibitions</p>
+        <p class="biophilia-footer__list">{{ page.exhibitions | join: " · " }}</p>
+        <p class="biophilia-footer__credit">A collaboration by <strong>Dániel Barabási</strong> and <strong>Balázs Csizik</strong>.</p>
+      </div>
+    </footer>
+  {% endif %}
+
+</article>

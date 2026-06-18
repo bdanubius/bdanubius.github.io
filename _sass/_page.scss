@@ -57,11 +57,24 @@
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.75;
+
+    /* slightly larger, more comfortable reading size on wider screens */
+    @include breakpoint($medium) {
+      font-size: 1.0625em; // ~17px
+    }
   }
 
-  /* paragraph indents */
+  /* keep the reading column to a comfortable measure (~65 chars) */
+  > p,
+  > ul,
+  > ol {
+    max-width: 36em;
+  }
+
+  /* paragraph rhythm */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 1.5em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -69,6 +82,13 @@
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
+    }
+  }
+
+  /* a little more breathing room between list items */
+  ul, ol {
+    li {
+      margin-bottom: 0.65em;
     }
   }
 

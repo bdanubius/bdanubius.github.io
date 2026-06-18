@@ -20,7 +20,7 @@ layout: compress
   gtag('config', 'G-XEB5Y5R84H');
 </script>
 
-  <body>
+  <body class="{% if page.layout == 'home' %}home-splash{% endif %}{% if page.layout == 'biophilia' %} biophilia-page{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

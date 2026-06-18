@@ -1,0 +1,326 @@
+/* ==========================================================================
+   BIOPHILIA — gallery page
+   Type: Inter (UI) + Newsreader (curatorial)
+   ========================================================================== */
+
+$bio-grotesk: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$bio-serif: "Newsreader", Georgia, "Times New Roman", serif;
+
+$bio-space-1: 0.75rem;
+$bio-space-2: 1.5rem;
+$bio-space-3: 2.5rem;
+$bio-space-4: 4rem;
+$bio-space-5: 6rem;
+$bio-space-6: 8rem;
+
+$bio-muted: #6b6b6b;
+$bio-text: #1a1a1a;
+$bio-rule: #d4d4d4;
+
+.biophilia-page {
+  background: #fff;
+  color: $bio-text;
+  font-family: $bio-grotesk;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+
+  .masthead,
+  #main { display: none; }
+}
+
+.biophilia {
+  max-width: 100%;
+}
+
+/* --- Back link --- */
+.biophilia-back {
+  display: block;
+  margin: $bio-space-3 auto 0;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: center;
+  color: $bio-muted;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover { color: $bio-text; }
+}
+
+/* --- Splash: flat white, no filters --- */
+.biophilia-splash {
+  padding: $bio-space-5 $bio-space-4 $bio-space-4;
+  text-align: center;
+  background: #fff;
+}
+
+.biophilia-splash__frame {
+  position: relative;
+  display: inline-block;
+  max-width: min(920px, 100%);
+  margin: 0 auto;
+}
+
+.biophilia-splash__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.biophilia-splash__patch {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+}
+
+.biophilia-splash__patch--dates {
+  right: 14%;
+  bottom: 9.5%;
+  width: 28%;
+  height: 7%;
+}
+
+.biophilia-splash__patch--names {
+  left: 14%;
+  bottom: 9.5%;
+  width: 38%;
+  height: 7%;
+}
+
+.biophilia-splash__meta {
+  margin-top: $bio-space-3;
+}
+
+.biophilia-splash__artists {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: $bio-text;
+}
+
+.biophilia-splash__tagline {
+  margin: $bio-space-1 0 0;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $bio-muted;
+}
+
+/* --- Intro --- */
+.biophilia-intro {
+  padding: $bio-space-5 $bio-space-4;
+  background: #fff;
+}
+
+.biophilia-intro__inner {
+  max-width: 34em;
+  margin: 0 auto;
+  font-family: $bio-serif;
+  font-size: 1.1875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #2c2c2c;
+
+  p { margin: 0; }
+
+  em {
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+/* --- Work sections --- */
+.biophilia-work {
+  padding: $bio-space-5 $bio-space-4;
+  background: #fff;
+
+  & + & {
+    border-top: 1px solid #efefef;
+  }
+}
+
+.biophilia-work__inner {
+  display: grid;
+  gap: $bio-space-2 $bio-space-4;
+  align-items: start;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Desktop: image column + text column; eyebrow → body in text col */
+.biophilia-work--normal .biophilia-work__inner {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "media label"
+    "media body";
+}
+
+.biophilia-work--reverse .biophilia-work__inner {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "label media"
+    "body  media";
+}
+
+.biophilia-work__label {
+  grid-area: label;
+  margin: 0;
+  padding-top: $bio-space-1;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $bio-muted;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 1px;
+    margin-top: $bio-space-2;
+    background: color-mix(in srgb, var(--accent, #{$bio-rule}) 28%, #{$bio-rule});
+  }
+}
+
+.biophilia-work__media {
+  grid-area: media;
+}
+
+.biophilia-work__figure {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+.biophilia-work__caption {
+  margin: $bio-space-2 0 0;
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  color: #949494;
+  text-align: left;
+}
+
+.biophilia-work__caption-title {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.biophilia-work__body {
+  grid-area: body;
+  font-family: $bio-serif;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #333;
+
+  p { margin: 0; }
+}
+
+/* --- Footer --- */
+.biophilia-footer {
+  padding: $bio-space-5 $bio-space-4 $bio-space-6;
+  background: #fff;
+  border-top: 1px solid #efefef;
+  color: $bio-muted;
+}
+
+.biophilia-footer__inner {
+  max-width: 34em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.biophilia-footer__heading {
+  margin: 0 0 $bio-space-2;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #949494;
+}
+
+.biophilia-footer__list {
+  margin: 0 0 $bio-space-3;
+  font-family: $bio-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.biophilia-footer__credit {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: #949494;
+
+  strong {
+    color: #666;
+    font-weight: 500;
+  }
+}
+
+/* --- Mobile: eyebrow → image → caption → text --- */
+@include breakpoint(max-width $medium) {
+  .biophilia-splash {
+    padding: $bio-space-4 $bio-space-2 $bio-space-3;
+  }
+
+  .biophilia-splash__patch--dates {
+    right: 8%;
+    bottom: 8%;
+    width: 34%;
+    height: 8%;
+  }
+
+  .biophilia-splash__patch--names {
+    left: 8%;
+    bottom: 8%;
+    width: 44%;
+    height: 8%;
+  }
+
+  .biophilia-intro {
+    padding: $bio-space-4 $bio-space-2;
+  }
+
+  .biophilia-work {
+    padding: $bio-space-4 $bio-space-2;
+  }
+
+  .biophilia-work__inner {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "label"
+      "media"
+      "body";
+    gap: $bio-space-2;
+  }
+
+  .biophilia-work__label {
+    padding-top: 0;
+  }
+
+  .biophilia-work__figure img {
+    max-height: none;
+  }
+
+  .biophilia-footer {
+    padding: $bio-space-4 $bio-space-2 $bio-space-5;
+  }
+}

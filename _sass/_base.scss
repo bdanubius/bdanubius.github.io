@@ -2,12 +2,19 @@
    BASE ELEMENTS
    ========================================================================== */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
