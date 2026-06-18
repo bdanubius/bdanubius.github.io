@@ -4,38 +4,55 @@ layout: default
 
 {% include base_path %}
 
-<section class="hero" style="background-image: url({{ '/images/portrait.jpg' | prepend: base_path }});">
+<section class="hero" style="background-image: url({{ '/images/candid.jpg' | prepend: base_path }});">
   <div class="hero__overlay"></div>
+
+  <nav class="hero-nav" aria-label="Primary">
+    <span class="hero-nav__brand">Barabási Dániel</span>
+    <span class="hero-nav__links">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </span>
+    <button class="hero-nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="hero-mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <nav class="hero-nav__mobile-menu" id="hero-mobile-menu" aria-label="Site navigation">
+    <ul>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 
   <div class="hero__inner">
     <div class="hero__text">
-      <p class="hero__eyebrow">Connectomics &middot; Neurodevelopment &middot; AI</p>
-      <h1 class="hero__name">{{ site.author.name | default: "Dániel Barabási" }}</h1>
-      <p class="hero__role">FutureHouse AI-for-Science Fellow &amp; Eric and Wendy Schmidt Fellow</p>
-      <p class="hero__affil">Broad Institute of MIT and Harvard</p>
-
-      <ul class="hero__links">
-        {% if site.author.googlescholar %}
-          <li><a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
-        {% endif %}
-        {% if site.author.orcid %}
-          <li><a href="{{ site.author.orcid }}" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid"></i></a></li>
-        {% endif %}
-        {% if site.author.instagram %}
-          <li><a href="https://instagram.com/{{ site.author.instagram }}" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.author.twitter %}
-          <li><a href="https://twitter.com/{{ site.author.twitter }}" aria-label="Twitter" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% endif %}
-        <li><a href="mailto:barabasi@broadinstitute.org" aria-label="Email" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      </ul>
+      <div class="hero__top">
+        <p class="hero__eyebrow">Connectomics &middot; Neurodevelopment &middot; AI</p>
+        <h1 class="hero__name">Dániel<br class="br-m"> Barabási</h1>
+      </div>
+      <div class="hero__bottom">
+        <p class="hero__role hero__role--desktop"><span class="nowrap">FutureHouse AI-for-Science Fellow</span> &amp; <span class="nowrap">Eric and Wendy Schmidt Fellow</span></p>
+        <p class="hero__role hero__role--mobile">AI-for-Science Fellow</p>
+        <p class="hero__affil">Broad Institute of MIT and Harvard</p>
+        <ul class="hero__links">
+          {% if site.author.googlescholar %}
+            <li><a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+          {% endif %}
+          <li><a href="https://www.linkedin.com/in/d%C3%A1niel-barab%C3%A1si-9756a5258/" aria-label="LinkedIn" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          {% if site.author.instagram %}
+            <li><a href="https://instagram.com/{{ site.author.instagram }}" aria-label="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          {% endif %}
+          {% if site.author.twitter %}
+            <li><a href="https://twitter.com/{{ site.author.twitter }}" aria-label="Twitter" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
   </div>
-
-  <a class="hero__scroll" href="#about" aria-label="Scroll to about">
-    <span class="hero__scroll-text">About</span>
-    <span class="hero__scroll-arrow"></span>
-  </a>
 </section>
 
 <div id="main" role="main" class="home-main">
@@ -46,19 +63,8 @@ layout: default
       <section id="about" class="page__content home-section home-bio" itemprop="text">
         {{ content }}
       </section>
-
-      <section class="home-section home-explore">
-        <h2 class="home-section__title">Explore</h2>
-        <div class="home-cards">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-            <a class="home-card" href="{{ domain }}{{ link.url }}">
-              <span class="home-card__title">{{ link.title }}</span>
-              <span class="home-card__arrow">&rarr;</span>
-            </a>
-          {% endfor %}
-        </div>
-      </section>
     </div>
   </article>
 </div>
+
+<script src="{{ '/assets/js/home-hero.js' | prepend: base_path }}"></script>
