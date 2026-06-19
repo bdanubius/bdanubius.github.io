@@ -74,6 +74,10 @@ $biophilia-stacked-max-height: 820px;
   background: #000;
   color: #fff;
 
+  &:has(.hero-nav__mobile-menu.is-open) {
+    overflow: visible;
+  }
+
   .hero-nav {
     position: absolute;
     top: 0;
@@ -89,6 +93,15 @@ $biophilia-stacked-max-height: 820px;
   height: 100%;
   overflow: hidden;
   outline: none;
+  touch-action: pan-y pinch-zoom;
+
+  @media (hover: hover) and (pointer: fine) {
+    cursor: grab;
+
+    &.is-dragging {
+      cursor: grabbing;
+    }
+  }
 }
 
 .biophilia-carousel__track {

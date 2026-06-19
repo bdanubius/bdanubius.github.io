@@ -10,17 +10,27 @@
   }
 }
 
-@mixin splash-hero-nav-inline-menu {
+@mixin splash-hero-nav-bubble-menu {
+  $toggle-slot: 2.75rem;
+
   .hero-nav {
-    flex-wrap: nowrap;
-    gap: 0.5rem;
+    align-items: center;
+    min-height: calc(#{$toggle-slot} + 1.1rem);
+  }
+
+  .hero-nav:has(.hero-nav__mobile-menu.is-open) {
+    overflow: visible;
+    z-index: 80;
+  }
+
+  .hero:has(.hero-nav__mobile-menu.is-open) {
+    overflow: visible;
   }
 
   .hero-nav__brand {
-    order: 1;
     flex: 0 1 auto;
-    min-width: 0;
-    margin-right: 0;
+    align-self: center;
+    line-height: 1.2;
   }
 
   .hero-nav__links {
@@ -29,72 +39,97 @@
 
   .hero-nav__toggle {
     display: block;
-    order: 3;
-    flex: 0 0 auto;
+    flex: 0 0 $toggle-slot;
+    width: $toggle-slot;
+    height: $toggle-slot;
+    margin-left: auto;
+  }
+
+  .hero-nav:has(.hero-nav__toggle[aria-expanded="true"])::after {
+    content: "";
+    flex: 0 0 $toggle-slot;
+    width: $toggle-slot;
+    height: $toggle-slot;
     margin-left: auto;
   }
 
   .hero-nav__toggle[aria-expanded="true"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 76;
     margin-left: 0;
   }
 
   .hero-nav__mobile-menu {
     display: none;
-    position: static;
-    order: 2;
-    flex: 0 1 auto;
-    min-width: 0;
-    margin: 0;
-    padding: 0;
-    background: none;
-    box-shadow: none;
-    border-radius: 0;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
     pointer-events: none;
-    overflow: visible;
 
     &.is-open {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      margin-left: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: auto;
+      bottom: auto;
+      display: block;
+      box-sizing: border-box;
+      width: max-content;
+      min-width: 13.5rem;
+      max-width: calc(100vw - 2.2rem);
+      height: auto;
+      margin: 0;
+      padding: 0.65rem 2.85rem 0.8rem 0.85rem;
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+      transition: none;
+      background: #000;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(#fff, 0.06);
+      border-radius: 0.35rem;
+      box-shadow: 0 14px 36px rgba(#000, 0.72);
+      z-index: 70;
       pointer-events: auto;
-    }
 
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 0.35rem 0.85rem;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0.45rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
 
-    li {
-      margin: 0;
-    }
+      li {
+        width: 100%;
+        margin: 0;
+        text-align: left;
 
-    li + li {
-      margin-top: 0;
-    }
+        + li {
+          margin-top: 0;
+        }
+      }
 
-    a {
-      display: inline;
-      padding: 0;
-      font-size: 0.82rem;
-      font-weight: 500;
-      letter-spacing: 0.02em;
-      white-space: nowrap;
-      border-bottom: 0;
-      line-height: 1.2;
-      text-shadow: 0 1px 6px rgba(#000, 0.5);
+      a {
+        display: block;
+        padding: 0;
+        font-size: 0.82rem;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        line-height: 1.4;
+        white-space: normal;
+        text-align: left;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 0;
+        text-shadow: none;
 
-      &:hover {
-        opacity: 0.75;
+        &:hover {
+          opacity: 0.75;
+        }
       }
     }
   }
@@ -156,53 +191,7 @@ $home-centered-min: $x-large;
       justify-content: flex-end;
     }
 
-    @include splash-hero-nav-inline-menu;
-
-    .hero-nav__toggle[aria-expanded="true"] {
-      position: absolute;
-      top: 0.55rem;
-      right: 0.65rem;
-      z-index: 76;
-      margin-left: 0;
-    }
-
-    .hero-nav__mobile-menu.is-open {
-      position: absolute;
-      top: 0.55rem;
-      right: 0.65rem;
-      left: auto;
-      display: block;
-      flex: none;
-      order: unset;
-      margin: 0;
-      padding: 0.55rem 2.85rem 0.7rem 0.85rem;
-      min-width: 12.5rem;
-      background: rgba(#000, 0.94);
-      border-radius: 0.35rem;
-      box-shadow: 0 10px 28px rgba(#000, 0.45);
-      z-index: 70;
-      pointer-events: auto;
-
-      ul {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 0.45rem;
-        margin: 0;
-        padding: 0;
-      }
-
-      li {
-        width: 100%;
-        text-align: left;
-      }
-
-      a {
-        display: inline-block;
-        text-align: left;
-      }
-    }
+    @include splash-hero-nav-bubble-menu;
 
     .hero__inner {
       max-width: none;
@@ -561,7 +550,7 @@ $home-centered-min: $x-large;
 
   .research-splash,
   .biophilia-splash {
-    @include splash-hero-nav-inline-menu;
+    @include splash-hero-nav-bubble-menu;
   }
 
   .hero-nav__links { display: none; }
