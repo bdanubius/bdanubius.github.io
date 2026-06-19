@@ -301,6 +301,8 @@
 
   .home-splash .hero-nav__brand { display: none; }
 
+  .home-splash .hero-nav { justify-content: flex-end; }
+
   .research-splash .hero-nav__brand { display: block; }
 
   .hero-nav__toggle { display: block; }
