@@ -96,7 +96,7 @@ entries:
   - theme: developmental_priors
     type: talk
     title: "Nature over Nurture: Neural Networks, Biological and Artificial, are Primed for Behavior"
-    detail: "Varol Lab, NYU. 3.4.2026. Invited Speaker."
+    detail: "Varol Lab. 3.4.2026. Invited Speaker."
   - theme: developmental_priors
     type: talk
     title: "Nature over Nurture: How Complex Behaviors Emerge from Neurodevelopmental Priors"
@@ -117,22 +117,6 @@ entries:
     type: talk
     title: "Nature over Nurture: How Complex Computations Emerge from Developmental Priors"
     detail: "Rockefeller University. 1.11.2024. Invited Speaker."
-  - theme: developmental_priors
-    type: talk
-    title: "Complex Computations from Developmental Priors"
-    detail: "NetSI, Northeastern University. 11.14.2023. Invited Speaker."
-  - theme: developmental_priors
-    type: talk
-    title: "Complex Computations from Developmental Priors"
-    detail: "CNNG Symposium, Saint Louis. 9.11.2023. Invited Speaker."
-  - theme: developmental_priors
-    type: talk
-    title: "Complex Computations from Developmental Priors"
-    detail: "Hungarian Machine Learning Meeting. 8.8.2023. Invited Speaker."
-  - theme: developmental_priors
-    type: talk
-    title: "Algoritmikus Agyfejlődés: Veleszületett Viselkedések"
-    detail: "Bioinformatics Seminar, Budapest. 10.27.2022. Invited Speaker."
   - theme: developmental_priors
     type: poster
     title: "Complex Computation from Developmental Priors"

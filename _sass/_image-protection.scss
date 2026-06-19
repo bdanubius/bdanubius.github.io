@@ -1,0 +1,41 @@
+/* ==========================================================================
+   IMAGE PROTECTION — discourage casual save / drag / open (not foolproof)
+   ========================================================================== */
+
+img,
+picture {
+  -webkit-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+figure img,
+.page__hero-image,
+.author__avatar,
+.archive__item-teaser img,
+.sidebar img {
+  pointer-events: none;
+}
+
+/* Home hero uses CSS background-image — shield blocks direct interaction */
+.home-splash .hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.research-splash .hero__media,
+.research-splash .hero__media picture,
+.biophilia-splash .hero__media {
+  pointer-events: none;
+}

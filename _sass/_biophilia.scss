@@ -1,326 +1,432 @@
 /* ==========================================================================
-   BIOPHILIA — gallery page
-   Type: Inter (UI) + Newsreader (curatorial)
+   BIOPHILIA — full-viewport slide carousel (hero + works)
    ========================================================================== */
 
-$bio-grotesk: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$bio-serif: "Newsreader", Georgia, "Times New Roman", serif;
+$biophilia-stacked-max-width: $large;
+$biophilia-stacked-max-height: 820px;
 
-$bio-space-1: 0.75rem;
-$bio-space-2: 1.5rem;
-$bio-space-3: 2.5rem;
-$bio-space-4: 4rem;
-$bio-space-5: 6rem;
-$bio-space-6: 8rem;
+@mixin biophilia-hero-stacked {
+  .biophilia-carousel__slide--hero {
+    .biophilia-carousel__slide-bg,
+    .biophilia-carousel__slide-overlay {
+      display: none;
+    }
+  }
 
-$bio-muted: #6b6b6b;
-$bio-text: #1a1a1a;
-$bio-rule: #d4d4d4;
+  .biophilia-carousel__slide-inner--hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    min-height: 100%;
+    padding:
+      3.5rem
+      0
+      clamp(5.75rem, 13vh, 7rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.biophilia-page {
-  background: #fff;
-  color: $bio-text;
-  font-family: $bio-grotesk;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
+  .biophilia-carousel__hero-media {
+    display: block;
+    flex: 0 0 auto;
+    width: 100%;
 
-  .masthead,
-  #main { display: none; }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  .biophilia-carousel__hero-intro {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: none;
+    text-align: left;
+    color: rgba(#fff, 0.88);
+    font-size: clamp(0.92rem, 2.6vw, 1rem);
+    padding:
+      clamp(1.5rem, 4vh, 2.25rem)
+      1.1rem
+      clamp(1.25rem, 3.5vh, 1.75rem);
+    text-shadow: none;
+  }
+
+  .biophilia-carousel__figure:not(.biophilia-carousel__figure--gallery) img {
+    max-height: min(42vh, 350px);
+  }
 }
 
-.biophilia {
-  max-width: 100%;
-}
-
-/* --- Back link --- */
-.biophilia-back {
-  display: block;
-  margin: $bio-space-3 auto 0;
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  text-align: center;
-  color: $bio-muted;
-  text-decoration: none;
-  transition: color 0.2s ease;
-
-  &:hover { color: $bio-text; }
-}
-
-/* --- Splash: flat white, no filters --- */
 .biophilia-splash {
-  padding: $bio-space-5 $bio-space-4 $bio-space-4;
-  text-align: center;
-  background: #fff;
+  overflow-x: hidden;
 }
 
-.biophilia-splash__frame {
+.biophilia-carousel {
   position: relative;
-  display: inline-block;
-  max-width: min(920px, 100%);
-  margin: 0 auto;
-}
-
-.biophilia-splash__photo {
-  display: block;
   width: 100%;
-  height: auto;
-  background: #fff;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+
+  .hero-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+  }
 }
 
-.biophilia-splash__patch {
+.biophilia-carousel__viewport {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: none;
+}
+
+.biophilia-carousel__track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.biophilia-carousel__slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- Hero slide --- */
+.biophilia-carousel__slide--hero {
+  background: #000;
+}
+
+.biophilia-carousel__slide--hero .biophilia-carousel__slide-bg {
+  background-size: contain;
+  background-position: center 38%;
+}
+
+.biophilia-carousel__slide--hero .biophilia-carousel__slide-overlay {
+  display: none;
+}
+
+.biophilia-carousel__slide-bg {
   position: absolute;
-  background: #fff;
+  inset: 0;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.biophilia-carousel__slide-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(#000, 0.72) 0%,
+    rgba(#000, 0.28) 14%,
+    transparent 24%,
+    transparent 72%,
+    rgba(#000, 0.5) 100%
+  );
 }
 
-.biophilia-splash__patch--dates {
-  right: 14%;
-  bottom: 9.5%;
-  width: 28%;
-  height: 7%;
+.biophilia-carousel__slide-inner {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 100%;
 }
 
-.biophilia-splash__patch--names {
-  left: 14%;
-  bottom: 9.5%;
-  width: 38%;
-  height: 7%;
+.biophilia-carousel__slide-inner--hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding:
+    clamp(4.5rem, 11vh, 5.25em)
+    clamp(1.1rem, 4.5vw, 1.8em)
+    clamp(6.25rem, 16vh, 8rem);
 }
 
-.biophilia-splash__meta {
-  margin-top: $bio-space-3;
-}
-
-.biophilia-splash__artists {
+.biophilia-carousel__hero-media {
+  display: none;
   margin: 0;
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: $bio-text;
 }
 
-.biophilia-splash__tagline {
-  margin: $bio-space-1 0 0;
-  font-size: 0.6875rem;
-  font-weight: 400;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: $bio-muted;
-}
+.biophilia-carousel__hero-intro {
+  max-width: min(36rem, 48vw);
+  font-size: clamp(0.85rem, 1vw, 1rem);
+  line-height: 1.7;
+  text-align: center;
+  color: #000;
+  text-shadow: none;
 
-/* --- Intro --- */
-.biophilia-intro {
-  padding: $bio-space-5 $bio-space-4;
-  background: #fff;
-}
-
-.biophilia-intro__inner {
-  max-width: 34em;
-  margin: 0 auto;
-  font-family: $bio-serif;
-  font-size: 1.1875rem;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #2c2c2c;
-
-  p { margin: 0; }
+  p {
+    margin: 0;
+  }
 
   em {
     font-style: italic;
-    font-weight: 400;
   }
 }
 
-/* --- Work sections --- */
-.biophilia-work {
-  padding: $bio-space-5 $bio-space-4;
-  background: #fff;
-
-  & + & {
-    border-top: 1px solid #efefef;
-  }
+/* --- Work slides --- */
+.biophilia-carousel__slide--work {
+  background: #000;
+  color: rgba(#fff, 0.88);
 }
 
-.biophilia-work__inner {
-  display: grid;
-  gap: $bio-space-2 $bio-space-4;
-  align-items: start;
-  max-width: 960px;
-  margin: 0 auto;
+.biophilia-carousel__slide-inner--work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding:
+    clamp(4.5rem, 11vh, 5.25em)
+    clamp(1rem, 3vw, 1.5em)
+    clamp(5rem, 10vh, 6em);
+  overflow-y: auto;
 }
 
-/* Desktop: image column + text column; eyebrow → body in text col */
-.biophilia-work--normal .biophilia-work__inner {
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "media label"
-    "media body";
-}
-
-.biophilia-work--reverse .biophilia-work__inner {
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "label media"
-    "body  media";
-}
-
-.biophilia-work__label {
-  grid-area: label;
+.biophilia-carousel__figure {
+  flex: 0 0 auto;
   margin: 0;
-  padding-top: $bio-space-1;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: $bio-muted;
-
-  &::after {
-    content: "";
-    display: block;
-    width: 2rem;
-    height: 1px;
-    margin-top: $bio-space-2;
-    background: color-mix(in srgb, var(--accent, #{$bio-rule}) 28%, #{$bio-rule});
-  }
-}
-
-.biophilia-work__media {
-  grid-area: media;
-}
-
-.biophilia-work__figure {
-  margin: 0;
-  padding: 0;
-  background: #fff;
+  max-width: 100%;
 
   img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-width: min(92vw, 56rem);
+    max-height: min(52vh, 500px);
     height: auto;
-    max-height: 70vh;
-    object-fit: contain;
     margin: 0 auto;
+    object-fit: contain;
   }
 }
 
-.biophilia-work__caption {
-  margin: $bio-space-2 0 0;
-  font-size: 0.625rem;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-  line-height: 1.6;
-  color: #949494;
+.biophilia-carousel__figure--gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
+  width: 100%;
+  max-width: min(96vw, 74rem);
+  padding: 0 clamp(0.5rem, 2vw, 1rem);
+
+  img {
+    flex: 0 1 0;
+    width: auto;
+    max-width: min(22vw, 16rem);
+    max-height: min(48vh, 480px);
+    margin: 0;
+  }
+}
+
+.biophilia-carousel__figure--gallery-duo img {
+  max-width: min(32vw, 22rem);
+  max-height: min(52vh, 520px);
+}
+
+.biophilia-carousel__copy {
+  flex: 0 1 auto;
+  max-width: 36rem;
+  width: 100%;
   text-align: left;
 }
 
-.biophilia-work__caption-title {
-  font-style: italic;
-  font-weight: 400;
+.biophilia-carousel__copy-title {
+  margin: 0 0 0.65em;
+  font-family: $sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(#fff, 0.52);
 }
 
-.biophilia-work__body {
-  grid-area: body;
-  font-family: $bio-serif;
-  font-size: 1.0625rem;
+.biophilia-carousel__copy-body {
+  font-size: 0.98rem;
   line-height: 1.75;
-  color: #333;
+  color: rgba(#fff, 0.88);
 
-  p { margin: 0; }
+  p {
+    margin: 0;
+  }
+}
+
+.biophilia-carousel__copy-caption {
+  margin: 0.85em 0 0;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: rgba(#fff, 0.5);
+
+  cite {
+    font-style: italic;
+  }
+}
+
+/* --- Controls --- */
+.biophilia-carousel__ui {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(1rem, 3vh, 1.75rem);
+  z-index: 45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transform: translateX(-50%);
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(#000, 0.42);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.biophilia-carousel--hero-active .biophilia-carousel__ui {
+  background: rgba(#000, 0.35);
+}
+
+.biophilia-carousel__arrow {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid rgba(#fff, 0.35);
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background: rgba(#fff, 0.12);
+    border-color: rgba(#fff, 0.6);
+  }
+
+  &:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+}
+
+.biophilia-carousel__dots {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.biophilia-carousel__dot {
+  width: 0.42rem;
+  height: 0.42rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(#fff, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+
+  &.is-active {
+    transform: scale(1.35);
+    background: #fff;
+  }
 }
 
 /* --- Footer --- */
 .biophilia-footer {
-  padding: $bio-space-5 $bio-space-4 $bio-space-6;
-  background: #fff;
-  border-top: 1px solid #efefef;
-  color: $bio-muted;
-}
-
-.biophilia-footer__inner {
-  max-width: 34em;
+  max-width: 40em;
   margin: 0 auto;
+  padding: 2.5em 1.5em 4em;
+  background: #000;
   text-align: center;
+  color: rgba(#fff, 0.5);
 }
 
 .biophilia-footer__heading {
-  margin: 0 0 $bio-space-2;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: 0.2em;
+  margin: 0 0 0.85em;
+  font-family: $sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #949494;
+  color: rgba(#fff, 0.58);
 }
 
 .biophilia-footer__list {
-  margin: 0 0 $bio-space-3;
-  font-family: $bio-serif;
-  font-size: 1rem;
+  margin: 0 0 1em;
   line-height: 1.7;
-  color: #444;
+  color: rgba(#fff, 0.82);
 }
 
 .biophilia-footer__credit {
   margin: 0;
-  font-size: 0.6875rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  color: #949494;
+  font-size: 0.85rem;
+  color: rgba(#fff, 0.65);
 
   strong {
-    color: #666;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgba(#fff, 0.82);
   }
 }
 
-/* --- Mobile: eyebrow → image → caption → text --- */
+@include breakpoint(max-width $biophilia-stacked-max-width) {
+  @include biophilia-hero-stacked;
+}
+
+@media (max-height: $biophilia-stacked-max-height) {
+  @include biophilia-hero-stacked;
+}
+
 @include breakpoint(max-width $medium) {
-  .biophilia-splash {
-    padding: $bio-space-4 $bio-space-2 $bio-space-3;
+  .biophilia-carousel__figure--gallery {
+    gap: clamp(0.6rem, 2.2vw, 1rem);
+    padding: 0 0.65rem;
+
+    img {
+      flex: 1 1 0;
+      min-width: 0;
+      max-width: none;
+      width: 100%;
+      max-height: min(32vh, 240px);
+    }
   }
 
-  .biophilia-splash__patch--dates {
-    right: 8%;
-    bottom: 8%;
-    width: 34%;
-    height: 8%;
+  .biophilia-carousel__figure--gallery-duo img {
+    max-height: min(34vh, 260px);
+  }
+}
+
+@include breakpoint(max-width 690px) {
+  .biophilia-carousel__figure:not(.biophilia-carousel__figure--gallery) img {
+    max-height: min(38vh, 300px);
   }
 
-  .biophilia-splash__patch--names {
-    left: 8%;
-    bottom: 8%;
-    width: 44%;
-    height: 8%;
+  .biophilia-carousel__figure--gallery img {
+    max-height: min(28vh, 210px);
   }
 
-  .biophilia-intro {
-    padding: $bio-space-4 $bio-space-2;
-  }
-
-  .biophilia-work {
-    padding: $bio-space-4 $bio-space-2;
-  }
-
-  .biophilia-work__inner {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "label"
-      "media"
-      "body";
-    gap: $bio-space-2;
-  }
-
-  .biophilia-work__label {
-    padding-top: 0;
-  }
-
-  .biophilia-work__figure img {
-    max-height: none;
-  }
-
-  .biophilia-footer {
-    padding: $bio-space-4 $bio-space-2 $bio-space-5;
+  .biophilia-carousel__figure--gallery-duo img {
+    max-height: min(30vh, 220px);
   }
 }

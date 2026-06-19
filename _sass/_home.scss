@@ -3,9 +3,59 @@
    ========================================================================== */
 
 .home-splash,
-.research-splash {
+.research-splash,
+.biophilia-splash {
   .masthead {
     display: none !important;
+  }
+}
+
+@mixin splash-hero-nav-local-menu {
+  .hero-nav__links {
+    display: none;
+  }
+
+  .hero-nav__toggle {
+    display: block;
+  }
+
+  .hero-nav__mobile-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    bottom: auto;
+    z-index: 60;
+    width: max-content;
+    min-width: 13rem;
+    margin-top: 0.25rem;
+    padding: 0.35rem 0;
+    border-radius: 0.35rem;
+    background: rgba(#000, 0.94);
+    box-shadow: 0 10px 28px rgba(#000, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+
+    &.is-open {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    a {
+      padding: 0.6rem 1rem;
+      font-size: 0.95rem;
+      border-bottom: 1px solid rgba(#fff, 0.08);
+    }
+
+    li:last-child a {
+      border-bottom: 0;
+    }
   }
 }
 
@@ -65,52 +115,7 @@ $home-centered-min: $x-large;
       justify-content: flex-end;
     }
 
-    .hero-nav__links {
-      display: none;
-    }
-
-    .hero-nav__toggle {
-      display: block;
-    }
-
-    .hero-nav__mobile-menu {
-      position: absolute;
-      top: 100%;
-      right: 0;
-      left: auto;
-      bottom: auto;
-      z-index: 60;
-      width: max-content;
-      min-width: 13rem;
-      margin-top: 0.25rem;
-      padding: 0.35rem 0;
-      border-radius: 0.35rem;
-      background: rgba(#000, 0.94);
-      box-shadow: 0 10px 28px rgba(#000, 0.45);
-      opacity: 0;
-      visibility: hidden;
-      transform: translateY(-6px);
-      transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
-      pointer-events: none;
-
-      &.is-open {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-        pointer-events: auto;
-      }
-
-      a {
-        padding: 0.6rem 1rem;
-        font-size: 0.95rem;
-        border-bottom: 1px solid rgba(#fff, 0.08);
-      }
-
-      li:last-child a {
-        border-bottom: 0;
-      }
-    }
+    @include splash-hero-nav-local-menu;
 
     .hero__inner {
       max-width: none;
@@ -149,32 +154,6 @@ $home-centered-min: $x-large;
   .home-splash {
     .hero {
       align-items: stretch;
-    }
-
-    .hero-nav__mobile-menu {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: auto;
-      min-width: 0;
-      margin-top: 0;
-      padding: 4.5rem 1.5rem 2rem;
-      border-radius: 0;
-      box-shadow: none;
-      transform: none;
-      transition: opacity 0.25s ease, visibility 0.25s ease;
-
-      &.is-open {
-        transform: none;
-      }
-
-      a {
-        padding: 0.85rem 0;
-        font-size: 1.05rem;
-        border-bottom: 1px solid rgba(#fff, 0.12);
-      }
     }
 
     .hero__inner {
@@ -493,9 +472,22 @@ $home-centered-min: $x-large;
     justify-content: space-between;
   }
 
-  .hero-nav__mobile-menu { z-index: 55; }
+  .research-splash,
+  .biophilia-splash {
+    @include splash-hero-nav-local-menu;
+  }
 
   .hero-nav__links { display: none; }
+
+  .hero-nav__toggle {
+    display: block;
+    z-index: 70;
+  }
+
+  .research-splash .hero-nav__mobile-menu,
+  .biophilia-splash .hero-nav__mobile-menu {
+    z-index: 65;
+  }
 
   .home-splash .hero-nav__brand { display: none; }
 
@@ -503,7 +495,7 @@ $home-centered-min: $x-large;
 
   .research-splash .hero-nav__brand { display: block; }
 
-  .hero-nav__toggle { display: block; }
+  .biophilia-splash .hero-nav__brand { display: block; }
 
   .hero {
     align-items: stretch;

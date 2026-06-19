@@ -1,13 +1,16 @@
 ---
-permalink: /biophilia/
-title: "Biophilia"
+permalink: /art/
+title: "Art"
 layout: biophilia
 author_profile: false
+redirect_from:
+  - /biophilia/
+  - /press/
 splash:
-  image: convergence.jpg
-  alt: "Periwinkle neuron woven through bridge cables and a tower"
-  width: 1024
-  height: 682
+  image: splash.jpg
+  alt: "Biophilia installation with hand-lettered wordmark and two framed works"
+  width: 3000
+  height: 2000
   installation: false
 intro: |
   *Biophilia*, defined by Harvard biologist E.O. Wilson in 1984, captures humanity's innate urge to connect — both to each other and to the nature around us. Our work builds from these same principles, examining our connections to people, places, and concepts. Barabási, a neuroscientist, animates the body's image in the language of neural network science, while Csizik shapes the city's lifeless image into living tissue through artistic intervention.
@@ -16,10 +19,19 @@ works:
   - label: "§1 · Belonging & Displacement"
     side: left
     accent: "#00e3d1"
-    image: belonging.jpg
-    alt: "Teal neuron arching over an elderly couple at a lakeside"
-    width: 682
-    height: 1024
+    images:
+      - file: belonging1.jpg
+        alt: "Magenta neuron over a Transylvanian wooden chapel and bell tower"
+        width: 2000
+        height: 3000
+      - file: belonging2.jpg
+        alt: "Red neural form over a stone figure on a hillside"
+        width: 2001
+        height: 3000
+      - file: belonging3.jpg
+        alt: "Teal neuron arching over an elderly couple at a lakeside"
+        width: 2000
+        height: 3000
     caption:
       title: "Belonging & Displacement"
       year: "2023"
@@ -30,10 +42,19 @@ works:
   - label: "§2 · Disease & Disorder"
     side: right
     accent: "#796aeb"
-    image: disease.jpg
-    alt: "Violet-lit balconies on a Boston high-rise"
-    width: 682
-    height: 1024
+    images:
+      - file: disease1.jpg
+        alt: "Violet neural branches over a Boston high-rise facade"
+        width: 2000
+        height: 3000
+      - file: disease2.jpg
+        alt: "Disordered neuron overlay on urban balconies at night"
+        width: 2001
+        height: 3000
+      - file: disease3.jpg
+        alt: "Fragmented neural network mapped onto a trembling tower"
+        width: 2000
+        height: 3000
     caption:
       title: "Disease & Disorder"
       year: "2023"
@@ -44,10 +65,15 @@ works:
   - label: "§3 · Growth & Structure"
     side: left
     accent: polychrome
-    image: growth.jpg
-    alt: "Multicolored neurons drawn on New York fire escapes"
-    width: 683
-    height: 1024
+    images:
+      - file: growth1.jpg
+        alt: "Constructivist neuron composition in geometric stillness"
+        width: 2001
+        height: 3000
+      - file: growth2.jpg
+        alt: "Multicolored neurons drawn on New York fire escapes"
+        width: 2000
+        height: 3000
     caption:
       title: "Growth & Structure"
       year: "2023"
@@ -58,10 +84,15 @@ works:
   - label: "§4 · Convergence"
     side: right
     accent: "#9b95e0"
-    image: splash.jpg
-    alt: "Biophilia installation with hand-lettered wordmark and two framed works"
-    width: 1024
-    height: 682
+    images:
+      - file: convergence1.jpg
+        alt: "Periwinkle neuron woven through bridge cables and a tower"
+        width: 3000
+        height: 2000
+      - file: convergence2.jpg
+        alt: "Neural network organizing along urban infrastructure"
+        width: 3000
+        height: 2000
     caption:
       title: "Convergence"
       year: "2023"

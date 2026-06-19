@@ -46,20 +46,30 @@ layout: default
       {% for theme in rs.past_work.themes %}
         {% assign theme_talks = site.data.research_talks.entries | where: "theme", theme.id %}
         {% assign theme_talk_items = theme_talks | where: "type", "talk" %}
+        {% assign invited_talks = theme_talk_items | where_exp: "item", "item.detail contains 'Invited Speaker'" %}
         <section class="research-theme" id="{{ theme.id }}">
           <h3 class="research-theme__title">{{ theme.title }}</h3>
           <div class="research-theme__description">{{ theme.description | markdownify }}</div>
 
-          {% if theme_talk_items.size > 0 %}
-            <h4 class="research-theme__label">Selected talks</h4>
-            <ul class="research-list research-list--talks">
-              {% for entry in theme_talk_items %}
-                <li class="research-list__item">
-                  <span class="research-list__title">{{ entry.title }}</span>.
-                  <span class="research-list__detail">{{ entry.detail }}</span>
-                </li>
-              {% endfor %}
-            </ul>
+          {% if invited_talks.size > 0 %}
+            <details class="research-talks-toggle">
+              <summary class="research-theme__label">
+                <span class="research-talks-toggle__arrow" aria-hidden="true"></span>
+                <span class="research-talks-toggle__label">Selected talks</span>
+              </summary>
+              <div class="research-talks-toggle__panel">
+                <div class="research-talks-toggle__content">
+                  <ul class="research-list research-list--talks">
+                    {% for entry in invited_talks %}
+                      <li class="research-list__item">
+                        <span class="research-list__title">{{ entry.title }}</span>.
+                        <span class="research-list__detail">{{ entry.detail }}</span>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </details>
           {% endif %}
         </section>
       {% endfor %}

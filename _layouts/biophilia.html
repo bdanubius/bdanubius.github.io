@@ -4,72 +4,102 @@ layout: default
 
 {% include base_path %}
 
-<article class="biophilia">
+<section class="biophilia-carousel" id="art-content" role="main" aria-label="Art" data-carousel>
+  {% include hero-nav.html %}
 
-  <header class="biophilia-splash">
-    <div class="biophilia-splash__frame">
-      <img
-        class="biophilia-splash__photo"
-        src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
-        alt="{{ page.splash.alt }}"
-        width="{{ page.splash.width }}"
-        height="{{ page.splash.height }}"
-      >
-      {% if page.splash.installation %}
-      <span class="biophilia-splash__patch biophilia-splash__patch--dates" aria-hidden="true"></span>
-      <span class="biophilia-splash__patch biophilia-splash__patch--names" aria-hidden="true"></span>
-      {% endif %}
-    </div>
-    <div class="biophilia-splash__meta">
-      <p class="biophilia-splash__artists">Dániel Barabási &amp; Balázs Csizik</p>
-      <p class="biophilia-splash__tagline">Neuroscience &times; urban form</p>
-    </div>
-    <a class="biophilia-back" href="{{ base_path }}/">&larr; barabasi.me</a>
-  </header>
-
-  <section class="biophilia-intro">
-    <div class="biophilia-intro__inner">
-      {{ page.intro | markdownify }}
-    </div>
-  </section>
-
-  {% for work in page.works %}
-    <section class="biophilia-work biophilia-work--{% if work.side == 'right' %}reverse{% else %}normal{% endif %}"{% unless work.accent == 'polychrome' %} style="--accent: {{ work.accent }};"{% endunless %}>
-      <div class="biophilia-work__inner">
-        <p class="biophilia-work__label">{{ work.label }}</p>
-        <div class="biophilia-work__media">
-          <figure class="biophilia-work__figure">
+  <div class="biophilia-carousel__viewport" tabindex="0">
+    <div class="biophilia-carousel__track">
+      <article class="biophilia-carousel__slide biophilia-carousel__slide--hero" data-index="0">
+        <div
+          class="biophilia-carousel__slide-bg"
+          style="background-image: url({{ site.baseurl }}/images/biophilia/{{ page.splash.image }});"
+          aria-hidden="true"
+        ></div>
+        <div class="biophilia-carousel__slide-overlay"></div>
+        <div class="biophilia-carousel__slide-inner biophilia-carousel__slide-inner--hero">
+          <figure class="biophilia-carousel__hero-media">
             <img
-              src="{{ site.baseurl }}/images/biophilia/{{ work.image }}"
-              alt="{{ work.alt }}"
-              loading="lazy"
-              width="{{ work.width | default: 683 }}"
-              height="{{ work.height | default: 1024 }}"
+              src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
+              {% if page.splash.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ page.splash.image_2x }} 2x"{% endif %}
+              alt="{{ page.splash.alt }}"
+              width="{{ page.splash.width }}"
+              height="{{ page.splash.height }}"
+              draggable="false"
             >
           </figure>
-          {% if work.caption %}
-          <figcaption class="biophilia-work__caption">
-            <cite class="biophilia-work__caption-title">{{ work.caption.title }}</cite>,
-            {{ work.caption.year }},
-            {{ work.caption.medium }}
-          </figcaption>
+          {% if page.intro != "" %}
+            <div class="biophilia-carousel__hero-intro">
+              {{ page.intro | markdownify }}
+            </div>
           {% endif %}
         </div>
-        <div class="biophilia-work__body">
-          {{ work.body | markdownify }}
-        </div>
-      </div>
-    </section>
-  {% endfor %}
+      </article>
 
-  {% if page.exhibitions %}
-    <footer class="biophilia-footer">
-      <div class="biophilia-footer__inner">
-        <p class="biophilia-footer__heading">Exhibitions</p>
-        <p class="biophilia-footer__list">{{ page.exhibitions | join: " · " }}</p>
-        <p class="biophilia-footer__credit">A collaboration by <strong>Dániel Barabási</strong> and <strong>Balázs Csizik</strong>.</p>
-      </div>
-    </footer>
-  {% endif %}
+      {% for work in page.works %}
+        <article class="biophilia-carousel__slide biophilia-carousel__slide--work" data-index="{{ forloop.index }}">
+          <div class="biophilia-carousel__slide-inner biophilia-carousel__slide-inner--work">
+            <figure class="biophilia-carousel__figure{% if work.images %} biophilia-carousel__figure--gallery{% if work.images.size == 2 %} biophilia-carousel__figure--gallery-duo{% endif %}{% endif %}">
+              {% if work.images %}
+                {% for img in work.images %}
+                  <img
+                    src="{{ site.baseurl }}/images/biophilia/{{ img.file }}"
+                    {% if img.file_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ img.file }} 1x, {{ site.baseurl }}/images/biophilia/{{ img.file_2x }} 2x"{% endif %}
+                    alt="{{ img.alt }}"
+                    loading="lazy"
+                    width="{{ img.width | default: 683 }}"
+                    height="{{ img.height | default: 1024 }}"
+                    draggable="false"
+                  >
+                {% endfor %}
+              {% else %}
+              <img
+                src="{{ site.baseurl }}/images/biophilia/{{ work.image }}"
+                {% if work.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ work.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ work.image_2x }} 2x"{% endif %}
+                alt="{{ work.alt }}"
+                loading="lazy"
+                width="{{ work.width | default: 683 }}"
+                height="{{ work.height | default: 1024 }}"
+                draggable="false"
+              >
+              {% endif %}
+            </figure>
+            <div class="biophilia-carousel__copy">
+              <h2 class="biophilia-carousel__copy-title">{{ work.label }}</h2>
+              <div class="biophilia-carousel__copy-body">
+                {{ work.body | markdownify }}
+              </div>
+              {% if work.caption %}
+                <p class="biophilia-carousel__copy-caption">
+                  <cite>{{ work.caption.title }}</cite>,
+                  {{ work.caption.year }},
+                  {{ work.caption.medium }}
+                </p>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
 
-</article>
+  <div class="biophilia-carousel__ui">
+    <button class="biophilia-carousel__arrow biophilia-carousel__arrow--prev" type="button" aria-label="Previous slide">
+      <span aria-hidden="true">&larr;</span>
+    </button>
+    <nav class="biophilia-carousel__dots" aria-label="Slide pagination"></nav>
+    <button class="biophilia-carousel__arrow biophilia-carousel__arrow--next" type="button" aria-label="Next slide">
+      <span aria-hidden="true">&rarr;</span>
+    </button>
+  </div>
+</section>
+
+{% if page.exhibitions %}
+  <footer class="biophilia-footer">
+    <p class="biophilia-footer__heading">Exhibitions</p>
+    <p class="biophilia-footer__list">{{ page.exhibitions | join: " · " }}</p>
+    <p class="biophilia-footer__credit">A collaboration by <strong>Dániel Barabási</strong> and <strong>Balázs Csizik</strong>.</p>
+  </footer>
+{% endif %}
+
+<script src="{{ '/assets/js/home-hero.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/biophilia-carousel.js' | relative_url }}"></script>
