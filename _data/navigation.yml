@@ -3,11 +3,14 @@ main:
   - title: "Research"
     url: /research/
     home_order: 2
+    research_order: 2
 
   - title: "Art"
     url: /art/
     home_order: 1
+    research_order: 1
 
   - title: "Fellowships"
     url: /fellowships/
     home_order: 3
+    research_order: 3

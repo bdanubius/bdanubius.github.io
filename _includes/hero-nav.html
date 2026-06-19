@@ -2,6 +2,8 @@
 
 {% if page.url == '/' %}
   {% assign nav_links = site.data.navigation.main | sort: 'home_order' %}
+{% elsif page.url == '/research/' %}
+  {% assign nav_links = site.data.navigation.main | sort: 'research_order' %}
 {% else %}
   {% assign nav_links = site.data.navigation.main %}
 {% endif %}
@@ -9,27 +11,51 @@
 <nav class="hero-nav" aria-label="Primary">
   <a class="hero-nav__brand" href="{{ base_path }}/">Barabási Dániel</a>
   <span class="hero-nav__links">
-    {% for link in nav_links %}
-      {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-      {% unless page.url == link.url %}
-        <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-      {% endunless %}
-    {% endfor %}
+    {% if page.url == '/research/' %}
+      {% for link in nav_links %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        {% unless page.url == link.url %}
+          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% if link.research_order == 1 %}
+            <a href="{{ base_path }}/">Home</a>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% else %}
+      {% for link in nav_links %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        {% unless page.url == link.url %}
+          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
   </span>
   <button class="hero-nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="hero-mobile-menu">
     <span></span><span></span><span></span>
   </button>
   <div class="hero-nav__mobile-menu" id="hero-mobile-menu" role="navigation" aria-label="Site navigation">
     <ul>
-      {% unless page.url == '/' %}
-        <li><a href="{{ base_path }}/">Home</a></li>
-      {% endunless %}
-      {% for link in nav_links %}
-        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-        {% unless page.url == link.url %}
-          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+      {% if page.url == '/research/' %}
+        {% for link in nav_links %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          {% unless page.url == link.url %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.research_order == 1 %}
+              <li><a href="{{ base_path }}/">Home</a></li>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      {% else %}
+        {% unless page.url == '/' %}
+          <li><a href="{{ base_path }}/">Home</a></li>
         {% endunless %}
-      {% endfor %}
+        {% for link in nav_links %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          {% unless page.url == link.url %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
     </ul>
   </div>
 </nav>
