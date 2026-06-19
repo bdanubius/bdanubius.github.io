@@ -299,7 +299,9 @@
 
   .hero-nav__links { display: none; }
 
-  .hero-nav__brand { display: block; }
+  .home-splash .hero-nav__brand { display: none; }
+
+  .research-splash .hero-nav__brand { display: block; }
 
   .hero-nav__toggle { display: block; }
 

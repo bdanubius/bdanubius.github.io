@@ -6,7 +6,10 @@ layout: default
 
 <section class="hero hero--image">
   <div class="hero__media" aria-hidden="true">
-    <img class="hero__photo" src="{{ '/images/research-hero.jpg' | relative_url }}" alt="">
+    <picture>
+      <source media="(max-width: 768px)" srcset="{{ '/images/research-hero-mobile.jpg' | relative_url }}">
+      <img class="hero__photo" src="{{ '/images/research-hero.jpg' | relative_url }}" alt="" width="1920" height="1296" decoding="async" fetchpriority="high">
+    </picture>
   </div>
   <div class="hero__overlay"></div>
 
