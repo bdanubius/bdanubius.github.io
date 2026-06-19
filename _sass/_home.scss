@@ -9,6 +9,49 @@
   }
 }
 
+/* Home splash: eyebrow + name anchored top; role/affil/links bottom */
+.home-splash {
+  --hero-inset-x: clamp(1.1rem, 4.5vw, 2.5em);
+  --hero-inset-top: clamp(4rem, 9vh, 5.25em);
+  --hero-inset-bottom: clamp(2rem, 4vh, 3em);
+
+  .hero {
+    align-items: flex-start;
+  }
+
+  .hero__inner {
+    max-width: none;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: var(--hero-inset-top) var(--hero-inset-x) var(--hero-inset-bottom);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__text {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: min(36rem, 92vw);
+  }
+
+  .hero__top {
+    flex: 0 0 auto;
+  }
+
+  .hero__bottom {
+    margin-top: auto;
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 0.85rem;
+  }
+}
+
 /* --- Hero --- */
 .hero {
   position: relative;
@@ -289,6 +332,11 @@
 
 /* --- Mobile --- */
 @include breakpoint(max-width $medium) {
+  .home-splash {
+    --hero-inset-top: clamp(1.1rem, 3vh, 1.25rem);
+    --hero-inset-x: 1.4em;
+  }
+
   .hero-nav {
     z-index: 60;
     padding: 1rem 1.1rem;
