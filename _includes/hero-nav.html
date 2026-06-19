@@ -13,17 +13,17 @@
   <button class="hero-nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="hero-mobile-menu">
     <span></span><span></span><span></span>
   </button>
-</nav>
-<nav class="hero-nav__mobile-menu" id="hero-mobile-menu" aria-label="Site navigation">
-  <ul>
-    {% unless page.url == '/' %}
-      <li><a href="{{ base_path }}/">Home</a></li>
-    {% endunless %}
-    {% for link in site.data.navigation.main %}
-      {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-      {% unless page.url == link.url %}
-        <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+  <div class="hero-nav__mobile-menu" id="hero-mobile-menu" role="navigation" aria-label="Site navigation">
+    <ul>
+      {% unless page.url == '/' %}
+        <li><a href="{{ base_path }}/">Home</a></li>
       {% endunless %}
-    {% endfor %}
-  </ul>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        {% unless page.url == link.url %}
+          <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
