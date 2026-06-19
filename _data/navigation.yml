@@ -2,9 +2,12 @@
 main:
   - title: "Research"
     url: /research/
+    home_order: 2
 
   - title: "Art"
     url: /art/
+    home_order: 1
 
-  - title: "Postdoc Fellowship Guide"
+  - title: "Fellowships"
     url: /fellowships/
+    home_order: 3

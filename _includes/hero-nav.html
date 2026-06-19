@@ -1,9 +1,15 @@
 {% include base_path %}
 
+{% if page.url == '/' %}
+  {% assign nav_links = site.data.navigation.main | sort: 'home_order' %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+{% endif %}
+
 <nav class="hero-nav" aria-label="Primary">
   <a class="hero-nav__brand" href="{{ base_path }}/">Barabási Dániel</a>
   <span class="hero-nav__links">
-    {% for link in site.data.navigation.main %}
+    {% for link in nav_links %}
       {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
       {% unless page.url == link.url %}
         <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
@@ -18,7 +24,7 @@
       {% unless page.url == '/' %}
         <li><a href="{{ base_path }}/">Home</a></li>
       {% endunless %}
-      {% for link in site.data.navigation.main %}
+      {% for link in nav_links %}
         {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
         {% unless page.url == link.url %}
           <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
