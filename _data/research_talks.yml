@@ -1,0 +1,203 @@
+# Selected talks and posters grouped by research theme.
+# Format: theme, title, detail (venue · date · role)
+
+entries:
+  # --- Molecular rules ---
+  - theme: molecular_rules
+    type: talk
+    title: "Wiring the Brain: An Intersection of Genetics and Physics"
+    detail: "Yale University. 6.5.2024. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "Nature over Nurture: Inferring genetic priors of connectivity"
+    detail: "Biozentrum, Basel. 12.6.2022. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "Genetically Driven Wiring of the Connectome"
+    detail: "Neuroscience Meets Network Science Kavli Salon, Los Angeles. 10.4.2022. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "Wiring the Brain: An Intersection of Genetics and Physics"
+    detail: "Notre Dame Condensed Matter Seminar. 12.9.2021. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "A genetically-encoded connectome model for neural network evolution"
+    detail: "NAISys, CSHL Virtual Conference. 11.9.2020."
+  - theme: molecular_rules
+    type: talk
+    title: "From Genes to Connectome: Guiding the Search for Developmental Principles"
+    detail: "Institute of Experimental Medicine, Budapest. 10.7.2020. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "A Genetic Model of the Connectome"
+    detail: "neuromatch.io. 3.30.2020."
+  - theme: molecular_rules
+    type: talk
+    title: "Wiring the Brain: An Intersection of Genetics and Physics"
+    detail: "Wigner Research Center for Physics, Budapest. 12.15.2020. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "Bicliques in the Brain: Genetically Driven Wiring of the Connectome"
+    detail: "DYNASNET Workshop, Budapest. 9.23.2019."
+  - theme: molecular_rules
+    type: talk
+    title: "Bicliques in the Brain: Genetically Driven Wiring of the Connectome"
+    detail: "NetSci, Burlington, VT. 5.28.2019."
+  - theme: molecular_rules
+    type: talk
+    title: "Genetically Driven Wiring of the Connectome"
+    detail: "Evolution of Complex Life, Georgia Tech. 5.16.2019."
+  - theme: molecular_rules
+    type: talk
+    title: "Genetically Driven Wiring of the C. elegans Connectome"
+    detail: "CIRCS Seminar, Northeastern University. 10.30.2018. Invited Speaker."
+  - theme: molecular_rules
+    type: talk
+    title: "Genetically Driven Wiring of the C. elegans Connectome"
+    detail: "CCSB/UMass Med Retreat. 9.18.2018."
+  - theme: molecular_rules
+    type: talk
+    title: "A Generative Model for Cortical Networks"
+    detail: "JTheory Group, Janelia Research Campus. 7.18.2017."
+  - theme: molecular_rules
+    type: talk
+    title: "A Generative Model for Cortical Networks"
+    detail: "MIT Computational Biology Group. 5.23.2017."
+  - theme: molecular_rules
+    type: talk
+    title: "A Generative Model for Cortical Networks"
+    detail: "College of Science Joint Annual Meeting, Notre Dame. 5.5.2017."
+  - theme: molecular_rules
+    type: talk
+    title: "Cortical Network Analysis from Retrograde Tracing Experiments"
+    detail: "APS March Meeting, New Orleans. 3.20.2017."
+  - theme: molecular_rules
+    type: talk
+    title: "Cortical Network Analysis from Retrograde Tracing Experiments"
+    detail: "NIMH Critical Brain Dynamics Section. 1.12.2017."
+  - theme: molecular_rules
+    type: talk
+    title: "A predictive model of the cortical network based on a distance rule"
+    detail: "APS Prairie Section Meeting, Notre Dame. 11.19.2015."
+  - theme: molecular_rules
+    type: poster
+    title: "Genetically Driven Wiring of the C. elegans Connectome"
+    detail: "Cosyne 2019, Lisbon. Refereed Poster."
+  - theme: molecular_rules
+    type: poster
+    title: "A Generative Model for Cortical Networks"
+    detail: "Connectomes Conference, Janelia. 5.22.2018."
+  - theme: molecular_rules
+    type: poster
+    title: "A Generative Model for Cortical Networks"
+    detail: "Society for Neuroscience, Washington, DC. 11.15.2017."
+
+  # --- Developmental priors ---
+  - theme: developmental_priors
+    type: talk
+    title: "Nature over Nurture: Neural Networks, Biological and Artificial, are Primed for Behavior"
+    detail: "Varol Lab, NYU. 3.4.2026. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Nature over Nurture: How Complex Behaviors Emerge from Neurodevelopmental Priors"
+    detail: "University of Stuttgart. 11.3.2025. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Complex Computations from Developmental Priors"
+    detail: "Physical Networks Satellite, NetSci, Quebec City. 6.17.2024. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Lectures on Brain Development and Evolution of Intelligent Systems"
+    detail: "CapoCaccia Workshops toward Neuromorphic Intelligence, Sardinia. 4.28–5.11.2024. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Complex Computations from Developmental Priors"
+    detail: "Center for Living Systems, University of Chicago. 1.22.2024. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Nature over Nurture: How Complex Computations Emerge from Developmental Priors"
+    detail: "Rockefeller University. 1.11.2024. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Complex Computations from Developmental Priors"
+    detail: "NetSI, Northeastern University. 11.14.2023. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Complex Computations from Developmental Priors"
+    detail: "CNNG Symposium, Saint Louis. 9.11.2023. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Complex Computations from Developmental Priors"
+    detail: "Hungarian Machine Learning Meeting. 8.8.2023. Invited Speaker."
+  - theme: developmental_priors
+    type: talk
+    title: "Algoritmikus Agyfejlődés: Veleszületett Viselkedések"
+    detail: "Bioinformatics Seminar, Budapest. 10.27.2022. Invited Speaker."
+  - theme: developmental_priors
+    type: poster
+    title: "Complex Computation from Developmental Priors"
+    detail: "Developmental Specification of Complex Behaviors Conference, Janelia. 10.13–16.2024."
+  - theme: developmental_priors
+    type: poster
+    title: "Complex Computation from Developmental Priors"
+    detail: "Bernstein Conference, Berlin. 2023. Refereed Poster."
+  - theme: developmental_priors
+    type: poster
+    title: "Complex Computation from Developmental Priors"
+    detail: "Cosyne 2023, Montreal. Refereed Poster."
+
+  # --- Experimental validation ---
+  - theme: experimental_validation
+    type: talk
+    title: "Nature over Nurture: How Complex Behaviors Emerge in the Absence of Activity"
+    detail: "WorldWideNeuRise. 4.5.2023. Invited Speaker."
+  - theme: experimental_validation
+    type: talk
+    title: "Nature over Nurture: Functional circuits emerge in the absence of activity"
+    detail: "FMI, Basel. 12.9.2022. Invited Speaker."
+  - theme: experimental_validation
+    type: talk
+    title: "Nature over Nurture: Functional circuits emerge in the absence of activity"
+    detail: "Institute of Neuroinformatics, Zurich. 12.8.2022. Invited Speaker."
+  - theme: experimental_validation
+    type: talk
+    title: "Nature over Nurture: Functional circuits emerge in the absence of activity"
+    detail: "MRC Laboratory of Molecular Biology, Cambridge. 11.8.2022. Invited Speaker."
+  - theme: experimental_validation
+    type: talk
+    title: "Emergence of functional circuits in the absence of neural activity"
+    detail: "NAISYS, CSHL. 4.5.2022."
+  - theme: experimental_validation
+    type: poster
+    title: "Emergence of functional circuits in the absence of neural activity"
+    detail: "Cosyne 2022, Lisbon. Refereed Poster."
+
+  # --- Connectome architecture ---
+  - theme: connectome_architecture
+    type: talk
+    title: "Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome"
+    detail: "Flywire Community Day, Princeton University. 9.15.2025. Invited Speaker."
+  - theme: connectome_architecture
+    type: talk
+    title: "Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome"
+    detail: "Networks Seminar, Oxford University. 2.11.2025. Invited Speaker."
+  - theme: connectome_architecture
+    type: poster
+    title: "Physical Network Constraints Define the Lognormal Architecture of the Brain's Connectome"
+    detail: "Analysis and Modeling of Connectomes Conference, Janelia. 6.1–4.2025."
+
+  # --- Agentic AI ---
+  - theme: agentic_ai
+    type: talk
+    title: "SciHarness: Agentic AI for Scientific Workflows"
+    detail: "Cambridge University AwAI Day. 3.18.2026. Invited Speaker."
+
+workshops:
+  - "Hardwired or adaptive? Bridging neural circuit evolution, development and learning. Bernstein Conference, Berlin. 9.26–27.2023."
+  - "Neurodevelopment: Principles and Opportunities for Theory-Experiment Interaction. Harvard University. 5.3.2023."
+  - "Neurodevelopment and Evolution: The Formation of Innate Circuit Priors and Behaviors. Cosyne Workshop. 3.13.2023."
+
+schools:
+  - "Statistical Mechanics and Emergent Phenomena in Biology. Beg Rohu Summer School, Brittany. July 2021."
+  - "Developmental neurobiology: From worms to mammals. EMBO Practical Course, King's College London. July 2019."
+  - "IBRO-SIMONS Computational Neuroscience Imbizo, South Africa. January 2019."

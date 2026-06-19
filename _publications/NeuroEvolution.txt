@@ -1,5 +1,6 @@
 ---
 title: "Complex Computation from Developmental Priors"
+research_theme: developmental_priors
 collection: publications
 date: 2023-4-19
 venue: 'Nature Communications'

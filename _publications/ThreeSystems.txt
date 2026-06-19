@@ -1,5 +1,6 @@
 ---
 title: "Three systems of circuit formation: assembly, updating and tuning"
+research_theme: experimental_validation
 collection: publications
 date: 2025-2-24
 venue: 'Nature Reviews Neuroscience'

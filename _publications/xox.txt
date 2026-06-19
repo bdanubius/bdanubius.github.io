@@ -1,5 +1,6 @@
 ---
 title: "Uncovering the genetic blueprint of the C. elegans nervous system"
+research_theme: molecular_rules
 collection: publications
 date: 2020-05-05
 venue: 'PNAS'

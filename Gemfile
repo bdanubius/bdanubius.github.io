@@ -18,6 +18,9 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Pin ffi to a version compatible with the system Ruby 2.6 (local preview only).
+gem "ffi", "~> 1.15.5"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"

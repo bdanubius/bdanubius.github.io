@@ -1,5 +1,6 @@
 ---
 title: "Nature over Nurture: Functional neuronal circuits emerge in the absence of developmental activity"
+research_theme: experimental_validation
 collection: publications
 date: 2024-1-8
 venue: 'Nature Communications'

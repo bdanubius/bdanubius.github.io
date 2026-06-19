@@ -1,5 +1,6 @@
 ---
 title: "Physical Network Constraints Define the Lognormal Architecture of the Brain Connectome"
+research_theme: connectome_architecture
 collection: publications
 date: 2025-2-28
 venue: 'bioRxiv'

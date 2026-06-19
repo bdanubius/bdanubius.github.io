@@ -1,5 +1,6 @@
 ---
 title: "Neuroscience needs Network Science"
+research_theme: connectome_architecture
 collection: publications
 date: 2023-5-10
 venue: 'JNeuro'

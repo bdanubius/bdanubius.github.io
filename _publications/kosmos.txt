@@ -1,5 +1,6 @@
 ---
 title: "Kosmos: An AI Scientist for Autonomous Discovery"
+research_theme: agentic_ai
 collection: publications
 date: 2025-11-5
 venue: 'arXiv'

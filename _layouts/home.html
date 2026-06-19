@@ -4,29 +4,10 @@ layout: default
 
 {% include base_path %}
 
-<section class="hero" style="background-image: url({{ '/images/candid.jpg' | prepend: base_path }});">
+<section class="hero" style="background-image: url({{ '/images/candid.jpg' | relative_url }});">
   <div class="hero__overlay"></div>
 
-  <nav class="hero-nav" aria-label="Primary">
-    <span class="hero-nav__brand">Barabási Dániel</span>
-    <span class="hero-nav__links">
-      {% for link in site.data.navigation.main %}
-        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-        <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-      {% endfor %}
-    </span>
-    <button class="hero-nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="hero-mobile-menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-  <nav class="hero-nav__mobile-menu" id="hero-mobile-menu" aria-label="Site navigation">
-    <ul>
-      {% for link in site.data.navigation.main %}
-        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-        <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
+  {% include hero-nav.html %}
 
   <div class="hero__inner">
     <div class="hero__text">
@@ -67,4 +48,4 @@ layout: default
   </article>
 </div>
 
-<script src="{{ '/assets/js/home-hero.js' | prepend: base_path }}"></script>
+<script src="{{ '/assets/js/home-hero.js' | relative_url }}"></script>

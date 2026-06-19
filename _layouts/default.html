@@ -20,14 +20,13 @@ layout: compress
   gtag('config', 'G-XEB5Y5R84H');
 </script>
 
-  <body class="{% if page.layout == 'home' %}home-splash{% endif %}{% if page.layout == 'biophilia' %} biophilia-page{% endif %}">
+  <body class="{% if page.layout == 'home' %}home-splash{% endif %}{% if page.layout == 'research' %} research-splash{% endif %}{% if page.layout == 'biophilia' %} biophilia-page{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     {{ content }}
 
-    </script>
     {% include scripts.html %}
 
   </body>

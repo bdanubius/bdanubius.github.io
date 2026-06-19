@@ -2,7 +2,8 @@
    HOME / SPLASH — candid hero (matches previews/splash-options.html)
    ========================================================================== */
 
-.home-splash {
+.home-splash,
+.research-splash {
   .masthead {
     display: none;
   }
@@ -21,6 +22,20 @@
   background-position: 32% 26%;
   color: #fff;
   overflow: hidden;
+}
+
+.hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .hero__overlay {
@@ -88,6 +103,18 @@
   text-shadow: 0 1px 8px rgba(#000, 0.6);
 }
 
+.hero__scroll {
+  color: rgba(#fff, 0.92);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(#fff, 0.45);
+  transition: $global-transition;
+
+  &:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+  }
+}
+
 .hero__links {
   display: flex;
   flex-wrap: wrap;
@@ -144,7 +171,11 @@
 .hero-nav__brand {
   font-weight: 700;
   margin-right: auto;
+  color: #fff;
+  text-decoration: none;
   text-shadow: 0 1px 6px rgba(#000, 0.5);
+
+  &:hover { opacity: 0.92; }
 }
 
 .hero-nav__links {
@@ -261,13 +292,14 @@
   .hero-nav {
     z-index: 60;
     padding: 1rem 1.1rem;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
   .hero-nav__mobile-menu { z-index: 55; }
 
-  .hero-nav__brand,
   .hero-nav__links { display: none; }
+
+  .hero-nav__brand { display: block; }
 
   .hero-nav__toggle { display: block; }
 

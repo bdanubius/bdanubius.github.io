@@ -1,5 +1,6 @@
 ---
 title: "A Genetic Model of the Connectome"
+research_theme: molecular_rules
 collection: publications
 date: 2019-12-2
 venue: 'Neuron'

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<section class="hero hero--image">
+  <div class="hero__media" aria-hidden="true">
+    <img class="hero__photo" src="{{ '/images/research-hero.jpg' | relative_url }}" alt="">
+  </div>
+  <div class="hero__overlay"></div>
+
+  {% include hero-nav.html %}
+
+  <div class="hero__inner">
+    <div class="hero__text">
+      <div class="hero__top">
+        <h1 class="hero__name">Research</h1>
+        <p class="hero__role">From molecular wiring rules to<br>connectome organization</p>
+      </div>
+    </div>
+    <p class="hero__affil hero__explore">
+      <a class="hero__scroll" href="#research-content">Explore research &darr;</a>
+    </p>
+  </div>
+</section>
+
+<div id="research-content" role="main" class="research-main">
+  <article class="page research-page">
+    {% if page.content != "" %}
+      <div class="research-page__intro page__content">
+        {{ content }}
+      </div>
+    {% endif %}
+
+    {% assign rs = site.data.research %}
+
+    {% if rs.overview %}
+      <div class="research-overview">{{ rs.overview | markdownify }}</div>
+    {% endif %}
+
+    <section class="research-section" id="past-work">
+      {% for theme in rs.past_work.themes %}
+        {% assign theme_talks = site.data.research_talks.entries | where: "theme", theme.id %}
+        {% assign theme_talk_items = theme_talks | where: "type", "talk" %}
+        <section class="research-theme" id="{{ theme.id }}">
+          <h3 class="research-theme__title">{{ theme.title }}</h3>
+          <div class="research-theme__description">{{ theme.description | markdownify }}</div>
+
+          {% if theme_talk_items.size > 0 %}
+            <h4 class="research-theme__label">Selected talks</h4>
+            <ul class="research-list research-list--talks">
+              {% for entry in theme_talk_items %}
+                <li class="research-list__item">
+                  <span class="research-list__title">{{ entry.title }}</span>.
+                  <span class="research-list__detail">{{ entry.detail }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </section>
+  </article>
+</div>
+
+<script src="{{ '/assets/js/home-hero.js' | relative_url }}"></script>

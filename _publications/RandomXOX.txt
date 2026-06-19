@@ -1,5 +1,6 @@
 ---
 title: "Constructing Graphs from Genetic Encodings"
+research_theme: developmental_priors
 collection: publications
 date: 2021-6-24
 venue: 'Scientific Reports'
