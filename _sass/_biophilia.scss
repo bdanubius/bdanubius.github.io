@@ -5,8 +5,10 @@
 $biophilia-stacked-max-width: $large;
 $biophilia-stacked-max-height: 820px;
 $biophilia-hero-wide-min-height: $biophilia-stacked-max-height + 1px;
-$biophilia-hero-max-width: min(94vw, 1400px);
+$biophilia-hero-max-width: 94vw;
+$biophilia-hero-max-width-cap: 1400px;
 $biophilia-hero-max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
+$biophilia-hero-aspect-ratio: 3 / 2;
 
 @mixin biophilia-hero-wide {
   .biophilia-carousel__slide--hero {
@@ -19,6 +21,7 @@ $biophilia-hero-max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     padding:
       clamp(4.5rem, 11vh, 5.25em)
       clamp(1rem, 3vw, 1.5em)
@@ -27,24 +30,22 @@ $biophilia-hero-max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
 
   .biophilia-carousel__hero-stage {
     position: relative;
-    display: block;
-    width: fit-content;
-    max-width: $biophilia-hero-max-width;
+    flex: 0 0 auto;
+    width: unquote("min(#{$biophilia-hero-max-width}, #{$biophilia-hero-max-width-cap}, calc(#{$biophilia-hero-max-height} * 3 / 2))");
+    aspect-ratio: $biophilia-hero-aspect-ratio;
     margin: 0 auto;
-    line-height: 0;
-    container-type: inline-size;
+    overflow: hidden;
   }
 
   .biophilia-carousel__hero-media {
-    display: block;
+    position: absolute;
+    inset: 0;
     margin: 0;
 
     img {
       display: block;
-      width: auto;
-      height: auto;
-      max-width: $biophilia-hero-max-width;
-      max-height: $biophilia-hero-max-height;
+      width: 100%;
+      height: 100%;
       object-fit: contain;
     }
   }
@@ -54,13 +55,14 @@ $biophilia-hero-max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
     left: 27%;
     right: 33%;
     bottom: 11.5%;
+    z-index: 1;
     width: auto;
     max-width: none;
     margin: 0;
     transform: none;
     text-align: justify;
     hyphens: auto;
-    font-size: clamp(0.72rem, 1.35cqi, 0.94rem);
+    font-size: clamp(0.72rem, 1.1vw, 0.94rem);
     line-height: 1.62;
     color: #000;
   }
