@@ -131,15 +131,72 @@
   padding: 3.5em 1.5em 5em;
 }
 
+.research-chunks {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75em;
+}
+
+.research-chunk {
+  min-width: 0;
+}
+
 .research-page__intro {
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 .research-overview {
-  margin: 0 0 2.5em;
+  margin: 0;
   font-size: 1.05rem;
   line-height: 1.75;
   color: $text-color;
+}
+
+.research-page__intro + .research-overview {
+  margin-top: 1.5em;
+}
+
+.research-past-work-intro {
+  margin: 2em 0 0;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: $text-color;
+}
+
+.research-theme__description,
+.research-overview,
+.research-past-work-intro {
+  strong {
+    font-weight: 700;
+    color: $text-color;
+  }
+}
+
+@include breakpoint($large) {
+  .research-main .research-page {
+    width: 100%;
+    max-width: none;
+    float: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3.5em clamp(1.5em, 4vw, 3em) 5em;
+  }
+
+  .research-chunks {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: clamp(2.5rem, 5vw, 4.5rem);
+    row-gap: clamp(2.75rem, 4vw, 3.75rem);
+    max-width: 80rem;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .research-chunk--intro {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
 
 .research-section {
@@ -169,7 +226,7 @@
 }
 
 .research-theme {
-  margin-bottom: 2.75em;
+  margin-bottom: 0;
 
   &__title {
     margin: 0 0 0.85em;

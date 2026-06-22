@@ -4,6 +4,63 @@
 
 $biophilia-stacked-max-width: $large;
 $biophilia-stacked-max-height: 820px;
+$biophilia-hero-wide-min-height: $biophilia-stacked-max-height + 1px;
+
+@mixin biophilia-hero-wide {
+  .biophilia-carousel__slide--hero {
+    .biophilia-carousel__slide-bg {
+      display: none;
+    }
+  }
+
+  .biophilia-carousel__slide-inner--hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:
+      clamp(4.5rem, 11vh, 5.25em)
+      clamp(1rem, 3vw, 1.5em)
+      clamp(5.5rem, 13vh, 7rem);
+  }
+
+  .biophilia-carousel__hero-stage {
+    position: relative;
+    width: min(92vw, 1300px);
+    max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
+    margin: 0 auto;
+    container-type: inline-size;
+  }
+
+  .biophilia-carousel__hero-media {
+    display: block;
+    margin: 0;
+    max-height: inherit;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
+      object-fit: contain;
+    }
+  }
+
+  .biophilia-carousel__hero-intro {
+    position: absolute;
+    left: 27%;
+    right: 33%;
+    bottom: 11.5%;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    transform: none;
+    text-align: justify;
+    hyphens: auto;
+    font-size: clamp(0.72rem, 1.35cqi, 0.94rem);
+    line-height: 1.62;
+    color: #000;
+  }
+}
 
 @mixin biophilia-hero-stacked {
   .biophilia-carousel__slide--hero {
@@ -27,6 +84,13 @@ $biophilia-stacked-max-height: 820px;
     -webkit-overflow-scrolling: touch;
   }
 
+  .biophilia-carousel__hero-stage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 0;
+  }
+
   .biophilia-carousel__hero-media {
     display: block;
     flex: 0 0 auto;
@@ -41,6 +105,7 @@ $biophilia-stacked-max-height: 820px;
   }
 
   .biophilia-carousel__hero-intro {
+    position: static;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -286,17 +351,6 @@ $biophilia-stacked-max-height: 820px;
   }
 }
 
-.biophilia-carousel__copy-caption {
-  margin: 0.85em 0 0;
-  font-size: 0.78rem;
-  line-height: 1.6;
-  color: rgba(#fff, 0.5);
-
-  cite {
-    font-style: italic;
-  }
-}
-
 /* --- Controls --- */
 .biophilia-carousel__ui {
   position: absolute;
@@ -409,6 +463,12 @@ $biophilia-stacked-max-height: 820px;
 
 @media (max-height: $biophilia-stacked-max-height) {
   @include biophilia-hero-stacked;
+}
+
+@include breakpoint($large) {
+  @media (min-height: $biophilia-hero-wide-min-height) {
+    @include biophilia-hero-wide;
+  }
 }
 
 @include breakpoint(max-width $medium) {

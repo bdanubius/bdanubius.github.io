@@ -17,21 +17,23 @@ layout: default
         ></div>
         <div class="biophilia-carousel__slide-overlay"></div>
         <div class="biophilia-carousel__slide-inner biophilia-carousel__slide-inner--hero">
-          <figure class="biophilia-carousel__hero-media">
-            <img
-              src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
-              {% if page.splash.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ page.splash.image_2x }} 2x"{% endif %}
-              alt="{{ page.splash.alt }}"
-              width="{{ page.splash.width }}"
-              height="{{ page.splash.height }}"
-              draggable="false"
-            >
-          </figure>
-          {% if page.intro != "" %}
-            <div class="biophilia-carousel__hero-intro">
-              {{ page.intro | markdownify }}
-            </div>
-          {% endif %}
+          <div class="biophilia-carousel__hero-stage">
+            <figure class="biophilia-carousel__hero-media">
+              <img
+                src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
+                {% if page.splash.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ page.splash.image_2x }} 2x"{% endif %}
+                alt="{{ page.splash.alt }}"
+                width="{{ page.splash.width }}"
+                height="{{ page.splash.height }}"
+                draggable="false"
+              >
+            </figure>
+            {% if page.intro != "" %}
+              <div class="biophilia-carousel__hero-intro">
+                {{ page.intro | markdownify }}
+              </div>
+            {% endif %}
+          </div>
         </div>
       </article>
 
@@ -68,13 +70,6 @@ layout: default
               <div class="biophilia-carousel__copy-body">
                 {{ work.body | markdownify }}
               </div>
-              {% if work.caption %}
-                <p class="biophilia-carousel__copy-caption">
-                  <cite>{{ work.caption.title }}</cite>,
-                  {{ work.caption.year }},
-                  {{ work.caption.medium }}
-                </p>
-              {% endif %}
             </div>
           </div>
         </article>

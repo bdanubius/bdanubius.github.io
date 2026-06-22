@@ -30,24 +30,30 @@ layout: default
 
 <div id="research-content" role="main" class="research-main">
   <article class="page research-page">
-    {% if page.content != "" %}
-      <div class="research-page__intro page__content">
-        {{ content }}
-      </div>
-    {% endif %}
-
     {% assign rs = site.data.research %}
 
-    {% if rs.overview %}
-      <div class="research-overview">{{ rs.overview | markdownify }}</div>
-    {% endif %}
+    <div class="research-chunks">
+      <div class="research-chunk research-chunk--intro">
+        {% if page.content != "" %}
+          <div class="research-page__intro page__content">
+            {{ content }}
+          </div>
+        {% endif %}
 
-    <section class="research-section" id="past-work">
+        {% if rs.overview %}
+          <div class="research-overview">{{ rs.overview | markdownify }}</div>
+        {% endif %}
+
+        {% if rs.past_work.intro %}
+          <div class="research-past-work-intro">{{ rs.past_work.intro | markdownify }}</div>
+        {% endif %}
+      </div>
+
       {% for theme in rs.past_work.themes %}
         {% assign theme_talks = site.data.research_talks.entries | where: "theme", theme.id %}
         {% assign theme_talk_items = theme_talks | where: "type", "talk" %}
         {% assign invited_talks = theme_talk_items | where_exp: "item", "item.detail contains 'Invited Speaker'" %}
-        <section class="research-theme" id="{{ theme.id }}">
+        <section class="research-chunk research-chunk--theme research-theme" id="{{ theme.id }}">
           <h3 class="research-theme__title">{{ theme.title }}</h3>
           <div class="research-theme__description">{{ theme.description | markdownify }}</div>
 
@@ -73,7 +79,7 @@ layout: default
           {% endif %}
         </section>
       {% endfor %}
-    </section>
+    </div>
   </article>
 </div>
 
