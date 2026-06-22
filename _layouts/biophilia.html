@@ -17,23 +17,21 @@ layout: default
         ></div>
         <div class="biophilia-carousel__slide-overlay"></div>
         <div class="biophilia-carousel__slide-inner biophilia-carousel__slide-inner--hero">
-          <div class="biophilia-carousel__hero-stage">
-            <figure class="biophilia-carousel__hero-media">
-              <img
-                src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
-                {% if page.splash.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ page.splash.image_2x }} 2x"{% endif %}
-                alt="{{ page.splash.alt }}"
-                width="{{ page.splash.width }}"
-                height="{{ page.splash.height }}"
-                draggable="false"
-              >
-            </figure>
-            {% if page.intro != "" %}
-              <div class="biophilia-carousel__hero-intro">
-                {{ page.intro | markdownify }}
-              </div>
-            {% endif %}
-          </div>
+          <figure class="biophilia-carousel__hero-media">
+            <img
+              src="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }}"
+              {% if page.splash.image_2x %}srcset="{{ site.baseurl }}/images/biophilia/{{ page.splash.image }} 1x, {{ site.baseurl }}/images/biophilia/{{ page.splash.image_2x }} 2x"{% endif %}
+              alt="{{ page.splash.alt }}"
+              width="{{ page.splash.width }}"
+              height="{{ page.splash.height }}"
+              draggable="false"
+            >
+          </figure>
+          {% if page.intro != "" %}
+            <div class="biophilia-carousel__hero-intro">
+              {{ page.intro | markdownify }}
+            </div>
+          {% endif %}
         </div>
       </article>
 
