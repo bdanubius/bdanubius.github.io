@@ -5,6 +5,8 @@
 $biophilia-stacked-max-width: $large;
 $biophilia-stacked-max-height: 820px;
 $biophilia-hero-wide-min-height: $biophilia-stacked-max-height + 1px;
+$biophilia-hero-max-width: min(94vw, 1400px);
+$biophilia-hero-max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
 
 @mixin biophilia-hero-wide {
   .biophilia-carousel__slide--hero {
@@ -25,22 +27,24 @@ $biophilia-hero-wide-min-height: $biophilia-stacked-max-height + 1px;
 
   .biophilia-carousel__hero-stage {
     position: relative;
-    width: min(92vw, 1300px);
-    max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
+    display: block;
+    width: fit-content;
+    max-width: $biophilia-hero-max-width;
     margin: 0 auto;
+    line-height: 0;
     container-type: inline-size;
   }
 
   .biophilia-carousel__hero-media {
     display: block;
     margin: 0;
-    max-height: inherit;
 
     img {
       display: block;
-      width: 100%;
+      width: auto;
       height: auto;
-      max-height: calc(100dvh - clamp(9.5rem, 24vh, 12.5rem));
+      max-width: $biophilia-hero-max-width;
+      max-height: $biophilia-hero-max-height;
       object-fit: contain;
     }
   }
