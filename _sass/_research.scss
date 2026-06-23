@@ -137,6 +137,12 @@
   gap: 2.75em;
 }
 
+.research-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75em;
+}
+
 .research-chunk {
   min-width: 0;
 }
@@ -188,18 +194,28 @@
   }
 
   .research-chunks {
+    gap: clamp(2.75rem, 4vw, 3.75rem);
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .research-row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: clamp(2.5rem, 5vw, 4.5rem);
-    row-gap: clamp(2.75rem, 4vw, 3.75rem);
-    max-width: 80rem;
-    margin: 0 auto;
     align-items: start;
   }
 
-  .research-chunk--intro {
-    grid-column: 1;
-    grid-row: 1;
+  .research-row:not(.research-row--intro) {
+    grid-template-rows: auto auto auto auto;
+
+    .research-theme {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: span 4;
+      gap: 0;
+      min-width: 0;
+    }
   }
 }
 
@@ -239,6 +255,26 @@
     font-weight: 700;
     line-height: 1.4;
     color: $link-color;
+  }
+
+  &__sketch-slot {
+    margin: 0 0 1em;
+    min-width: 0;
+  }
+
+  &__sketch {
+    margin: 0;
+    padding: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__talks-slot {
+    min-width: 0;
   }
 
   &__description {

@@ -1,0 +1,45 @@
+{% assign theme_talks = site.data.research_talks.entries | where: "theme", include.theme.id %}
+{% assign theme_talk_items = theme_talks | where: "type", "talk" %}
+{% assign invited_talks = theme_talk_items | where_exp: "item", "item.detail contains 'Invited Speaker'" %}
+
+<section class="research-chunk research-chunk--theme research-theme" id="{{ include.theme.id }}">
+  <h3 class="research-theme__title">{{ include.theme.title }}</h3>
+
+  <div class="research-theme__sketch-slot">
+    {% if include.theme.sketch %}
+      <figure class="research-theme__sketch">
+        <img
+          src="{{ '/images/research/sketches/' | append: include.theme.sketch | relative_url }}"
+          alt="{{ include.theme.sketch_alt | default: include.theme.title }}"
+          loading="lazy"
+          decoding="async"
+        >
+      </figure>
+    {% endif %}
+  </div>
+
+  <div class="research-theme__description">{{ include.theme.description | markdownify }}</div>
+
+  <div class="research-theme__talks-slot">
+    {% if invited_talks.size > 0 %}
+      <details class="research-talks-toggle">
+        <summary class="research-theme__label">
+          <span class="research-talks-toggle__arrow" aria-hidden="true"></span>
+          <span class="research-talks-toggle__label">Selected talks</span>
+        </summary>
+        <div class="research-talks-toggle__panel">
+          <div class="research-talks-toggle__content">
+            <ul class="research-list research-list--talks">
+              {% for entry in invited_talks %}
+                <li class="research-list__item">
+                  <span class="research-list__title">{{ entry.title }}</span>.
+                  <span class="research-list__detail">{{ entry.detail }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </details>
+    {% endif %}
+  </div>
+</section>

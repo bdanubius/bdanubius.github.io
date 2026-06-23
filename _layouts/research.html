@@ -31,53 +31,41 @@ layout: default
 <div id="research-content" role="main" class="research-main">
   <article class="page research-page">
     {% assign rs = site.data.research %}
+    {% assign themes = rs.past_work.themes %}
+    {% assign first_theme = themes | first %}
 
     <div class="research-chunks">
-      <div class="research-chunk research-chunk--intro">
-        {% if page.content != "" %}
-          <div class="research-page__intro page__content">
-            {{ content }}
-          </div>
-        {% endif %}
+      <div class="research-row research-row--intro">
+        <div class="research-chunk research-chunk--intro">
+          {% if page.content != "" %}
+            <div class="research-page__intro page__content">
+              {{ content }}
+            </div>
+          {% endif %}
 
-        {% if rs.overview %}
-          <div class="research-overview">{{ rs.overview | markdownify }}</div>
-        {% endif %}
+          {% if rs.overview %}
+            <div class="research-overview">{{ rs.overview | markdownify }}</div>
+          {% endif %}
 
-        {% if rs.past_work.intro %}
-          <div class="research-past-work-intro">{{ rs.past_work.intro | markdownify }}</div>
-        {% endif %}
+          {% if rs.past_work.intro %}
+            <div class="research-past-work-intro">{{ rs.past_work.intro | markdownify }}</div>
+          {% endif %}
+        </div>
+
+        {% include research-theme.html theme=first_theme %}
       </div>
 
-      {% for theme in rs.past_work.themes %}
-        {% assign theme_talks = site.data.research_talks.entries | where: "theme", theme.id %}
-        {% assign theme_talk_items = theme_talks | where: "type", "talk" %}
-        {% assign invited_talks = theme_talk_items | where_exp: "item", "item.detail contains 'Invited Speaker'" %}
-        <section class="research-chunk research-chunk--theme research-theme" id="{{ theme.id }}">
-          <h3 class="research-theme__title">{{ theme.title }}</h3>
-          <div class="research-theme__description">{{ theme.description | markdownify }}</div>
+      {% assign paired_themes = themes | slice: 1, 999 %}
+      {% for theme in paired_themes %}
+        {% if forloop.index0 == 0 or forloop.index0 == 2 %}
+          <div class="research-row">
+        {% endif %}
 
-          {% if invited_talks.size > 0 %}
-            <details class="research-talks-toggle">
-              <summary class="research-theme__label">
-                <span class="research-talks-toggle__arrow" aria-hidden="true"></span>
-                <span class="research-talks-toggle__label">Selected talks</span>
-              </summary>
-              <div class="research-talks-toggle__panel">
-                <div class="research-talks-toggle__content">
-                  <ul class="research-list research-list--talks">
-                    {% for entry in invited_talks %}
-                      <li class="research-list__item">
-                        <span class="research-list__title">{{ entry.title }}</span>.
-                        <span class="research-list__detail">{{ entry.detail }}</span>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </details>
-          {% endif %}
-        </section>
+        {% include research-theme.html theme=theme %}
+
+        {% if forloop.index0 == 1 or forloop.last %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </article>
