@@ -1,82 +1,86 @@
 ---
-layout: archive
+layout: fellowships
 title: ""
 permalink: /fellowships/
 author_profile: true
---- 
-# <span style="color:MediumSeaGreen">Postdoc Fellowships Guide</span>
+---
+
+# Postdoc Fellowships Guide
+
 Know that if you’re thinking of applying for a postdoc fellowship, you’re a Rockstar. Heck, you’re a Rockstar even if you don’t get one. Academia is a career rollercoaster, and staying grounded on the ride requires believing in yourself and being open to new opportunities. 
 
 While support groups for PhD and Faculty applications are plentiful, applying to postdoc fellowships may have been the loneliest time of my career. I am passionate about academia being a positive community, so I write this guide in the hopes that it may shine a light for others exploring alternative postdoc opportunities.
 
-Alongside this guide, I maintain a <span style="color:DodgerBlue">[fellowship list](https://docs.google.com/spreadsheets/d/1Zrc1o9gykf6IMeMTZx_CWKPpICjz3k3akPHzosQcIiY/edit?gid=0#gid=0)</span> that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
+Alongside this guide, I maintain a [fellowship list](https://docs.google.com/spreadsheets/d/1Zrc1o9gykf6IMeMTZx_CWKPpICjz3k3akPHzosQcIiY/edit?gid=0#gid=0) that includes programs I applied to or researched thoroughly. You’ll find application dates, decision timelines, and salary details, with an additional sheet of fellowships I’ve found or received from others after my application cycle. Please reach out if you know of fellowships to add, or if you can share missing information on salaries and interview/decision dates (confidentiality guaranteed!).
 
-Inspired by friend <span style="color:DodgerBlue">[Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps)</span>, I have broken up this post into short, digestible, FAQ-like sections:
+Inspired by friend [Lucy Lai’s PhD Guide](https://lucylai.com/blog/gradapps), I have broken up this post into short, digestible, FAQ-like sections:
 
-## <span style="color:MediumSeaGreen">Table of Contents</span>
+<div class="fellowships-toc" markdown="1">
 
-<span style="color:DodgerBlue">[**General Application Tips**](#general-application-tips)</span>
-  - <span style="color:DodgerBlue">[Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)</span>
-  - <span style="color:DodgerBlue">[When should I start applying?](#when-should-i-start-applying)</span>
-  - <span style="color:DodgerBlue">[What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)</span>
-  - <span style="color:DodgerBlue">[How many schools should I apply to?](#how-many-programs-should-i-apply-to)</span>
-  - <span style="color:DodgerBlue">[Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)</span>
+## Table of Contents
 
-<span style="color:DodgerBlue">[**Application Components**](#application-components)</span>
-  - <span style="color:DodgerBlue">[The Checklist](#the-checklist)</span>
-  - <span style="color:DodgerBlue">[The Research Statement](#research-statement)</span>
-  - <span style="color:DodgerBlue">[Rec Letters](#rec-letters)</span>
-  - <span style="color:DodgerBlue">[Other Materials (CV, Cover Letter, Letter of Support, Additional Essays)](#other-materials)</span>
-  
-<span style="color:DodgerBlue">[**Navigating the Process**](#from-applying-to-deciding)</span>
-  - <span style="color:DodgerBlue">[Interviews](#interviews)</span>
-  - <span style="color:DodgerBlue">[Offers and Decisions](#offers-and-decisions)</span>
+- **[General Application Tips](#general-application-tips)**
+  - [Should I apply for a fellowship?](#should-i-apply-for-a-fellowship)
+  - [When should I start applying?](#when-should-i-start-applying)
+  - [What kind of programs and schools should I apply to?](#what-kind-of-fellowships-are-there)
+  - [How many schools should I apply to?](#how-many-programs-should-i-apply-to)
+  - [Should I reach out to PIs before applying?](#should-i-reach-out-to-pis-before-applying)
+- **[Application Components](#application-components)**
+  - [The Checklist](#the-checklist)
+  - [The Research Statement](#research-statement)
+  - [Rec Letters](#rec-letters)
+  - [Other Materials (CV, Cover Letter, Letter of Support, Additional Essays)](#other-materials)
+- **[Navigating the Process](#from-applying-to-deciding)**
+  - [Interviews](#interviews)
+  - [Offers and Decisions](#offers-and-decisions)
+
+</div>
 
 ---
 
-## <span style="color:MediumSeaGreen">General Application Tips</span>
+## General Application Tips
 
-### <span style="color:MediumSeaGreen">Should I apply for a fellowship?</span>
+### Should I apply for a fellowship?
 
-After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s <span style="color:DodgerBlue">[Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow)</span> is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
+After landing my first offer, I thought a lot about whether the journey had been worth it. I love how empowering the Broad Institute’s [Eric and Wendy Schmidt Fellowship](https://www.ericandwendyschmidtcenter.org/become-a-fellow) is, but I put my research in a holding pattern for a year while I prepped, interviewed, and pondered my offers. Considering the current postdoc shortage, applying for a traditional role and saving months on the application process could easily be the more strategic move. 
 
 From my experience, and that of friends who landed similar positions, postdoc fellowships are best suited for those who highly value their independence, and are successful working either alone, or in collaboration with a broad range of people. This is generally easiest for those in computational fields, as most fellowships do not cover the astronomical material costs of experiments. Yet, securing your own salary can give you significant flexibility in your research interests to pursue your own research ideas, even in more resource-intensive fields, so do read on!
-<p style="margin-bottom:0;margin-top:0"><div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div></p>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">What kind of fellowships are there?</span>
+### What kind of fellowships are there?
 
 1. **Mini Labs** are the most generous fellowships, funding a 2-3 person lab for 3-5 years. These positions offer accelerated independence straight out of graduate school, allowing you to establish a unique research direction while gaining project management and mentoring experience. Additionally, they’re a stepping stone toward early independence grants. Some institutes even aim to transition successful “Mini Labs” into full assistant professor roles, saving you the challenge of moving personnel and equipment. With the large financial commitment behind a “Mini Lab” offer, generally only 1 or 2 positions are available at each institute per year.
 
 2. **Independent Postdocs** provide salary, travel and research funds, and office space without a formal expectation to work with a specific lab. This setup is ideal for those with their own project ideas who are looking for an environment that encourages both independence and collaboration. Typically, each program will recruit a “cohort,” consisting of anywhere from 2 to 8 new hires a year, thereby providing a more collegial interview process and a community upon arrival.
 
 
-3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the <span style="color:DodgerBlue">[HFSP LTP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, <span style="color:DodgerBlue">[UC Berkeley Miller Fellowship](https://miller.berkeley.edu/fellowship)</span>, and <span style="color:DodgerBlue">[EMBO](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/application/)</span>, expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+3. **Traditional Postdocs** fund a more typical mentored position, often including travel and research funds, thereby providing intellectual freedom—along with, in some cases, a higher salary. Eligibility requirements vary: some programs, such as the [HFSP LTP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships), [UC Berkeley Miller Fellowship](https://miller.berkeley.edu/fellowship), and [EMBO](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/application/), expect little to no prior work with your intended postdoc lab, while others allow for a few years of postdoc experience. Although these programs fund multiple positions per year, the positions may span diverse fields and locations, meaning you may still be competing for a spot within your area of interest.
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">When should I start applying?</span>
+### When should I start applying?
 
-Getting a fellowship may take over a year of applying. The most egregious in this regard is the <span style="color:DodgerBlue">[HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)</span>, which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
+Getting a fellowship may take over a year of applying. The most egregious in this regard is the [HFSP](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships), which requires a letter of intent in May, a full application in September, and recipients do not begin the award until the *following APRIL*! Even for a shorter cycle, you should expect at least a 6-month turnaround between applying for and starting your new position. 
 
 If you’re aiming to apply to a broad range of fellowships, I would recommend having at least a year left in your current position. For example, I wanted to start a position in the Summer or Fall of 2024, and began reaching out to mentors and outlining my research plan as early as Spring of 2023. If you are only applying for “Independent Postdoc” or “Traditional Postdoc” opportunities, you may have more flexibility and could start later in the summer or early fall, with an eye toward starting the following spring or summer.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">How many programs should I apply to?</span>
+### How many programs should I apply to?
 
 I went overboard and applied for 20 programs, and got rejected from over half. I didn’t even get an interview for the first six months! Along the way, I learned a lot about which fellowships I was a good fit for: as a theorist, I matched the profile of “Independent Postdoc” or “Traditional Postdoc” positions. By contrast, I found that “Mini Lab” opportunities are generally set up for applicants ready to start an experimental lab, so although they often interview computational candidates, the final placements tend to go to experimentalists, who more naturally match the available resources and funding structure.
 At the end of the day, the right number of applications depends on fit and timeline. If you are an experimentalist aiming to launch an independent research program, it might make sense to apply broadly, whether your goal is to start your own lab or support your work within an existing one. If you’re mainly seeking additional freedom or stability within your current postdoc lab through a grant, there may be fewer opportunities, so it’s worth focusing your applications and tailoring your materials to those specific roles.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">Should I reach out to PIs before applying?</span>
+### Should I reach out to PIs before applying?
 
 Yes — many of these positions sound similar, and having an inside opinion will be crucial for understanding the specifics of the role. For Traditional Postdoc applications, having a planned mentor is often essential, as they may be asked for a letter of support. Even for Mini-Lab positions, which are fully independent, it’s helpful to connect with PIs who may be interested in your work, as they can offer insights into the application process and may serve as advocates towards the decision committee.
 
 That being said, I did apply to a number of positions without previous contact, and had success. At the other extreme, don’t limit yourself to the first set of scientists you talk to — in my applications I usually highlighted a few researchers with mutual interests, but during interviews I often met with a broader group of PIs, and left with exciting possibilities for collaborations I hadn’t initially considered.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 ---
 
-## <span style="color:MediumSeaGreen">Application Components</span>
+## Application Components
 
-### <span style="color:MediumSeaGreen">The Checklist</span>
+### The Checklist
 
 Virtually all applications will require:
 
@@ -90,9 +94,9 @@ Some programs may also require:
 - **Letter of Support from your Mentor** (or a list of potential mentors/collaborators)
 - **Diversity/Personal History Statement** (1-2 pages)
 - **Publication List** (or up to 3 representative papers)
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">Research Statement</span>
+### Research Statement
 
 The Research Statement is the cornerstone of your application, where you:
 
@@ -133,18 +137,18 @@ Finally, I concluded by linking my goals to the program’s mission, often quoti
 > *In summary, I believe that this intersection of neuroscience, data science, and development presents a frontier for understanding the evolutionary discovery of biological intelligence. My aims align with the [Position]’s vision to [Quote from Website]. I believe that understanding neurodevelopmental processes will prove instructive to clinical, genomics, systems neuroscience, and machine learning communities in the future, and would cherish the opportunity to develop collaborations and dialogues on this viewpoint as a [Position Title].*
 
 This concluding paragraph allowed me to end on a concrete takeaway that illustrated that I had taken the time to research the program. While I generally hate canned language, having this section, as well as a few similar sentences in the Aims, would allow me to rapidly, but specifically, tailor my application to the advertised position. 
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">Rec Letters</span>
+### Rec Letters
 
 Recommendation letters are the second most important component of your application, as they serve to reinforce the narrative of your Research Statement. While letters may feel like they are out of your control, communicating clearly with your writers about the programs you are applying to can significantly elevate your application. Remind your writers that these fellowships value independence, so examples of how you led projects, initiated collaborations, or mentored students can make a strong impact.
 
 Most programs ask for 3 letters, although I’ve seen as low as two, and as many as 6. The core letter should be from your PhD advisor, who should paint a picture of your research trajectory — if you were dual advised, or already have a first PostDoc, you’re already a letter ahead. The remaining letters should come from people who can credibly support your narrative. You may consider a collaborator, a researcher you worked with for an internship, or someone who can reinforce your mentoring, teaching or outreach experiences. Recommenders may ask you to draft the letter yourself, and it can be helpful to send a brief outline of what you hope the letter will cover when you first reach out.
 
 I contacted my letter writers 6-8 weeks before my first deadline, attaching a rough draft of my research proposal and communicating my general vision for my next career step. Then, about 4-6 weeks before each subsequent deadline, I sent my recommenders the letter submission portal, and a short summary of the position and its unique focus, if relevant. Keeping your writers on track can be the most challenging part of your application — setting recurring reminders and keeping spreadsheets of who has submitted already can help ensure that your letters get uploaded. Watch out for applications that require all letters to be uploaded before submitting; for these, and more generally, it may not hurt to give your letter writers the date you want to submit by, and not the last possible submission time, in order to allow for some leeway.      
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">Other Materials</span>
+### Other Materials
 
 <ins>CV/Publication List</ins>
 
@@ -161,24 +165,24 @@ For “Traditional Postdoc” fellowships like the EMBO, HFSP, and the UC Berkel
 <ins>Additional Essays</ins>
 
 As noted in the Research Statement section, applications obeyed the “Law of Page Conservation”: even when additional essays were requested, the total page count was still around 2-3. When asked for a Personal History Statement, I would use the graduate school and “extracurricular” section from the Research Statement, into which I could then slot an additional Aim. For the one Diversity Statement essay I submitted, I expanded on the outreach, conference organization, and mentorship sections of my Research Statement, focusing on how these initiatives could benefit the host institute’s community. Here, having discussions with a professor at the university proved invaluable, as it allowed me align my proposals with ongoing initiatives and community programs. Overall, while having extra requirements seemed daunting, they often boiled down to slight tweaks on existing materials.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 ---
 
-## <span style="color:MediumSeaGreen">From Applying to Deciding</span>
+## From Applying to Deciding
 
 Preparing materials, corralling letter writers, and submitting application after application can feel like a full-time job. Thankfully, once interviews start, the pace picks up, and things move quickly as you (hopefully) balance offers and revisits before making a final decision.
 
 
-### <span style="color:MediumSeaGreen">Interviews</span>
+### Interviews
 
 Your interview visit will likely take place on a weekday and usually starts with a talk, which may be a standalone seminar (1+ hours) or a shorter 15-20 minute presentation if you’re visiting with other candidates. The rest of the day involves meetings with faculty who will decide on your application, as well as students and postdocs who can provide insight into the institute and position. Typically, this turns into a 2-3 day trip: you arrive in the evening, complete your visit the next day (often concluding with dinner), and then fly out the following morning.
 
 Some programs had zoom interviews before the in-person visit. Here, you would give a brief (10-15 min) talk, answer a few questions, and then be thanked for your time. I found these more stressful than in-person interviews, as they felt rushed and impersonal.  The Zoom calls were clearly set up to be screeners, where the committee would sit through a full day of lightning talks, so my best advice is have a clear, succinct presentation that won’t throw any red flags. If possible, also try to book a later interview, so the committee has time to “practice” on others, allowing you to shine at the end (recency bias is real!). 
 
 For both grad school and postdoc fellowships, interviews were my favorite part of the application process. Being flown out, wined, and dined is a significant investment on the program’s part and usually signals a genuine interest in extending an offer. Rather than focusing on how you’re evaluated, consider that you are also interviewing the program: are these the colleagues you would like to have? Will they provide the support that you’d expect from your next career step? In cases where the interview was my only in-person visit, I also asked open-ended questions about the program’s vision, tenure-track transition opportunities, as well as more sensitive questions about hiring loads and decision deadlines. Having this curious mentality, both about the environment and the people, will show your genuine interest, a component nearly equal to your science for landing the position. 
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 
-### <span style="color:MediumSeaGreen">Offers and Decisions</span>
+### Offers and Decisions
 
 The top advice I heard during my fellowship search was _**wait until you have an offer on paper**_. It seems tautological, but your decision will have to be between places that also want you, so cast a wide net, and be patient. 
 
@@ -195,7 +199,7 @@ Once you have a *written* offer, review it in detail. There’s usually limited 
 Finally, while undergrad, grad school, and faculty applications have a “season,” the postdoc fellowship hunt introduces a lot of awkwardness with its staggered deadlines. My main advice here is to communicate clearly. You may reach a point where you have a great offer in hand, but are still waiting to hear back from your dream job. In a case like this, I shared my situation with trusted contacts at the places where I had offers, explaining that I’d love to work there but had an outstanding opportunity I was seriously considering.
 
 A more challenging scenario is if you’ve already accepted an offer but later receive a more attractive one. Two major considerations arise here. First, while it may sting in the short term to back out of your current position, it’s worse for everyone involved if you spend the next 3-5 years wistful about another opportunity. On the other hand, remember that your future faculty job search may involve these same colleagues, so try to maintain professionalism and transparency. The solution is heavily situation dependent, but generally people are understanding if you can be mindful in your communication of why you are suddenly changing course.
-<div style="text-align: right"><span style="color:DodgerBlue"><a href="#table-of-contents"><small>back to top</small></a></span></div>
+<p class="fellowships-back-to-top"><a href="#table-of-contents">back to top</a></p>
 ---
 
 **And… that’s it!** If you’ve made it this far, congratulations—this process has been a long journey, and I hope these reflections help! If there’s something I haven’t covered or a topic you’d like more detail on, feel free to reach outI will constantly be updating 🙂

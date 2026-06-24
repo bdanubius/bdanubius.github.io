@@ -1,0 +1,155 @@
+/* ==========================================================================
+   FELLOWSHIPS — postdoc guide page
+   ========================================================================== */
+
+$fellowships-heading-color: #3cb371; // MediumSeaGreen
+$fellowships-link-color: #1e90ff; // DodgerBlue
+$fellowships-banner-color: #1a5672; // deep steel blue
+
+.fellowships-page {
+  .fellowships-header {
+    position: relative;
+    background: $fellowships-banner-color;
+    border-bottom: none;
+
+    .hero-nav {
+      position: relative;
+      color: #fff;
+
+      &__brand,
+      &__links a {
+        color: #fff;
+        text-shadow: none;
+        opacity: 0.92;
+
+        &:hover {
+          color: #fff;
+          opacity: 1;
+        }
+      }
+
+      &__toggle span {
+        background: #fff;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .archive {
+    h1,
+    h2,
+    h3 {
+      color: $fellowships-heading-color;
+    }
+
+    a {
+      color: $fellowships-link-color;
+
+      &:hover {
+        color: mix(#000, $fellowships-link-color, 18%);
+      }
+    }
+  }
+
+  .fellowships-back-to-top {
+    margin: 0 0 1.25em;
+    text-align: right;
+
+    a {
+      font-size: 0.85rem;
+    }
+  }
+
+  @include breakpoint(max-width $large) {
+    .sidebar {
+      display: none;
+    }
+  }
+
+  .sidebar {
+    .author__avatar {
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3px;
+      }
+    }
+
+    .author__content {
+      display: block;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+
+    .author__name:empty {
+      display: none;
+    }
+
+    .author__urls-wrapper {
+      display: block;
+      width: 100%;
+      text-align: center;
+      cursor: default;
+
+      button {
+        display: none;
+      }
+    }
+
+    .author__urls {
+      display: flex !important;
+      position: relative;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.7rem;
+      margin: 0.85rem 0 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      z-index: 1;
+      cursor: default;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      li {
+        white-space: nowrap;
+      }
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.85rem;
+        height: 1.85rem;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        color: mix(#000, $text-color, 78%);
+
+        &:hover {
+          text-decoration: none;
+          color: $fellowships-link-color;
+        }
+
+        i,
+        .ai {
+          font-size: 1.2rem;
+          line-height: 1;
+        }
+      }
+    }
+  }
+}

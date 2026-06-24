@@ -4,7 +4,8 @@
 
 .home-splash,
 .research-splash,
-.biophilia-splash {
+.biophilia-splash,
+.fellowships-page {
   .masthead {
     display: none !important;
   }
@@ -726,7 +727,8 @@ $home-centered-min: $x-large;
   }
 
   .research-splash,
-  .biophilia-splash {
+  .biophilia-splash,
+  .fellowships-page {
     @include splash-hero-nav-bubble-menu;
   }
 
@@ -744,6 +746,8 @@ $home-centered-min: $x-large;
   .research-splash .hero-nav__brand { display: block; }
 
   .biophilia-splash .hero-nav__brand { display: block; }
+
+  .fellowships-page .hero-nav__brand { display: block; }
 
   .hero {
     align-items: stretch;

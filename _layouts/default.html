@@ -20,10 +20,10 @@ layout: compress
   gtag('config', 'G-XEB5Y5R84H');
 </script>
 
-  <body class="{% if page.layout == 'home' %}home-splash{% endif %}{% if page.layout == 'research' %} research-splash{% endif %}{% if page.layout == 'biophilia' %} biophilia-splash{% endif %}">
+  <body class="{% if page.layout == 'home' %}home-splash{% endif %}{% if page.layout == 'research' %} research-splash{% endif %}{% if page.layout == 'biophilia' %} biophilia-splash{% endif %}{% if page.layout == 'fellowships' %} fellowships-page{% endif %}">
 
     {% include browser-upgrade.html %}
-    {% unless page.layout == 'home' or page.layout == 'research' or page.layout == 'biophilia' %}
+    {% unless page.layout == 'home' or page.layout == 'research' or page.layout == 'biophilia' or page.layout == 'fellowships' %}
       {% include masthead.html %}
     {% endunless %}
 

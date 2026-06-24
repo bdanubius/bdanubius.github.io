@@ -4,6 +4,8 @@
   {% assign nav_links = site.data.navigation.main | sort: 'home_order' %}
 {% elsif page.url == '/research/' %}
   {% assign nav_links = site.data.navigation.main | sort: 'research_order' %}
+{% elsif page.url == '/fellowships/' %}
+  {% assign nav_links = site.data.navigation.main | sort: 'fellowships_order' %}
 {% else %}
   {% assign nav_links = site.data.navigation.main %}
 {% endif %}
@@ -17,6 +19,16 @@
         {% unless page.url == link.url %}
           <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
           {% if link.research_order == 1 %}
+            <a href="{{ base_path }}/">Home</a>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% elsif page.url == '/fellowships/' %}
+      {% for link in nav_links %}
+        {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+        {% unless page.url == link.url %}
+          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% if link.fellowships_order == 1 %}
             <a href="{{ base_path }}/">Home</a>
           {% endif %}
         {% endunless %}
@@ -41,6 +53,16 @@
           {% unless page.url == link.url %}
             <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% if link.research_order == 1 %}
+              <li><a href="{{ base_path }}/">Home</a></li>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      {% elsif page.url == '/fellowships/' %}
+        {% for link in nav_links %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          {% unless page.url == link.url %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.fellowships_order == 1 %}
               <li><a href="{{ base_path }}/">Home</a></li>
             {% endif %}
           {% endunless %}
