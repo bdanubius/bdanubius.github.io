@@ -22,7 +22,7 @@ redirect_from:
 </section>
 
 <section class="home-bio-section">
-  <h2 class="home-bio-section__label">2025</h2>
+  <h2 class="home-bio-section__label">awards</h2>
   <ul class="home-bio-list">
     <li><a href="https://www.forbes.com/30-under-30/2025/science?profile=daniel-barabasi">Forbes USA 30 Under 30</a>, Science</li>
     <li><a href="https://forbes.hu/extra/forbes-30-30-2025/29-barabasi-daniel">Forbes Hungary 30 Under 30</a></li>
